@@ -1,0 +1,32 @@
+// ============================================================================
+// SRI HEALTH PLUS DESIGN SYSTEM - MAIN INDEX
+// ============================================================================
+// This file serves as the main entry point for the design system.
+// Import this file in your main styles.scss to include the complete design system.
+//
+// Version: 2.0.0
+// Last Updated: 2026
+// ============================================================================
+
+// Order matters! Load files in dependency order.
+
+// 1. Design Tokens (SCSS variables)
+@forward 'tokens';
+
+// 2. CSS Custom Properties (runtime theming)
+@forward 'css-variables';
+
+// 3. CSS Reset (normalize browser defaults)
+@forward 'reset';
+
+// 4. Typography (fonts, text styles)
+@forward 'typography';
+
+// 5. Animations (keyframes, animation utilities)
+@forward 'animations';
+
+// 6. Utility Classes (spacing, layout, colors, etc.)
+@forward 'utilities';
+
+// 7. Auth Page Styles (login, register)
+@forward 'auth-styles';

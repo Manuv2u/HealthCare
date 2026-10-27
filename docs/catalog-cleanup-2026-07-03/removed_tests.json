@@ -1,0 +1,5430 @@
+[
+ [
+  "# ACETYLCHOLINE RECEPTOR (ACHR) MODULATING ANTIBODY",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# Allergen, Individual-Drug , Amoxicillin",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# Allergen, Individual-Drug , Cefuroxime",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# Allergen, Individual-Drug , Cephalosporin Mix",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# Allergen, Individual-Drug , Insulin Bovine",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# Allergen, Individual-Drug , Insulin Human",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# Allergen, Individual-Drug , Insulin Porcine",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# Allergen, Individual-Drug , Methyl Paraben",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# Allergen, Individual-Drug , Penicilloyl V",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# Allergen, Individual-Drug, Xylocaine",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# ALLERGY CEREAL PANEL",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# ALLERGY, CAROB",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# ALLERGY, COCKLEBUR(Bichha / Kutta)",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# ALLERGY, COTTON WOOD,ImmunoCAP Specific IgE",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# ALLERGY, INDIVIDUAL MARKER, CASEIN, SERUM @ (FEIA)",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# ALLERGY, MELALEUCA,ImmunoCAP Specific IgE",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# ALLERGY, MULBERRY(Shahtoot),ImmunoCAP Specific IgE",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# ALLERGY, PAPRIKA,ImmunoCAP Specific IgE",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# ALLERGY, PECAN,ImmunoCAP Specific IgE",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# ALLERGY, RAPESEED(Sarson),ImmunoCAP Specific IgE",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# ALLERGY, RYEGRASS,ImmunoCAP Specific IgE",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# ALLERGY, STRAWBERRY,ImmunoCAP Specific IgE",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# ALLERGY, TURKEY,ImmunoCAP Specific IgE",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# ALLERGY, WHITE PINE,ImmunoCAP Specific IgE",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "# Alpha-2 Macroglobulin (A2M), Serum",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# AMINO ACIDS QUANTITATIVE, BLOOD, 10 AMINO ACIDS ((Tandem Mass Spectrometry)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# AMINO ACIDS, MAPLE SYRUP URINE DISEASE (MSUD) PANEL,PLASMA,LC-MS/MS",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# AMINO ACIDS, QUALITATIVE, PLASMA,Thin Layer Chromatography, One dimensional",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# AMINO ACIDS, QUALITATIVE, TWO DIMENSIONAL, URINE,Thin Layer Chromatography, Two dimensional",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# ARGINASE,Spectrophotometry",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# Basal Ganglion Antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# BORDETELLA (WOOPING COUGH) PANEL",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# BREAST METASTATIC MARKER",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# BREAST MONITOR PANEL",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# CALR MUTATION DETECTION",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "# CANAVAN DISEASE",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# CANCER 50 GENE PANEL",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "# CANDIDA ALBICANS DETECTION, PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# CANDIDA MANNAN ANTIGEN, SERUM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# CARDIOMETA BOLIC PANEL",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# Cobalt, Random urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# CRYOGLOBULINS PANEL",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# DNPH, URINE",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# Epidermal (pemphigus) antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# Epidermal (pemphigus) antibody, (in dilutions)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# Epidermolysis bullosa gene panel,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "# FACTOR II, FUNCTIONAL",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# Fibroblast Growth Factor 23; FGF 23",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# FISH - NTRK 1 GENE REARRANGEMENT ASSAY",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "# FISH - Synovial sarcoma (SS18/SYT) 18q11.2 gene rearrangement",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "# GALACTOSE, QUANTITATIVE, PLASMA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# GALACTOSEMIA (EPIMERASE),QUANTITATIVE, BLOOD",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# GALACTOSEMIA PANEL 1",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# GALACTOSEMIA PANEL 2",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# GALACTOSEMIA PANEL 3",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# GAUCHER DISEASE, QUANTITATIVE, BLOOD",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# GROWTH DISORDER PANEL,Chemiluminescent Immunoassay",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# Haemophilia (F8 & F9) gene panel,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "# Haemophilia (F8) deletion/duplication analysis,MLPA",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "# HAPTOGLOBIN GENOTYPING,PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# HBDH; ALPHA -HYDROXYBUTYRATE DEHYDROGE NASE,GSCC",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# HEMOPHILIA A CARRIER DETECTION,Electromechanica l Clot Detection, EIA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# Hereditary Spherocytosis gene panel,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "# HRR Gene Panel",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "# Hyperornithinemia-Hyperammonemia-Homocitrullinuria (HEE) syndrome",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# Influenza B virus, IgG antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# Influenza B virus, IgM antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# INFLUENZA VIRUS A IgG (Serum,ELISA)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# LEAD, RANDOM URINE @ (ICPMS)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# Marfan syndrome (FBN1) gene analysis,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "# Marfan syndrome (FBN1)deletion/duplication analysis,MLPA",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "# METACHROMATIC LEUCODYSTROPHY, QUANTITATIVE, BLOOD,Spectrophotometry",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# METAL SCREEN 2, WHOLE BLOOD,ICPMS, AAS with Zeeman correction",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# METHADONE SCREEN, URINE,Lateral Flow Immunoassay",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# METHAQUALONE SCREEN, URINE,Lateral Flow Immunoassay",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# METHYLGUANINE METHYLTRAN SFERASE (MGMT),PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# NEUROBLAST OMA PROFILE, 24- HOUR URINE,High Performance Liquid Chromatography",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# NIEMANN PICK DISEASE, QUANTITATIVE, BLOOD,Enzyme assay",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# NITROSONAP HTHOL, URINE,Chemical",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# NOTCH3 (CADASIL)gene analysis -2exons (2 & 3),Sanger",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "# Oculocutaneous albinism gene panel,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "# OROTIC ACID,GC-MS",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# PHOSPHATIDYLSERINE ANTIBODY,IgG,Enzyme Immunoassay",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# SUCCINYLACETONE, BLOOD @ (LC-MS / MS)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# Toxoplasma antibody, IgM, CSF",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# Urobilinogen, Qualitative, 24 hours urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# VASOACTIVE INTESTINAL POLYPEPTIDE (VIP)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# VNTR Analysis,-",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "# Xeroderma pigmentosum gene panel,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "1,3-Beta D Glucan Level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "11q (ATM) By FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "12Hrs URINE PROTEIN",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "16s RNA Sequencing-0.15GB-With Analysis",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "16s RNA Sequencing-0.15GB-Without Analysis",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "16s RNA Sequencing-0.2GB-With Analysis",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "16s RNA Sequencing-0.2GB-Without Analysis",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "16s RNA Sequencing-0.5GB-With Analysis",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "16s RNA Sequencing-0.5GB-Without Analysis",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "17 - HYDROXY- CORTICOSTEROIDS &17 - KETOSTEROIDS, 24-HOURURINE,Column Chromatography",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "17 - HYDROXY- CORTICOSTEROIDS (17-OHCS), 24- HOUR URINE,Column Chromatography",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "17 – KETOSTEROIDS, 24–HOUR URINE#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "17-Hydroxy Progesterone level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "1p deletion/1q amplification by FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "1p-19q co-deletion by FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "24 hr Urine Aldosterone",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "25 OH Cholecalciferol (D2+D3)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "25-Oh Vitamin D (Total)",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "3-HYDROXY-3-METHYLGLUTARYL-CoA REDUCTASE (HMGCR)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "3-Methoxytyramine, 24 Hour Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "5 Fluorouracil (5FU) Assay (DPYD)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "5-HIAA (5- HYDROXY INDOLE ACETIC ACID), RANDOM URINE",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Absolute Basophil Count",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Absolute Eosinophil Count",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Absolute Lymphocyte Count",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Absolute Monocyte Count",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Absolute Neutrophil Count",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Acetone Serum/ Beta hydroxybutyrate",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Acetyl Choline Receptor Binding Antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Activated Partial Thromboplastin Time (Photooptical clot detection)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Activated Protein C Resistance (CLOT DETECTION)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Active B-12 Level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ACTN3 (SPORTS GENE) GENOTYPING",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Acute Leukaemia Panel (IPT) (Immunophenotyping)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ADAMTS-13 activity",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Additional Antibiotics by MIC Method",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Adenosine Deaminase From Blood",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Adenosine Deaminase From Body Fluids",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Adenovirus Qualitative by Real Time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Adenovirus Quantitative by Real Time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Adiponectin Level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ADRB2 GENOTYPING FOR BETA-2 AGONIST RESPONSIVENESS,PCR Sequencing",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Adrenaline (Epinephrine), 24hrs Urine#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "AFB stain",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ALA, 24 hrs Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ALA, Random Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ALCOHOL ETHYL GLUCURONIDE (EtG) & ETHYL SULPHATE (EtS), QUANTITATIVE ASSAY, URINE",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Aldolase",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Aldosterone level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ALK FISH ON FFPE BLOCK",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Alkaline Phosphatase level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ALKAPTONURIA, URINE, QUANTITATIVE#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ALL Panel By FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "ALL risk stratification gene panel - B-ALL,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "ALL risk stratification gene panel - T-ALL,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Allergen Specific IgG - Pigeon",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergen-Peach (f95)",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy Drug-ELISA",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy Food",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy Food & Inhalant- Microarray",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Allergy Inhalants",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "ALLERGY RESPIRATORY PANEL - INFANTS",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Allergy Rhinitis-Asthma",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Eggyolk f75",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Garlic f47",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Gluten f79",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Hazel Nut f17",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy test for 107 Allergens",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy, ACTH#",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "ALLERGY, ALDER(Bhidur)#",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy, Ampicillin#",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "ALLERGY, COFFEE",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy, Ibuprofen#",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy, Penicilloyl G#",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy,Ciprofloxacin#",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy,Diclofenac#",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy,Paracetamol#",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "ALLERGY,PEA (Matar)",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy,Sulpha#",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy- Aspergillus specific IgE",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy- Cabbage f216",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy- Crab (f23)",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy- Cucumber f244",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy- Mosquito i71 (Aedes Communis)",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy- Shrimp f24",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Acacia t19",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Aspergillus fumigatus (m3)",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Aspergillus niger m207",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Aubergine Eggplant (f262)",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Bahia g17",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Beef f27",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Bermuda Grass(g2)",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Blomia tropicalis (d201)",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Candida albicans m5",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Carrot f31",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Casein f78",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Cat dander (e1)",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Celery f85",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Cheese, Cheddar (f81)",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Chocolate Cocoa (f93)",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Cockroach i6 (German)",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Coconut f36",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Cow Dander (e4)",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Egg White f1",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Honey Bee Venom i1 (Apis mellifera)",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-House Dust Mite",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Johnson Grass (g10)",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Lobster f80",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Milk f2",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Mushroom (f212)",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Oak t7",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Olive (f342)",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Onion f48",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Phadia Dander Panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Allergy-Phadia Eczema Panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Allergy-Phadia fish",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Phadia Fruits Panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Allergy-Phadia Fungus Panel-Basic",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Allergy-Phadia Fungus Panel-Extensive",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Allergy-Phadia Generalised Comprehensive Panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Allergy-Phadia Inhalent Panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Allergy-Phadia Non-Veg Seafood",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Phadia NonVeg Mini",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Phadia NonVeg-Extensive",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Phadia Nuts Panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Allergy-Phadia Rhinitis Panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Allergy-Phadia veg panel Mini",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Allergy-Phadia Veg-Extensive",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Pork f26",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Potato f35",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Spinach (f214)",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Sulfa drug",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Tomato f25",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Wheat f4",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-White bean f15",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Allergy-Willow tree t12",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Alpha 1 Antitrypsin",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Alpha Feto Protein level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ALPHA THALASSEMIA MUTATION DETECTION, PCR",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "ALPS Screening - Sehgal",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Aluminum level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Amelogenin and SRY Mutation Detection",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "AMENORRHOEA PROFILE,Chemiluminescent Immunoassay",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Amikacin level (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "AMINO ACIDS QUANTITATIVE URINE: 45 AMINO ACIDS / FULL PANEL",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "AMINO ACIDS QUANTITATIVE, PLASMA, 45 AMINO ACIDS / FULL PANEL#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "AMINO ACIDS, QUALITATIVE, ONE DIMENSIONAL, URINE,Thin Layer Chromatography, One dimensional",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "AMINO ACIDS, QUANTITATIVE, URINE & PLASMA , 45 AMINO ACIDS/ FULL PANEL",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Aminoacid Quantitative-Plasma",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "AML Panel By FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "AML risk stratification gene panel,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "AML1-ETO By FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Ammonia",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "AMOEBIC SEROLOGY IgG, SERUM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Amphetamine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Amylase",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Amylase,Urine",
+  "duplicate of 'Amylase'"
+ ],
+ [
+  "Amylase-Serum",
+  "duplicate of 'Amylase'"
+ ],
+ [
+  "Amyloid A#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Androstendione",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Aneuploidy detection by QF-PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Aneuploidy detection by QF-PCR Sindhubhavan",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ANGELMAN SYNDROME,Methylation specific PCR",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Angiotensin Converting Enzyme ,CSF#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Angiotensin Converting Enzyme Level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Anion Gap Test",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Anti A Antibody Titre",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Anti Aquaporin 4 (NMO) and Myelin Oligodendrocyte glycoprotein (MOG) antibody - CSF",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Anti B Antibody Titre",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Anti Ccp (Accp)",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Anti Diphtheria Toxoid Antibody, IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ANTI DNase B; ANTIDEOXYRIBONUCLEASE B",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Anti ds DNA (Indirect Immunofluorescence)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ANTI ds DNA NcX",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Anti Hepatitis C Virus (Anti Hcv) - Total",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Anti Intrinsic Factor Antibody (IgG)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Anti Islet cell Antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Anti Mitochondrial Antibody (IIF)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Anti MuSK Antibodies",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Anti Neutrophilic Cytoplasmic Antibodies ( IIF )",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Anti Nuclear Antibodies (Ana)",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Anti Nuclear Antibody by ELISA/CLIA, Serum",
+  "duplicate of 'Anti Nuclear Antibody'"
+ ],
+ [
+  "Anti Nuclear antibody-FEIA/ELISA",
+  "duplicate of 'Anti Nuclear Antibody'"
+ ],
+ [
+  "Anti Smith antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Anti Smooth Muscle Antibody (IIF)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Anti Thrombin III",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Anti Thyroglobulin Antibody (Atg)",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Anti-Tpo Antibody (Anti-Thyroid Peroxidase)",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Antibody Against Rabies (IgG) Quantitative",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Antibody screening for HLA Class I & II",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "ANTIGEN DETECTION AGAINST MICROFILARIA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Antimony Level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Antistreptolysin - O (ASO)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ApoE Genotype",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Arsenic Level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Arthritis Profile",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ASCA antibody IgG+IgA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Aspergillosis antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Aspergillosis antibody IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Aspergillus Antigen (Galactomannan)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Aspergilosis Serology IgG and IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Ataxia-telangiectasia (ATM) gene analysis,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Ataxia-telangiectasia (ATM)deletion/duplication analysis,MLPA",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Atherosclerosis Profile - 3",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Atherosclerosis Profile 1 Test",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Atypical HUS (Hemolytic-Uremic Syndrome) By MLPA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Audiometry-Test",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Autoimmune Bullous Dermatoses Profile IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "AUTOIMMUNE ENCEPHALITIS ANTIIBODY, SERUM (Indirect IF method)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "B - 2 Microglobulin level - serum",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "B - 2 Microglobulin-Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "B cell subsets for PID",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Baby FirstTM, Elementary (NBS Basic 5)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Baby FirstTM, Elementary (NBS Basic 7)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "BacT ALERT FA Plus- For Adult (Aerobic)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "BacT ALERT FA Plus- MYCO",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "BacT ALERT FN Plus For Anaerobic",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "BacT ALERT PF Plus- For Pediatric (Aerobic)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "BacT ALERT PF Plus- For Pediatric (Myco)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Bacterial (16S) Identification By Sequencing",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Bacterial Endotoxin",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "BACTERIAL MENINGITIS SCREEN,Latex Agglutination",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "BACTERIAL PNEUMONIA PANEL , PCR,PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Barbiturate Screen, Qualitative, Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Bartonella spp Qualitative (DNA)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Basophil",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "BCL2 FISH on FFPE Block",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "BCL2/IGH (Follicular lymphoma) By FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "BCL6 FISH on FFPE Block",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "BCR ABL qualitative gene fusion analysis, RTPCR",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "BCR-ABL1 (IS) by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "BCR-ABL1 Qualitative Multiplex for Detection of Transcript",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Beckwith -Wiedemann/ Russel Silver by MS-MLPA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Bence Jones Protein",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Benzodiazepam",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Beryllium Metal",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Beta 2 Glycoprotein 1 antibody (IgG+IgM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Beta 2 Glycoprotein 1 antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Beta 2 Glycoprotein 1 antibody IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Beta Crosslaps",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Beta Globin Gene Sequencing",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Beta Hcg",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Beta Thal TRIO",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Beta Thalassemia (5 Common Mutation)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Beta Thalassemia gene Mutation Detection, PCR",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Beta Trace Protein level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Beta-2 Glycoprotein 1, IgA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Bicarbonate",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Bicarbonate, Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Bile Acid",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Biofire Gastrointestinal Panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Biofire Pneumonia Plus Panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Biofire Respiratory Panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "BIOTINIDASE ACTIVITY, QUANTITATIVE, BLOOD",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "BK Polyoma Virus (Plasma) Quantitative by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "BK Polyoma Virus (Urine) Quantitative by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Bleeding Time ( Ivy's method )",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "BONE MARROW ASPIRATION WITH TREPHINE BIOPSY",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Bordetella Pertussis IgG Antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "BP180 and BP230",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "BRCA Raw data",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "BRCA1&2 by NGS (Germ-line)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "BRCA1&2 MLPA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Brucella antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Brucella antibody IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Brucella species Qualitative by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Brucellosis (Tube Method)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "BUSULFAN AUC",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "C- Reactive Protein",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "C-MYC FISH on FFPE Block",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "C-MYC/IGH on FFPE Block",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "C-Reactive Protein (Crp)",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "C.M.V Antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "C.M.V. Antibody IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "C1 Esterase Inhibitor",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "C1q COMPLEMENT",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Ca 19.9",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Ca-125",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "CA-15-3 level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CA-19-9 level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Cadmium level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CADMIUM, 24-HOUR URINE",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CADMIUM, RANDOM URINE",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CAH (CONGENITAL ADRENAL HYPERPLASIA) 11 MUTATIONS,-",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Calcitonin level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Carbamazapine level (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Carbapenemase Gene Detection by Real-time PCR",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Carcino Embryonic Antigen (Cea)",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Cardiac channelopathy gene panel,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Cardiolipin antibody IgA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Cardiolipin antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Cardiolipin antibody IgG & IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Cardiolipin antibody IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Cardiomyopathy gene panel,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "CARNITINE, SERUM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Carrier Screening by NGS (partner 1)/Orion Focus",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Carrier Screening by NGS (partner 2)/Orion focus",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Catecholamine -24 hours Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Catecholamine level-Plasma",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Catecholamines, Random Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CBCESR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CBFB-MYH11 (INV16) fusion for MRD",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CBFB-MYH11 (INV16) fusion for MRD FIRST TIME",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CD-3 CD-4 CD-8 Lymphocyte Count (IPT ])",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CD169 Assay",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CD18 [ For screening Leucocyte adhesion deficiency ], Flowcytometry",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CD19 and CD19 Abs count(IPT)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CD3 PB/Harvest - Single Platform",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CD34 and CD3 PB/Harvest -Single Platform",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CD34 PB/Harvest - Single Platform - Sehgal",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CD4/CD8 ABSOLUTE COUNTS- (CD 3/4/8/45 BY FLOWCYTOMETRY)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CD45RA and CD3 harvest",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CEBPA MUTATION STUDY,Sequencing",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Cell Count,Body fluid",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Cell Count,CSF",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Cell type",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Centromere antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Ceruloplasmin level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CFTR gene sequencing (includes del508)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Charcot-Marie-Tooth and 1A/HNPP (PMP22, COXI0, TEKT3)deletion/duplication analysis,MLPA",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Charcot-Marie-Tooth and sensory neuropathies gene panel,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Chimerism Study",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Chlamydia and N. Gonorrhoeae detection By GeneXpert CBNAAT",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Chlamydia Trachomatis (CT) and Neisseria gonorrhoeae (NG) PCR Qualitative (CBNAAT)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Chlamydia Trachomatis antibody IgA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Chlamydia Trachomatis antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Chlamydia Trachomatis antibody IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Chlamydia trachomatis Qualitative by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Chloride for CSF",
+  "duplicate of 'Chloride'"
+ ],
+ [
+  "Chromium level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Chromogranin-A level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CIDP panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "cKIT & PDGFR by NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "CLL Panel By FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "CLLprognostication/risk stratification gene panel,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Clotting Time",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Clozapine level (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CML/CNL (atypical) - prognostication gene panel,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "CMML (Chronic myelomonocytic Leukemia) risk stratification gene panel,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "CMV (Cytomegalovirus) Qualitative By Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CMV (Cytomegalovirus) Quantitative BY Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CMV (GANCICLOVIR) Drug Resistance",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Cobalt level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "COBALT, 24- HOUR URINE",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Cocaine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "COLD AGGLUTININS",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ColoComprehensive",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "COMBO ALL PANEL",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "COMBO AML PANEL",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "COMBO MDS PANEL",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "COMBO MYELOMA PANEL",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Complement 3 Level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Complement 4 Level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Complement factor H Antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Complement, Total (CH50)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Comprehensive lymphocyte subset enumeration by flow cytometry",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "COMPREHENSIVE LYMPHOCYTES SUBSET ANALYSIS BY FLOW CYTOMETRY",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Comprehensive neurology panel,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "COMT GENOTYPING,PCR Sequencing",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Congenital Adrenal Hyperplasia (CAH) (21-OH deficiency) profile, Extended",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Congenital Adrenal Hyperplasia (CAH) Combo (Seq+MLPA)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Congenital adrenal hyperplasia CYP21A2 (21-0H) combo - sequencing and deletion/duplication analysis",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Congenital adrenal hyperplasia CYP21A2 (21-0H) gene analysis,Sanger",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Congenital hypopituitarism gene panel,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "CONNEXIN 26 MUTATION DETECTION CONNEXIN 26 MUTATION DETECTION",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "CONNEXIN 30 MUTATION DETECTION",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Coombs Test Direct (By Gel Technology)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Coombs Test Indirect (By Gel Technology)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Copper Level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "COPPER, RANDOM URINE",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Cortisol",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Cotinine level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "COVID19 Qualitative by Real time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "COVID19 Qualitative by Real time PCR-Aug",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Coxiella Burnetti IgG antibody#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Coxiella Burnetti IgM antibody#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Coxsackie Virus A6 (RNA)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Creatinine, 12 hours Urine",
+  "duplicate of 'Creatinine'"
+ ],
+ [
+  "CREATININE, FLUID",
+  "duplicate of 'Creatinine'"
+ ],
+ [
+  "Creatinine, Random urine",
+  "duplicate of 'Creatinine'"
+ ],
+ [
+  "Cryoglobulin Estimation",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Cryptococcal Antigen",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Cryptococcal Antigen Titre",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Cryptosporidium",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CRYTOCOCCUS NEOFORMANS DETECTION, PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Culture,Aerobic, Urine",
+  "duplicate of 'Culture,Aerobic'"
+ ],
+ [
+  "CULTURED AFB ANTITUBERCULAR DST, 5 DRUGS PANEL#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Cyclosporine Level (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CYCLOSPORINE LEVEL - C2",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CYP2C19 Genotyping for Clopidogrel Resistance Assay",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CYP2D6 (CYTOCHROME P450 2D6) ALLELES GENOTYPING",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CYSTIC FIBROSIS MUTATION DETECTION",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Cysticercus (T.Solium) antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Cytokine Compact Panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CYTOLOGY, CELL BLOCK EXAMINATION",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "CYTOMEGALOVIRUS (CMV) ANTIBODIES PANEL, IgG &IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "D-DSA by Luminex (HLA Cross Match)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "D3-Hydroxybutyrate (Ketone body), Serum",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "DARKFIELD FOR LEPTOSPIRA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Del(20q) By FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Del(5q) By FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Del(7q) By FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Desmoglein 1 and 3",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "DEtection of Chromosomal Aneuploidy by NGS for solid tumors",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Detection of common fusion transcripts in B-ALL by RT-PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Diamond blackfan anemia gene panel,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Differential Count",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Diffuse Large B-Cell Lymphoma Panel by FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Digoxin Level (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Dihydrorhodamine flow cytometry(DHR)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Dihydrotestosterone level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Dilantin (Phenytoin) level (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Diphtheria-IgG Antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "DMD (Duchenne Muscular Dystrophy) deletion/duplication by MLPA",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "DNA Fingerprint (Autosomal STR)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "DNA Preparation",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "DNA storage for unidentified samples",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Dopamine-24 hours Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Double Negative T-cells (DNT), Flowcytometry",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "DPT Antibodies, Serum #",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "DRPLA GENE ANALYSIS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Drugs of abuse - 8 Drug panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Drugs of abuse - 9 Drug panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "DSA by Luminex (HLA Cross Match)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "DsDNA antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "DVT PANEL",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "DYT1 Dystonia,Sequencing",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "DYT11 (MYOCLONIC DYSTONIA) SGCE GENE MUTATION ANALYSIS#",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "EBER ISH",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "EBV (Epstein Barr Virus) Qualitative by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "EBV (Epstein Barr Virus) Quantitative by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "EBV EA antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "EBV EBNA antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "EBV Quantitative Profile",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "EBV VCA antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "EBV VCA antibody IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ECG Test (Electrocardiogram)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Echinococcus antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ECHINOCOCCUS DETECTION FOR SCOLICES IN HYDATID CYST FLUID",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "EGFR by NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "EGFR gene amplification, FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Electrolytes",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Electrolytes, 24 hours urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ELECTROLYTES, FLUID",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Electrolytes, Serum",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Encephalitis Panel (Cell Based Study)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Encephalitis Panel with DPPX (Cell Based Study)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ENDOMYSIAL ANTIBODY, IgA, IFA IN DILUTIONS",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Endomysial Antibody-IgA by IF",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Endomysial Antibody-IgG by IF",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Enterovirus Qualitative by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Eosinophil",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Epinephrine & Nor-epinephrine, 24 hr Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Epinephrine, Random Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "EPSTEIN - BARR VIRUS ANTIBODY (EBV) (IgG & IgM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "EPSTEIN- BARR VIRUS(EBV) ANTIBODY IgG to VIRAL CAPSID ANTIGEN (VCA)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Epstein-Barr virus (EBV) antibody to nuclear antigen (NA), IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Erythrocyte Sedimentation Rate (Esr)",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Erythropoetin level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Estradiol/Oestrogen (E2)",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Estriol level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Estriol Level-DELFIA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Ethambutol Level (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Ethanol (Alcohol) level, Serum",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Everolimus (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "EWSR1 On FFPE Block",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Exome Seq-6-8GB-With Analysis",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Exome Seq-6-8GB-Without Analysis",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Fabry disease (GLA) deletion/duplication analysis,MLPA",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FABRY DISEASE, QUANTITATIVE, BLOOD#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Factor II (Prothrombin) G20210A by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Factor IX Assay (Photooptical Clot detection)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "FACTOR V (Leiden) G1691A by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Factor VII deficiency (F7) gene analysis,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FACTOR VII FUNCTIONAL",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Factor VIII Assay Activity (Photooptical Clot detection)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Factor VIII Inhibitor Study (Bethesda Assay)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Factor X Assay ( Electromagnetic clot detection )",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Factor XI Assay ( Electromagnetic clot detection )",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Factor XII Assay ( Electromagnetic clot detection )",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Factor XIII, Functional, Qualitative",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Fasting Blood Sugar",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "FAT GLOBULES",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Fecal Calprotectin Level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Fecal Elastase-1",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Fecal Immunochemical test (FIT), Qualitative",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Fecal Immunochemical test (FIT), Quantitative",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "FERTILITY PROFILE",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "FERTILITY PROFILE - FEMALE",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "FERTILITY PROFILE - MALE",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Fibrinogen Degradation Product ( Latex )",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Fibrinogen Level ( Clauss Method )",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Fibromax Profile",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "FINE NEEDLE ASPIRATION REPORT",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "FIP1L1- PGDFRA GENE REARRANGEMENT DETECTION,PCR",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH (ANY 2 PROBES)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH (Any three Probes)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH - 14q32.3 IGH Reflex Panel",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH - 17 p,FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH - ALK-1Breakapart Rearrangement,FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH - del 13q or LSI D 13S319,FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH - MPN (PDGFRB, PDGFRA, FGFR1, BCR/ABL1, JAK2) FISH - MPN (MYELOPROLIFERATIVE NEOPLASM) PANEL",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH - NSCLC(Non-small cell lung cancer) ALK1& ROS1,FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH -Bladder cancer recurrence: Chromosome s 3,7, 17 &p16 gene onchromosome 9,FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH -Opposite Sex BMT (XX / XY)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH -t(1;19)-LSI (E2A/PBX)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH 1p36 deletion",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH ALPHA SATELLITE X",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH BCR/ABL T(9:22) ph (CML/ALL)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH C-MYC",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH CHROMOSOME 13 L SI",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH CHROMOSOME 13/18",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH CHROMOSOME 13/21",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH CHROMOSOME 18 CEP",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH CHROMOSOME 18/21",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH CHROMOSOME 21 LSI",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH CRI-DU-CHAT SYNDROME",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH DI - GEORGE SYNDROME TBX",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH DI-GEORGE SYNDROME (TUPLE)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH FISH SRY/CEP Y",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH IGH/CCND1 T (11:14) (MANTLE CELL LYMPHOMA)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH MDS PANEL DEL/- 5Q,7Q,20Q (DELETION/MONOSOMY) CEP8 (4 PROBE)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH MILLER-DIEKER SYNDROME 1",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH RARA BREAKAPART PROBE AML -M3",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH SMITH MAGENIS SYNDROME",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH SOTOS SYNDROME",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH TEL/AML 1 T (12:21) ALL",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH, 9p9q",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH, ABL2",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH, CEP8",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH, CRLF2",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH, ETV6(12p13)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH, INV3",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH, ISO17",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH, JAK2(9p24)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH, PLOIDY4/10/17",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH, PLOIDY5/9/15",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH, RUNX1",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH, t(16;14)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH, t(4;14)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH, t(6;9)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH, TLX3",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH,ABL1",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH,TCR",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH-Eosinophilic Leukemia Panel (PDGFRA, PDGFRB, FGFR1 and CBFB),FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH-FGFR1 (8p12) GENE REARRANGEMENT,FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISH-MYCN AMPLIFICATION,FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISHMYB, FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "FISHT12, FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Fitness certificate and Doctor consultation",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Flow Cytometery lymphocyte (T and B cell) cross match",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Flow Cytometry of Lymph Node/Fine Needle",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Flow Cytometry Ploidy analysis for Acute Leukemia",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "FLOW CYTOMETRY, CD 20#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "FLT3 ITD by Fragment Length Analysis",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Flu a, Flu B and H1N1 Qualitative by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "FLU PANEL (Qualitative RTPCR)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Fluid cell type",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "FLUID FOR ANGIOTENSIN CONVERTING ENZYME",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "FLUID FOR ANTI STREPTOLYSIN O (Nephelometry)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "FLUID FOR BICARBONATE",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "FLUID FOR CRYSTAL",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "FLUORESCENT IN SITU HYBDRIDIZATION (Any 1 Probe)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "FLUORESCENT TREPONEMAL ANTIBODIES; FTA-ABS#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Follicle Stimulating Hormone (Fsh)",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "FOOD INTOLERANCE (IgG) TEST",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Fragile X Syndrome",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Free fatty acid levels-Comprehensive (GCMS)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Free Kappa Chain",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Free Kappa Lambda Chain Ratio",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Free Kappa Lambda Chain ratio-Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Free Lambda Chain",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Free PROTEIN S Antigen (Immunoturbidimetry)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Free Thyroxine (Ft4)",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Free Triiodothyronine (Ft3)",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Friedreich Ataxia (FXN) – Repeat Expansion Analysis",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Fungal Identification By Sequencing",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Fungus susceptibility testing by MIC",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "GAD Antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "GALACTOSEMIA (GALT) GENE MUTATION DETECTION",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "GALL STONE ANALYSIS",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Ganciclovir Drug Analysis (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Ganglioside antibody Profile (IgG)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Ganglioside antibody Profile (IgM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Gastrin Level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "GeneXpert-MTB/XDR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Geniee (Pharmacogenomics Panel by NGS)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Gentamicin level (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "GFAP",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Giardia Lamblia Qualitative DNA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Gilbert Syndrome",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Glomerulo Basement Membrane antibody (GBM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Glucagon",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "GLUCOSE, BODY FLUID",
+  "duplicate of 'Glucose'"
+ ],
+ [
+  "GLUT1 deficiency (SLC2A1)deletion/duplication analysis#",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "GLYCOGEN STORAGE DISEASE PANEL BY NEXT GENERATION SEQUENCING,Next Generation Sequencing",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "GM1 GANGLIOSIDOSIS, QUANTITATIVE,BLOOD#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "GM2 GANGLIOSID OSIS, QUANTITATIVE,BLOOD; TAY SACHS AND SANDHOFF DISEASE,Enzyme Assay",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Gonococcus smear examination",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Gram stain",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Granule Release Assay",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "GYNAEC. EXAM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "H1N1 SWINE FLU",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Haemoglobin",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Haemoglobinuria",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Hanta Virus Detection (RT PCR)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Haptoglobin level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HAV antibody IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HBA1/HBA2 gene deletion/duplication study by MLPA for Alpha-Thalassemia",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Hba1C",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "HBB gene deletion/duplication study by MLPA for Beta-Thalassemia",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "HBc antibody IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HBc Total antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Hbs Ag Quantitative",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HBs antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HBs antigen",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HBV (Hepatitis B) Quantitative by Real-time PCR",
+  "duplicate of 'HBV (Hepatitis B) by Real-time PCR'"
+ ],
+ [
+  "HBV Genotyping",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HCV (Hepatitis C) Quantitative by Real-time PCR",
+  "duplicate of 'HCV (Hepatitis C) by Real-time PCR'"
+ ],
+ [
+  "Heart failure profile-maxi tests",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Heavy Metal Analysis from blood",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Heavy Metal Analysis from blood - 2",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Heavy Metal Analysis from Spot Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HEINZ BODY TEST",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Hemochromatosis [HFE Gene Analysis for 2 variants]",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Hemophagocytic lymphohistiocytosis (HLH) gene panel,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Hemophagocytic lymphohistiocytosis (HLH-del/dup)deletion/du plication analysis,MLPA",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "HEMOPHILIA PANEL,Photo-optical & Electromechanica l Clot Detection",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Hepcidin, Serum",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HER2 neu By FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Hereditary Cancer Gene Panel - ORION (V2) RAPID",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Herpes Simples Virus (HSV) TYPE II,PCR,Qualitative",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HERPES SIMPLEX VIRUS (HSV) TYPE I, PCR, QUALITATIVE",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HEV (Hepatitis E) Quantitative by Real-time PCR",
+  "duplicate of 'HEV (Hepatitis E) by Real-time PCR'"
+ ],
+ [
+  "HEV IGM MANUAL",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "High Sensitivity C-Reactive Protein (Hs-Crp)",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Hirsutism panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Histamine, Plasma#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Histones Antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HISTOPATHOLOGY, SPECIAL STAIN, COPPER (RHODANINE),Special stain, Microscopy",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HISTOPLASMA GALACTOMANNAN ANTIGEN, URINE",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Hiv I And Ii",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "HIV-1 (Human Immunodeficiency Virus-1) Quantitative by Real-time PCR",
+  "duplicate of 'HIV-1 (Human Immunodeficiency Virus-1) by Real-time PCR'"
+ ],
+ [
+  "HIV-2 (Human Immunodeficiency Virus-2) Quantitative by Real-time PCR",
+  "duplicate of 'HIV-2 (Human Immunodeficiency Virus-2) by Real-time PCR'"
+ ],
+ [
+  "HLA - A",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HLA - A or B or C ( Low resolution),Sequencing",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HLA - B",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HLA - C",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HLA - DR4 (DRB1*04)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HLA - DRB1",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HLA A,B & DR By Luminex",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "HLA B 27 By Real-time PCR",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Hla B27 Flow Cytometry",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "HLA DQA1",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "HLA Typing (A,B,C,DR and DQ) Low Resolution",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "HLA Typing for (A, B, C, DRB1 ,DQB1 and DPB1) High Resolution",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "HLA-B*15:02",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "HLA-B*57:01 for Abacavir Sensitivity",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "HLA-DR",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "HLAb 27 By Flowcytometry",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Homa IR (Mass Unit)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Homocysteine level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Homovanillic Acid (HVA), 24-Hour Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HOMOVANILLIC ACID(HVA), RANDOM URINE#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HRD (Homologous recombination deficiency)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HSV (Type II) antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HSV (Type II) antibody IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HSV I Profile",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HSV I&II (Herpes Simplex Virus I&II) Qualitative by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HSV II Profile",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HSV Type I antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HSV Type I antibody IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HSV1/2 IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HSV1/2 IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HTLV 1 and 2 antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Human Epididymis Protein 4 (HE4)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Human Herpesvirus 6 (HHV6) Qualitative by Real Time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Human Herpesvirus 6 (HHV6) Quantitative by Real Time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Human Metapneumovirus Detection (HMPV) by RT PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Human Papilloma Virus (HPV) Genotyping by NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Human papiloma virus (HPV)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Huntington Disease Molecular Assay",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Hydroxyproline, 24 Hour Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "HYDROXYPROLINE, PLASMA#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Hypercalcemia panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Hypersensitivity Pneumonitis Panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Hypothyroidism/Hashimotos disease panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IA-2 antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Identification By Maldi TOF (Mass Spectrometry)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Identification on Vitek",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IgA level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IgG level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IgG1 Subclass",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IgG2 Subclass",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IgG3 Subclass",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IgG4Subclass",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IgLON 5",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IgM level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IgVH Mutation analysis for CLL",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "IHC Comphrensive Diagnostic Panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IHC-E Cadherin",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Imatinib Resistance Mutation Analysis",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Immune reconstitution panel by flow cytometry",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IMMUNO HISTOCHEMISTRY , C-MYC",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IMMUNO HISTOCHEMISTRY, PAX -8",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Osmolality Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IMMUNO HISTOCHEMISTRY, TLE1",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IMMUNOGLOBULIN IgG SYNTHESIS INDEX & RATE#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunoglobulin Profile (IgG, IgM, IgA)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IMMUNOHISTOCHEMISTRY (IHC) PITUITARY PANEL",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IMMUNOHISTOCHEMISTRY CYTOMEGALO VIRUS",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry second opinion",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IMMUNOHISTOCHEMISTRY,",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IMMUNOHISTOCHEMISTRY, 34-BETA E12,Immunohistochemistry",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry, ALK D5F3 (Lung carcinoma)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry, BCL-2",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IMMUNOHISTOCHEMISTRY, CATHEPSIN D,Immunohistochemistry",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IMMUNOHISTOCHEMISTRY, CD 1a,Immunohistochemistry",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IMMUNOHISTOCHEMISTRY, CD 21,Immunohistochemistry",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IMMUNOHISTOCHEMISTRY, CD 35,Immunohistochemistry",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IMMUNOHISTOCHEMISTRY, CD 45 Ro (PAN T),Immunohistochemistry",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry, CD10",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry, CD117 (CK-KIT)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry, CD138",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry, CD15",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry, CD23",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry, CD31",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry, Chromogranin A",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IMMUNOHISTOCHEMISTRY, CK19 ( CYTOKERATIN 19)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry, CK20",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry, CK7",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry, Cyclin-D1",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IMMUNOHISTOCHEMISTRY, GLYPICAN - 3",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry, HBME-1",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry, HMB-45",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Methotrexate Level (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry, Kappa light chains",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry, Lambda light chains",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry, Pan-Cytokeratin (PAN-CK)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry, Pax-5",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry, SMA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry, Synaptophysin",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IMMUNOHISTOCHEMISTRY, WT-1",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunohistochemistry,, HEPPAR-1",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IMMUNOHISTOCHEMISTRY: H3K27m / H3K27me3",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IMMUNOHISTOCHEMISTRY: PLA2R",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IMMUNOPHENOTYPING (FOR CLPD BY FLOW CYTOMETRY )",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Immunophenotyping for Acute Leukemia",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "IMMUNOPHENOTYPING FOR PLASMA CELL NEOPLASMS, FLOW CYTOMETRY",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Indian Ink Preparation",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Individual Allergen-Oat f7",
+  "individual allergen variant (folded into allergy profiles)"
+ ],
+ [
+  "Individual HLA locus",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "INFLUENZA VIRUS A , IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Inhibin A Level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Inhibin B Level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Institute Orion (WES)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "INTERLEUKIN 28B rs12979860 & rs 8099917 GENOTYPING,QUALITATIVE, PCR,Real Time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Interleukin 6",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "INV 16 by FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Isavuconazole Level (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Isoniazid (INH) level (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ITS Sequencing -0.15GB-With Analysis",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ITS-seq by NGS for Fungal identification (ITS1/ITS5)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "JAK2 Mutation Panel (Exons 12 to 15)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "JAK2 V617F Mutation Study by Real-time PCR (V617F)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Japanese Encephalitis Virus (JEV) Qualitative by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "JC (John Cunningham ) Virus Polyoma Quantitative by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Jo-1 antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "KA MYELOMA PROFILE",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "KA-CD34 STEM CELL FLOWCYTOMETRY",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "KA-Immunofixation",
+  "empty after cleaning"
+ ],
+ [
+  "KA-IMMUNOFIXATION ELECTROPHORESIS",
+  "duplicate of 'Electrophoresis'"
+ ],
+ [
+  "KA-METABOLIC PROFILE",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "KA-NBS Hemoglobinopathies Variant Analysis",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Kappa Free Light Chain, Spinal Fluid",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "KARYOTYPING CLINICAL CYTOGENETIC STUDY (SLIDE REPORTING)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Karyotyping cytogenetic study for oncology",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Karyotyping From Amniotic Fluid",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Karyotyping From Blood",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Karyotyping From Bonemarrow",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Karyotyping From Product Of Conception (POC) By NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "KIR Typing",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "KIT gene analysis - 4 exons (9, 11, 13, 17),Sanger",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "KOH Preparation",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Krabbe disease (GALC)deletion/duplication analysis,MLPA",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "KRAS gene analysis - 2 exons (2 & 3),Sanger",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "KRAS+NRAS+BRAF Oncocept Solid",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Lactate Dehydrogenase (Ldh)",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Lactate Level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Lamotrigine (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "LCM-CDC",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "LDH",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "LDH ISOENZYME#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "LDH, Body Fluids",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Lead Level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Lead level, 24 hrs urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Legionella Pneumophila IgG antibodies#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Legionella Pneumophila IgM antibodies#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Legionella Pneumophilia Antigen From Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "LEISHMANIA (KALA AZAR) ANTIBODY IgG#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Leptin level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Leptospira antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Leptospira antibody IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Leptospira Qualitative by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "LEPTOSPIROSIS(URINE)#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Leucocyte Alkaline Phosphatase Score",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Levetiracetam (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "LPA (Line Probe Assay) MTB-XDR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Limb-girdle muscular dystrophy deletion/duplication analysis (SGCA, SGCB,SGCD, SGCG & FKRP),MLPA",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "LIPASE IN URINE#",
+  "duplicate of 'Lipase'"
+ ],
+ [
+  "LIPASE, FLUID",
+  "duplicate of 'Lipase'"
+ ],
+ [
+  "Lipid Profile",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Lipoprotein (a)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Liquid Biopsy for EGFR T790M Mutation",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Liquid Biospy for Lung Cancer by NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Listeria,CSF",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Lithium level (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Lithium level (TDM) by ICPMS",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "LKM1 Antibody ( IIF )",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "LKM1 antibody-ELISA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "LPA (Line Probe Assay) MTB-MDR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "LPA (Line Probe Assay) NTM CM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "LUMOS (FEMALE)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "LUMOS (MALE)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Lumos Comprehensive (Female)/LUMCOMPFEM [(SMA) By MLPA, DMD By MLPA, Congenital Adrenal Hyperplasia (Seq+MLPA), Fragile X Syndrome]",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Lumos Comprehensive (Male)/LUMCOMPMAL [Spinal Muscular Atrophy (SMA) By MLPA, Congenital Adrenal Hyperplasia (Seq+MLPA)]",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Lung Panel Oncocept Solid",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "LUPUS ANTICOAGULANT (AS PER ISTH-2009)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Luteinising Hormone (Lh)",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Lyme disease antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Lymphocyte",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Lymphoma panel (8 markers), Immunohistochemistry",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Lynch syndrome (MLH1, MSH2, EPCAM)deletion/duplication analysis,MLPA",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "M Protein Characterisation (LCMS)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "M. tuberculosis complex and Nontuberculous Mycobacteria PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Magnesium",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Malarial parasite ( smear )",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Malarial parasites by QBC",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Manganese level, Serum",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Manganese level, Whole blood",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Manual HBs Ag",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "MAPLE SYRUP URINE DISEASE (MSUD) MUTATION ANALYSIS (4 GENE PANEL) BY NEXT GENERATION SEQUENCING,Next Generation Sequencing",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Marijuana THC",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "MCC Check - Test",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "MDS Panel By FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "MDS-AML Familial gene panel-reflex,MLPA",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Measles Antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Measles Antibody IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Mercury level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Metabolic Screen",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Metanephrine level-Plasma",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Metanephrine, Random Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Metanephrines, Fractionated, Random urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Methamphetamine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "METHAMPHETAMINES, Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Methoxytyramine, Random Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Methyl tetrahydro folate reductase (MTHFR) I & II mutation analysis, PCR",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "METHYLMALONIC ACID (MMA) QUALITATIVE, URINE",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "METHYLMALONIC ACID (MMA) QUANTITATIVE, SERUM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Methylmalonic acid (MMA) Quantitative, Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "MGMT METHYLATION ASSAY",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "MIC-A Single Antibodies Panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Microarray High resolution CytoOne Advanced",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Microarray Low resolution CytoOne Basic",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Microfilaria Antigen",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Microfilaria by QBC",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Microsatellite Instability",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "MINIMAL RESIDUAL DISEASE (MRD) ANALYSIS FOR ACUTE MYELOID LEUKEMIA BY FLOW CYTOMETRY",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Minimal Residual Disease (MRD) for AML - Sehgal",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Minimal Residual Disease (MRD) for T-ALL - Sehgal",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Minimal Residual Disease for Lymphoma",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Mitochondrial DNA Sequencing",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Mitochondrial Part of ORION",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "MLH1 Promoter methylation",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "MLL By FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Neisseria Gonorrhoeae Qualitative by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "NEURON SPECIFIC ENOLASE (NSE)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "MM Panel By FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Modified ZN Stain",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Monocytes",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Morphine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "MPO antibody (P-ANCA)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "MRD assessment in Myeloma by Flow Cytometry",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "MRSA Detection by Qualitative Real time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "MTBC/NTM, QUALITATIVE",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "MTHFR Mutation (677 & 1298) by Real-time PCR",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "MUCOPOLYSACCHARIDOSIS (MPS) SCREEN, URINE#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "MUCOPOLYSACCHARIDOSIS (MPS) TYPE VI (MAROTEAUX LAMY), QUANTITATIVE, BLOOD",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Mumps antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Mumps antibody IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Mumps Virus Qualitative by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Mycobacterial Identification By Maldi TOF",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Mycobacterium Tuberculosis Complex / Nontuberculous Mycobacteria CBNAAT (BLOCK))",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Mycobacterium Tuberculosis DNA PCR (GeneXpert)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "MYCOBACTERIUM TUBERCULOSIS DNA PCR (GeneXpert)(BLOCKS)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Mycoplasma Pneumoniae antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Mycoplasma Pneumoniae antibody IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "MYD88 L265P Mutation Detection by PCR",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Myeloma Profile 3",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Myeloma profile II",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Myoglobin level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Myositis Profile",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Myotonic Dystrophy Type I & Type II",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "N-MYC FISH on FFPE Block",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Naive T cell Estimation, Flow cytometry",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Nasal Smear for Eosinophils",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "NATURAL KILLER CELLS",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Neurofibromatosis type 2 (NF2) deletion/duplication analysis,MLPA",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "NEURONAL (PARANEOPLASTIC) AUTOANTIBODIES PROFILE#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Neutrophil",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Neutrophil gelatinase associated lipocalin (NGAL), Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "New born Confirmation HbS, C,E, D - DBS, Baby First",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "New born screening - GCMS",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "New Born Screening 5",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "New Born Screening 7",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "New Born Screening-17-OHP",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "New Born Screening-Acylcarnitines",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "New Born Screening-Aminoacids",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "New Born Screening-Biotinidase",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "New Born Screening-Hemoglobinopathy",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "New Born Screening-Immuno reactive trypsinogen (IRT)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "New Born Screening-Phenylalanine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "New Born Screening-Total Galactose",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Newborn screening 17-Hydroxy progesterone (CAH), Baby FirstTM (NBS)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Newborn screening Cystic fibrosis, Baby FirstTM (NBS)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Newborn screening Phenyketonuria, Baby FirstTM (NBS)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "NF1deletion/duplication analysis,MLPA",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "NGS for myeloma",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Nickel level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Nicotine From Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Niemann Pick disease (NPC1, NPC2, SMPD1)deletion/duplication analysis,MLPA",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "NIMHANS - NERVE BIOPSY",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Nitroblue tetrazolium test",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "NMDA ( Cell based study )",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "NMO-MOG Antibody (Cell Based Study)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Non-invasive PGT-A (1 EMBRYO)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Non-invasive PGT-A (2 EMBRYO)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Non-invasive PGT-A (3 EMBRYO)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Non-invasive PGT-A (4 EMBRYO)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Non-invasive PGT-A (5 EMBRYO)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Non-Tuberculous Mycobacterium Qualitative by Real Time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Noonan syndrome gene panel,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Nor-epinephrine, 24 hr Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Nor-epinephrine, Random urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Nor-Metanephrine Level Plasma",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Nor-metanephrine, Random Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "NPM1 GENE MUTATION#",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Nt-Probnp",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "NTM / MOTT Drug susceptibility testing by MIC",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "NTx- N-Tellopeptide (Collagen Crosslinked)#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "NUDT15 GENOTYPING",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Onco haem (DNA+RNA) By NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Onco haem: DNA only by NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Onco haem: DNA only by NGS with HIGH DEPTH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Onco haem: RNA only by NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Oncocept CGP (1000+ genes + MSI + TMB)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Oncocept CNS Panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Oncocept comprehensive : 206 genes",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Oncocept Comprehensive Plus (206 Genes +MSI)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Oncocept endometrium (NGS+MSI).",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Oncocept HRR Gene Panel",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Oncocept Liquid",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Oncocept Liquid Comprehensive",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Oncocept Liquid Plus (50 genes)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Oncocept Sarcoma (Basic panel)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Oncocept Solid (DNA)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "OncoCEPT Solid Comprehensive (Endometrium)-DNA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Oncocept Solid Single Gene",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Oncocept Solid Single Gene extended",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Oncocept TMB",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Oncocept-Solid",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Oncohaem Fastrack AML NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Oncohaem PLUS panel by NGS (SNVs/small indels + Fusions)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Oncohaem PLUS panel by NGS: Fusions ONLY",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Oncohaem PLUS panel by NGS: SNVs/small indels ONLY",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Oncohaem Transcriptome",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "One Variant by NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "OPIATES SCREEN, Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Opportunistic Infectious Panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Optima Time for Endometrial Receptivity Assay (OpERA)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ORGANIC ACIDS, QUANTITATIVE,RANDOM URINE, FULL PANEL#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ORION (V2) (WES-Whole Exome Sequencing)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Orion (V2) - Express (WES-Whole Exome Sequencing)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "ORION (V2) Focus (Clinical Exome/Mendeliome/Panel testing)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "ORION -Single gene (Single gene NGS)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "ORION TRIO (Whole Exome Sequencing-Trio)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Osmolality Serum",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Osmotic fragility test/Eosin 5 maleimide (EMA) for Hereditary spherocytosis",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Osteomon Profile",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Osteopetrosis gene panel,NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Osteoporosis Profile II Test",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Osteoporosis Profile III Test",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Osteoporosis Profile-I",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Overnight high dose Dexamethasone suppression test, Serum",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "OVERNIGHT LOW DOSE DEXAMETHASONE SUPPRESSION TEST, SERUM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "OXALATE, RANDOM URINE",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Oxcarbazepine (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Pan Fungal Detection by Real Time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Pancreatic enzymes, Body fluids",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "panel (lymphocyte + DHR only)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Panel Reactive Antibody HLA-Class I",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Panel Reactive Antibody HLA-Class II",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Papsmear Conventional",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Paracetamol (Acetaminophen) level, Serum",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Paraneoplastic Panel (12 Ag)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Paraneoplatic Panel-Extended (12 Ag)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "PARIETAL CELL AND INTRINSIC FACTOR ANTIBODY (1:10 dilution of serum) (Indirect IF)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Parkinson's disease deletion/duplication analysis by MLPA",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "PAROXYSMAL NOCTURNAL HEMOGLOBINURIA (PNH), CONFIRMATORY TEST#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Parvo Virus B19 IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Parvo Virus B19 IgM & IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Parvo Virus B19 Qualitative By Real Time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Parvo Virus B19 Quantitative By Real Time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Paul Bunnel Test (Monospot) (Infectious Mononucleosis) (Heterophile Antibody detection)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "PCV",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "PDGFR (GASTROINTESTINAL STROMAL TUMORS) EXONS 12, 14,18,Sequencing",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "PDGFR Alpha By FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "PDGFR Beta By FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "PDGFRA gene analysis - 3 exons (12, 14, 18),Sanger",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Perforin expression in NK cells",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "PGT-A FOR 1 EMBRYO (Extended)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "PGT-A FOR 4 EMBRYOS (Extended)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "PGT-M (2 EMBRYO)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "PGT-M (4 EMBRYO)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "PHENCYCLIDINE SCREEN, Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Phenobarbitone (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "PHENYLKETONURIA (PKU) PAH GENE MUTATION ANALYSIS BY NEXT GENERATION SEQUENCING,Next Generation Sequencing",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "PHOSPHATIDYLSERINE ANTIBODIES PANEL, IgG &IgM,Enzyme Immunoassay",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "PHOSPHATIDYLSERINE ANTIBODY,IgM,Enzyme Immunoassay",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Phospholipase A2 Receptor Antibody IgG (PLA2R)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Phosphorous",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Physician Examination",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "PID SCREENING PANEL(PID) Screening Panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "PIVKA level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "PLACENTAL GROWTH FACTOR (PlGF)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Plasma glucose1 Hr (After 50G )",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "PML-RARA Detection By FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "PML-RARA Fusion Gene Detection (Qualitative)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "PML-RARA Fusion Gene Detection (Quantitative)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Pneumocystis jirovecii (PCP) by PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Pneumoslide IgM Panel (Bacterial + Viral)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "PNH Study(IPT)(CD55 CD59 FLAER)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "POLE Mutation analysis by Sanger Sequencing",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Polycystic kidney disease (PKHD1) deficiency deletion/duplication analysis,MLPA",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "POMPE DISEASE, QUANTITATIVE, BLOOD#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Porphobilinogen, 24 hrs Urine (PBG) Quantitative",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Porphobilinogen, Random Urine (PBG) Quantitative",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "PORPHYRINS TOTAL, QUALITATIVE, RANDOM URINE#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "PORPHYRINS TOTAL, QUANTITATIVE, 24- HOUR URINE#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Porphyrins, Random urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Posaconazole level (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Post TCD Transplant Lymphocyte Subsets",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Postprandial Blood Sugar",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "POTASSIUM, FLUID",
+  "duplicate of 'Potassium'"
+ ],
+ [
+  "PR3 antibody (C-ANCA)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Prader-Willi/ Angelman Syndromes by MS-MLPA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Pre PGT-M Work Up",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Pre/Post Natal Diagnosis Chromosome 13, 18 & 21 By FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Pre/Post Natal Diagnosis Chromosome 13, 18, 21, X & Y By FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Pregnancy Associated Plasma Protein - A(PAPP A)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Pregnancy Test - Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Prenatal Aneuploidy Test By NGS (PAN)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Prenatal beta globin gene sequencing",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Prenatal one variant by NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Prenatal Three Variants by NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Primary Stain",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Procalcitonin",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Procollagen Type 1 Amino Terminal Propeptide (P1NP)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Progesterone , serum (LCMS)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Progesterone level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "PROINSULIN",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Prolactin (Prl)",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Propionic acidemia (PCCA) deficiency deletion/duplication analysis,MLPA",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Propoxyphene, Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Prostate Specific Antigen (Psa)",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "PROSTATIC SPECIFIC ANTIGEN (Total and Free)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Protein C Activity (Chromogenic)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Protein C Antigen Citrated plasma",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Protein CSF",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Protein Fluid",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Protein S Antigen#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Protein S deficiency (PROS1 gene deletion/duplication analysis ),MLPA",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Protein With A/G Ratio",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Prothrombin Time (Photooptical clot detection)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Pyrazinamide Level (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Pyrexia of Unknown Origin panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "PYRUVATE, PYRUVIC ACID",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Random Blood Sugar",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Rapid Malarial Antigen ( Card )",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "RAPID MOLECULAR GASTROENTERITIS PANEL(FilmArray-Biofire)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "RAPID MOLECULAR MENINGITIS PANEL",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "RBC",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "RED CELL DISTRIBUTION WIDTH",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Respiratory Combined Panel - 1",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Respiratory Combined Panel -2",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Respiratory Panel Plus",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Respiratory Pathogens Qualitative by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Respiratory syncytial virus (RSV) antigen",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "RET gene (10q11.2) rearrangement, FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Reticulocyte Count ( Automated )",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Rett Syndrome (MECP2)deletion/duplication analysis,MLPA *",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Rheumatoid Factor (Rf)",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Rifampicin Level (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Risperidone level (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "RISTOCETIN COFACTOR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Rituximab monitoring panel (CD19 and CD20, Flow cytometry)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "RNA polymerase III",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ROMA Index",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ROS1 FISH ON FFPE BLOCK",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Routine Examination Profile - Urine (Semi Automated)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Rubella - Igg",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Rubella - Igm",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Rubella antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Rubella antibody IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Rubella Avidity",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "RUNX1-RUNX1T1 (AML1-ETO) fusion for MRD",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "RUNX1-RUNX1T1 (AML1-ETO) fusion for MRD FIRST TIME",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "s-Flt-1/PLGF ratio",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "S.Typhi antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "S.Typhi antibody IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Sample Preservation for DNA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Sample Preservation for RNA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Sanger validation, Sequencing",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "SCA (Spinocerebellar Ataxia) Panel (SCA1, SCA2, SCA3, SCA6, SCA7, SCA10, SCA12)+DRPLA",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Scl-70 antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Screening Test For Toxic Usage of Drug",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Scrub Typhus antibody IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Second Opinion For Flow Cytometry",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Selenium level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Sepsis Multiplex PCR Panel",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Sexually Transmitted Disease Panel - 1",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Sexually Transmitted Disease Panel - 2",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Shotgun Metagenome Sequencing-5GB-With Analysis",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Shotgun Metagenome Sequencing-5GB-Without Analysis",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Shotgun Metagenomics of Gut",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Sickling Test (Dithionate)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Silver Level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Single Antibody Flow Cytometry",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Single Antigen Class I",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Single Antigen Class II",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Sirolimus Level (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "SJOGRENS SYNDROME ANTIBODIES",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "SKIN CLIP FOR LEPRA BACILLI",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Skin clip for Lepra Bacilli (2 sites)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Skin clip for Lepra Bacilli (3 sites)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Skin clip for Lepra Bacilli (4 sites)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "SMA (Spinal Muscular Atrophy) deletion/duplication study by MLPA",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Small RNA-1GB-With Analysis",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Small RNA-1GB-Without Analysis",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Smear for Microfilaria",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "SMOOTH MUSCLE ANTIBODY (1:10 dilution of serum) (IgG)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Soluble CD25 levels",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Soluble Transferrin receptor (sTfR) level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Somatic BRCA 1&2",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "SOMATOSTATIN, PLASMA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "SPIROMETRY-PFT",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Split cell Chimerism Study: T cells",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "SS-A/Ro antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "SS-B/La antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Staging Immunophenotyping",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "STEM CELL KARYOTYPE",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Steroid Hormonal Panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "STOMACH HEALTH TEST / GASTRO PANEL",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Stone Analysis (FT-IR)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Stone Analysis, Urine calculus",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Stone screening profile",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Stone screening profile-1",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "STREPTOCOCCUS GROUP B ANTIGEN DETECTION,Latex Agglutination",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Stress Cytogenetics",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "STRIATED / SKELETAL MUSCLE ANTIBODY, IFA#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Succinylacetone, Spot Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Synergy testing by E-Test",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Systemic Sclerosis autoantibody panel by EIA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "T Regulatory Cells (CD127 dim, CD25+)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "T-ALL Minimal Residual Disease (T-MRD) Evaluation by Flow Cytometry",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "TACROLIMUS GENOTYPING (CYP3A5)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Tacrolimus Level (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Tacrolimus Mutation Study For CYP3A4",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "TBNK (T Cell, B Cell & Natural Killer Cell)#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "TCR AB and CD34/CD3 harvest",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "TEST FOR TRICHOMONAS VAGINALIS AND CANDIDA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Testosterone",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Toxocara Qualitative by Real Time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Toxoplasma Avidity",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Tetanus Toxoid-IgG Antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Thrombin Time",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Tissue Transglutaminase antibody IgA (TTG-A)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Tissue Transglutaminase IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Total Ige",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "TOTAL PROTEIN",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "TOTAL WBC COUNT",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Toxo antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Toxo antibody IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Urinary Copper-24 hours",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Toxoplasma gondii Qualitative by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Toxoplasma IgG & IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "TPHA",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "TPMT (Thiopurine Methyl Transferase) by RTPCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "TPMT Genotyping",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "TrackTi CGP(1000+ Gene combo) + TMB+ MSI",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Transferrin Level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Transferrin Saturation",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Treponena Pallidum Total antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Triglyceride",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "TRIGLYCERIDES, FLUID#",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "TruHeart Platinum",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Tryptase Test",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Tumor exome (1000+ genes + MSI + TMB + HRD)",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Tumor Necrosis Factor (TNF) Alpha level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Two Variants by NGS",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "U1-SnRNP antibody",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Undifferentiated Tumor panel, IHC (minimum 8 markers)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Urea, Serum",
+  "duplicate of 'Urea'"
+ ],
+ [
+  "Urinary 5-HIAA level-24 hours",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Urinary Metanephrine -24 hours",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Urinary Microalbumin",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Urinary Nor-Metanephrine-24 hours",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Urinary Protein",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Urinary Protein-24 hours",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Urine citrate, 24 hrs",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Urine Culture And Susceptibility",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Urine Electrolytes",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Urine Examination",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "URINE FOR 5 HYDROXY INDOLE ACETIC ACID",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Urine For Eosinophils",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Urine For Haemosiderin Pigment",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Urine Immunoelectrophoresis (Qualitative)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Urine Multiplex PCR for STDs",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Urine Myoglobin",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Urine oxalate, 24 hrs",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Urine Porphobilinogen, Qualitative",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Urine RBC morphology by Flow cytometry",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "URINE TRIGLYCERIDES (CHYLOMICRONS) (ENZYME COLORIMETRIC) (GPO - PAP)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Valproic acid (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Vancomycin level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Vanillylmandelic acid (VMA), 24 Hour Urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Vanillylmandelic acid (VMA), Spot urine",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Varicella Zoster antibody IgG",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Varicella Zoster antibody IgM",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "VASCULITIS PANEL(Good Pasture syndrome panel)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Vdrl (Rpr) For Syphilis",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "Viral Encephalitis/Meningitis Panel Qualitative by Real-Time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Viral Myocarditis Panel Qualitative by Real-Time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Viral Transplant Panel",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Vitamin B-12",
+  "Thyrocare/Aarogyam source removed per request"
+ ],
+ [
+  "VMA (VANILMANDELIC ACID) , RANDOM URINE",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "von Willebrand Factor Activity",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Von Willebrand Factor Antigen",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Von Willebrand Factor Ristocetin Cofactor Activity",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Voriconazole Level (TDM)",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "VZV (Varicella-Zoster Virus) Qualitative by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Warfarin Genotyping",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Water analysis",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Water Chemical Analysis",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Weak D Antigen test:",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Weil Felix",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "West Nile Virus Qualitative by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "WET MOUNT PREPARATION",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "WGS-15GB-Without Analysis",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Whole Blood Mass Spectrometry Confirmatory for HbS,C,E and D",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Whole Genome Sequencing",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "WILSON DISEASE (ATP7B GENE) MUTATION ANALYSIS BY NEXT GENERATION SEQUENCING#",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "X & Y Chromosome By FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "X/Y post bone marrow transplant chimerism, FISH",
+  "obscure/lab-only investigation"
+ ],
+ [
+  "Y-Chromosomal Microdeletion by PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "ZIKA Qualitative by Real-time PCR",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Zinc Level",
+  "unclassifiable / not a common diagnostic test"
+ ],
+ [
+  "Zinc Transporter 8 (ZnT8) Antibody",
+  "unclassifiable / not a common diagnostic test"
+ ]
+]

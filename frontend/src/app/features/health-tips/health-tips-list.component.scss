@@ -1,0 +1,94 @@
+:host { display: block; font-family: var(--font-sans); color: #0D1F3C; background: #fff; }
+* { box-sizing: border-box; }
+.shell { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+.ht-hero {
+  background: linear-gradient(180deg, #EEF4FF 0%, #E6F9F8 55%, #FFFFFF 100%);
+  padding: 72px 0 56px;
+  text-align: center;
+}
+.ht-eyebrow {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: #E6F8F7; color: #007A76;
+  border: 1px solid rgba(0,180,174,0.28);
+  padding: 6px 16px; border-radius: 100px;
+  font-size: 12px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase;
+  margin-bottom: 18px;
+  mat-icon { font-size: 16px; width: 16px; height: 16px; }
+}
+.ht-h1 {
+  font-family: var(--font-display); font-weight: 800;
+  font-size: clamp(32px, 4.5vw, 48px); line-height: 1.12;
+  color: #0D1F3C; margin: 0 0 16px;
+}
+.ht-lead { font-size: 17px; color: #4B5563; line-height: 1.7; max-width: 640px; margin: 0 auto; }
+
+.ht-section { padding: 64px 0 96px; }
+.ht-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+
+.ht-card {
+  display: flex; flex-direction: column;
+  background: #fff; border-radius: 22px; overflow: hidden;
+  border: 1px solid #EEF2FF; box-shadow: 0 4px 20px rgba(0,71,204,0.06);
+  text-decoration: none; color: inherit;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  &:hover { transform: translateY(-5px); box-shadow: 0 24px 52px rgba(0,71,204,0.14); }
+  &__media { position: relative; height: 200px; overflow: hidden;
+    img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.45s ease; } }
+  &:hover &__media img { transform: scale(1.06); }
+  &__body { display: flex; flex-direction: column; flex: 1; padding: 22px 24px 24px; }
+}
+.ht-cat {
+  position: absolute; top: 14px; left: 14px;
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 6px 12px; border-radius: 100px;
+  font-size: 11.5px; font-weight: 700; letter-spacing: 0.02em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  mat-icon { font-size: 15px; width: 15px; height: 15px; }
+}
+.ht-meta {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-size: 12.5px; font-weight: 600; color: #94A3B8; margin-bottom: 10px;
+  mat-icon { font-size: 16px; width: 16px; height: 16px; }
+}
+.ht-title {
+  font-family: var(--font-display); font-weight: 700; font-size: 18px;
+  line-height: 1.4; color: #0D1F3C; margin: 0 0 10px;
+}
+.ht-desc { font-size: 14px; color: #6B7280; line-height: 1.65; margin: 0 0 18px; flex: 1; }
+.ht-more {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-family: var(--font-display); font-weight: 700; font-size: 14px;
+  mat-icon { font-size: 17px; width: 17px; height: 17px; transition: transform 0.2s ease; }
+}
+.ht-card:hover .ht-more mat-icon { transform: translateX(3px); }
+
+.ht-cta {
+  margin-top: 56px;
+  display: flex; align-items: center; justify-content: space-between; gap: 28px;
+  background: linear-gradient(135deg, #0047CC 0%, #00B4AE 100%);
+  border-radius: 24px; padding: 40px 48px; color: #fff;
+  h3 { font-family: var(--font-display); font-weight: 800; font-size: 24px; margin: 0 0 8px; }
+  p { margin: 0; font-size: 15px; color: rgba(255,255,255,0.9); max-width: 520px; }
+}
+
+.btn-primary {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  font-family: var(--font-display); font-weight: 700; border-radius: 12px;
+  padding: 14px 28px; border: none; cursor: pointer; text-decoration: none;
+  white-space: nowrap; font-size: 15px; background: #fff; color: #0047CC;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15); transition: transform 0.2s ease, box-shadow 0.2s ease;
+  &:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(0,0,0,0.22); }
+  &--lg { padding: 16px 32px; font-size: 16px; }
+  mat-icon { font-size: 18px; width: 18px; height: 18px; }
+}
+
+@media (max-width: 900px) {
+  .ht-grid { grid-template-columns: repeat(2, 1fr); }
+  .ht-cta { flex-direction: column; align-items: flex-start; text-align: left; }
+}
+@media (max-width: 560px) {
+  .ht-grid { grid-template-columns: 1fr; }
+  .ht-hero { padding: 56px 0 40px; }
+  .ht-cta { padding: 32px 26px; }
+}

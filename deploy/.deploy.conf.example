@@ -1,0 +1,18 @@
+# =============================================================================
+# .deploy.conf.example
+#
+# Copy this file to deploy/.deploy.conf and fill in your OCI VM details.
+# deploy/.deploy.conf is gitignored — never commit it.
+# =============================================================================
+
+# OCI VM public IP address (from OCI Console → Compute → Instance details)
+VM_HOST=1.2.3.4
+
+# SSH login user (Ubuntu VMs default to 'ubuntu')
+VM_USER=ubuntu
+
+# Path to your OCI private key (the .key file you downloaded when creating the VM)
+VM_KEY=~/.ssh/oci_key
+
+# Remote application directory (created by setup-server.sh)
+DEPLOY_DIR=/opt/sri-diagnostics

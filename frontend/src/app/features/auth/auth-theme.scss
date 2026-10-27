@@ -1,0 +1,666 @@
+// =============================================================================
+// SRI HEALTH PLUS — AUTHENTICATION DESIGN SYSTEM
+// Premium, reusable auth experience shared by every auth screen via styleUrls.
+// Immersive gradient "canvas" + floating glass panel. No hard blue/white split.
+// =============================================================================
+
+:host {
+  // ── Brand palette ─────────────────────────────────────────────────────────
+  --brand:        #0047CC;   // app primary blue (matches buttons + brand app-wide)
+  --brand-strong: #003399;
+  --brand-deep:   #001B57;
+  --emerald:      #10B981;   // secondary
+  --cyan:         #06B6D4;   // accent
+  --brand-soft:   #EEF4FF;
+  --emerald-soft: #ECFDF5;
+
+  // ── Semantic ──────────────────────────────────────────────────────────────
+  --success: #22C55E;   --success-soft: #DCFCE7;
+  --warning: #F59E0B;   --warning-soft: #FEF3C7;
+  --error:   #EF4444;   --error-soft:   #FEF2F2;   --error-ink: #B91C1C;
+
+  // ── Neutrals ──────────────────────────────────────────────────────────────
+  --bg:      #F8FAFC;
+  --surface: #FFFFFF;
+  --line:    #E5E7EB;
+  --line-2:  #EEF2F7;
+  --ink:     #0F172A;
+  --ink-2:   #475569;
+  --ink-3:   #94A3B8;
+
+  // ── Shape & type ──────────────────────────────────────────────────────────
+  --r-sm: 10px;  --r-md: 14px;  --r-lg: 20px;  --r-xl: 28px;
+  --font-display: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body:    'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --shadow-panel: 0 30px 70px -24px rgba(15, 40, 110, 0.30), 0 8px 24px -12px rgba(15, 40, 110, 0.14);
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+
+  display: block;
+  font-family: var(--font-body);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+// =============================================================================
+// SHELL + GRADIENT CANVAS
+// =============================================================================
+.auth-shell {
+  position: relative;
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow: hidden;
+  background:
+    radial-gradient(1100px 620px at 8% -4%,  rgba(0, 71, 204, 0.16), transparent 58%),
+    radial-gradient(900px 620px at 104% 8%,  rgba(6, 182, 212, 0.14),  transparent 55%),
+    radial-gradient(1000px 700px at 92% 108%, rgba(16, 185, 129, 0.14), transparent 58%),
+    linear-gradient(180deg, #F4F8FF 0%, var(--bg) 60%);
+  animation: authFade 0.5s ease both;
+}
+
+// back-to-home button (top-left)
+.auth-back {
+  position: absolute;
+  top: clamp(16px, 3vw, 28px);
+  left: clamp(16px, 3vw, 28px);
+  z-index: 20;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  height: 40px;
+  padding: 0 16px 0 11px;
+  background: rgba(255, 255, 255, 0.86);
+  border: 1px solid var(--border, #E2E8F0);
+  border-radius: 999px;
+  color: var(--ink, #0F172A);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
+  transition: background 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+}
+.auth-back svg {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.18s ease;
+}
+.auth-back:hover {
+  background: #fff;
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.12);
+}
+.auth-back:hover svg { transform: translateX(-3px); }
+.auth-back:focus-visible {
+  outline: 2px solid var(--brand, #0047CC);
+  outline-offset: 3px;
+}
+@media (max-width: 640px) {
+  // collapse to a compact icon-only pill on small screens
+  .auth-back { padding: 0; width: 40px; justify-content: center; }
+  .auth-back span { display: none; }
+}
+
+// dotted texture overlay
+.auth-shell::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(0, 71, 204, 0.12) 1px, transparent 1px);
+  background-size: 26px 26px;
+  -webkit-mask-image: radial-gradient(1200px 700px at 30% 20%, #000 0%, transparent 75%);
+          mask-image: radial-gradient(1200px 700px at 30% 20%, #000 0%, transparent 75%);
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+// floating soft blobs
+.auth-bg { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(50px);
+  opacity: 0.55;
+  animation: blobFloat 18s ease-in-out infinite;
+}
+.blob--1 { width: 460px; height: 460px; top: -140px; left: -120px;
+  background: radial-gradient(circle, rgba(0, 71, 204, 0.45), transparent 70%); }
+.blob--2 { width: 420px; height: 420px; bottom: -160px; right: -100px;
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.40), transparent 70%); animation-delay: -6s; }
+.blob--3 { width: 360px; height: 360px; top: 40%; right: 18%;
+  background: radial-gradient(circle, rgba(6, 182, 212, 0.32), transparent 70%); animation-delay: -11s; }
+
+// =============================================================================
+// STAGE — asymmetric two-column layout, both floating on the canvas
+// =============================================================================
+.auth-stage {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  min-height: 100dvh;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 40px;
+
+  @media (min-width: 1024px) {
+    grid-template-columns: 1.05fr 0.95fr;
+    padding: 40px clamp(32px, 5vw, 72px);
+    gap: clamp(40px, 5vw, 88px);
+  }
+}
+
+// =============================================================================
+// SHOWCASE (brand side) — content sits directly on the canvas
+// =============================================================================
+.auth-showcase {
+  display: none;
+  flex-direction: column;
+  gap: 34px;
+  animation: authRise 0.6s var(--ease) both;
+  animation-delay: 0.05s;
+
+  @media (min-width: 1024px) { display: flex; }
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+  color: var(--ink);
+  width: fit-content;
+}
+.brand:focus-visible { outline: 2px solid var(--brand); outline-offset: 4px; border-radius: 12px; }
+.brand-logo {
+  width: 60px; height: 60px; flex-shrink: 0;
+  border-radius: 16px;
+  display: grid; place-items: center;
+  background: var(--surface);
+  box-shadow: 0 8px 20px -10px rgba(0, 71, 204, 0.5), 0 0 0 1px rgba(0, 71, 204, 0.08);
+}
+.brand-logo img { width: 52px; height: 52px; object-fit: contain; border-radius: 50%; }
+.brand-text { display: flex; flex-direction: column; gap: 2px; }
+.brand-name { font-family: var(--font-display); font-size: 19px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; }
+.brand-tag  { font-size: 13px; color: var(--ink-2); font-weight: 500; }
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  padding: 7px 14px;
+  border-radius: 999px;
+  background: rgba(0, 71, 204, 0.10);
+  border: 1px solid rgba(0, 71, 204, 0.18);
+  color: var(--brand-strong);
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.eyebrow::before {
+  content: ''; width: 7px; height: 7px; border-radius: 50%;
+  background: var(--emerald); box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.22);
+}
+
+.showcase-title {
+  font-family: var(--font-display);
+  font-size: clamp(34px, 3.6vw, 50px);
+  font-weight: 800;
+  line-height: 1.06;
+  letter-spacing: -0.03em;
+  margin: 0;
+  color: var(--ink);
+  text-wrap: balance;
+}
+.showcase-title .grad {
+  background: linear-gradient(100deg, var(--brand) 0%, var(--cyan) 55%, var(--emerald) 100%);
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent; color: transparent;
+}
+.showcase-sub {
+  font-size: 17px;
+  line-height: 1.62;
+  color: var(--ink-2);
+  margin: 0;
+  max-width: 460px;
+}
+
+// trust chips
+.trust-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 12px; }
+.trust-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 16px 11px 12px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 10px 24px -18px rgba(15, 40, 110, 0.5);
+  backdrop-filter: blur(10px);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+  animation: authRise 0.5s var(--ease) both;
+}
+.trust-chip i {
+  width: 30px; height: 30px; flex-shrink: 0;
+  display: grid; place-items: center;
+  border-radius: 9px;
+  color: #fff;
+}
+.trust-chip svg { width: 17px; height: 17px; }
+.trust-chip--blue i    { background: linear-gradient(135deg, var(--brand), var(--brand-strong)); }
+.trust-chip--emerald i { background: linear-gradient(135deg, var(--emerald), #059669); }
+.trust-chip--cyan i    { background: linear-gradient(135deg, var(--cyan), #0891B2); }
+.trust-chip--violet i  { background: linear-gradient(135deg, #6366F1, #4F46E5); }
+.trust-list .trust-chip:nth-child(2) { animation-delay: 0.08s; }
+.trust-list .trust-chip:nth-child(3) { animation-delay: 0.16s; }
+.trust-list .trust-chip:nth-child(4) { animation-delay: 0.24s; }
+
+// stat row
+.stat-row { display: flex; align-items: center; gap: 26px; flex-wrap: wrap; }
+.stat b { font-family: var(--font-display); display: block; font-size: 24px; font-weight: 800; letter-spacing: -0.02em; color: var(--ink); }
+.stat span { font-size: 13px; color: var(--ink-2); }
+.stat-div { width: 1px; height: 34px; background: var(--line); }
+
+// =============================================================================
+// PANEL (form side) — the floating card
+// =============================================================================
+.auth-panel-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  animation: authRise 0.6s var(--ease) both;
+  animation-delay: 0.12s;
+}
+
+.auth-panel {
+  position: relative;
+  width: 100%;
+  max-width: 460px;
+  background: rgba(255, 255, 255, 0.86);
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: var(--r-xl);
+  box-shadow: var(--shadow-panel);
+  padding: 36px 32px;
+  overflow: hidden;
+
+  @media (min-width: 480px) { padding: 40px 40px 36px; }
+}
+// top accent hairline
+.auth-panel::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, var(--brand), var(--cyan), var(--emerald));
+}
+
+// mobile brand (inside panel, < 1024)
+.panel-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 26px;
+  @media (min-width: 1024px) { display: none; }
+}
+.panel-brand .brand-logo { width: 52px; height: 52px; border-radius: 14px; }
+.panel-brand .brand-logo img { width: 44px; height: 44px; }
+.panel-brand .brand-name { font-size: 18px; }
+
+// badge icon (forgot / otp / reset headers)
+.panel-badge {
+  width: 62px; height: 62px;
+  margin: 0 auto 20px;
+  display: grid; place-items: center;
+  border-radius: 18px;
+  color: var(--brand);
+  background: linear-gradient(135deg, var(--brand-soft), #E4EDFF);
+  box-shadow: inset 0 0 0 1px rgba(0, 71, 204, 0.12);
+}
+.panel-badge svg { width: 30px; height: 30px; }
+.panel-badge--amber   { color: #D97706; background: linear-gradient(135deg, #FEF3C7, #FDE68A); box-shadow: inset 0 0 0 1px rgba(217, 119, 6, 0.14); }
+.panel-badge--emerald { color: #059669; background: linear-gradient(135deg, var(--emerald-soft), #C7F5E4); box-shadow: inset 0 0 0 1px rgba(5, 150, 105, 0.14); }
+
+.panel-head { text-align: center; margin-bottom: 26px; }
+.panel-eyebrow {
+  display: inline-block;
+  font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--brand-strong); margin-bottom: 10px;
+}
+.panel-title {
+  font-family: var(--font-display);
+  font-size: 27px; font-weight: 800; letter-spacing: -0.02em;
+  color: var(--ink); margin: 0 0 8px;
+}
+.panel-sub { font-size: 15px; line-height: 1.55; color: var(--ink-2); margin: 0; }
+.panel-sub strong { color: var(--ink); font-weight: 700; }
+
+// =============================================================================
+// SEGMENTED TOGGLE (login: password / phone)
+// =============================================================================
+.seg {
+  display: flex;
+  gap: 4px;
+  padding: 5px;
+  background: var(--line-2);
+  border-radius: var(--r-md);
+  margin-bottom: 22px;
+}
+.seg-btn {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 42px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--ink-2);
+  font: 600 14px/1 var(--font-body);
+  cursor: pointer;
+  transition: color 0.2s, background 0.2s, box-shadow 0.2s;
+}
+.seg-btn svg { width: 17px; height: 17px; }
+.seg-btn:hover:not(.is-active) { color: var(--ink); }
+.seg-btn.is-active {
+  background: var(--surface);
+  color: var(--brand-strong);
+  box-shadow: 0 2px 10px -3px rgba(0, 71, 204, 0.4), 0 0 0 1px rgba(0, 71, 204, 0.06);
+}
+.seg-btn:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+
+// =============================================================================
+// FORM
+// =============================================================================
+.auth-form { display: flex; flex-direction: column; gap: 18px; }
+
+.field { display: flex; flex-direction: column; gap: 7px; }
+
+// Floating-label control — auth keeps its own label behaviour and glass fill,
+// but every shared measurement comes from the app-wide --input-* tokens so this
+// field and <app-input> can never drift apart. This field is the reference the
+// rest of the app's inputs were standardised from.
+.field-control { position: relative; }
+.field-control input {
+  width: 100%;
+  height: var(--input-height-md);
+  // Vertically centred — the label lives on the border line, not inside
+  // the box, so no reserved headroom is needed here.
+  padding: 0 var(--input-padding-x) 0 var(--input-padding-icon);
+  border: var(--input-border-width) solid var(--line);
+  border-radius: var(--input-radius);
+  background: rgba(255, 255, 255, 0.75);
+  font: var(--input-font-weight) var(--input-font-size)/1.2 var(--font-body);
+  color: var(--ink);
+  transition:
+    border-color var(--input-transition),
+    box-shadow var(--input-transition),
+    background var(--input-transition);
+}
+.field-control input::placeholder { color: transparent; }
+.field-control input:hover:not(:focus) { border-color: var(--input-border-hover); }
+.field-control input:focus {
+  outline: none;
+  border-color: var(--brand);
+  background: #fff;
+  box-shadow: var(--input-ring);
+}
+.field-icon {
+  position: absolute; left: var(--input-icon-inset); top: 50%; transform: translateY(-50%);
+  width: var(--input-icon-size); height: var(--input-icon-size); color: var(--ink-3);
+  pointer-events: none; transition: color 0.18s;
+}
+.field-control:focus-within .field-icon { color: var(--brand); }
+// Material-style "notched border" label. At rest it sits centred inside the
+// box like a placeholder; floated, it moves up to straddle the top border
+// line, with an opaque background patch behind the text that visually cuts
+// a gap in the border — the surface color must match whatever sits directly
+// behind the border (the panel background), not the input's own translucent fill.
+.field-control label {
+  position: absolute; left: 47px; top: 50%; transform: translateY(-50%);
+  font-size: 15px; font-weight: 500; color: var(--ink-3);
+  padding: 0 6px; margin-left: -6px;
+  background: transparent;
+  pointer-events: none;
+  transition: top 0.16s var(--ease), font-size 0.16s var(--ease), color 0.16s, font-weight 0.16s, background 0.16s;
+}
+.field-control input:focus ~ label,
+.field-control input:not(:placeholder-shown) ~ label,
+.field-control input:-webkit-autofill ~ label {
+  top: 0; transform: translateY(-50%);
+  font-size: 11.5px; font-weight: 700; letter-spacing: 0.02em;
+  color: var(--brand-strong);
+  background: var(--surface);
+}
+// Browser autofill (e.g. Chrome remembering a saved email/password) paints its
+// own background/text color via UA styles and doesn't reliably re-trigger
+// :placeholder-shown, which is why an autofilled field could show its label
+// stuck in the un-floated position, overlapping the filled-in value. The
+// :-webkit-autofill rule above forces the float; this neutralises the native
+// autofill paint (long transition-delay trick) so the field keeps the app's
+// own background instead of the browser's yellow/blue highlight.
+.field-control input:-webkit-autofill,
+.field-control input:-webkit-autofill:hover,
+.field-control input:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--ink);
+  -webkit-box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0.75) inset;
+  box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0.75) inset;
+  transition: background-color 0s 600000s, color 0s 600000s;
+}
+// eye / trailing button
+.field-eye {
+  position: absolute; right: 10px; top: 50%; transform: translateY(-50%);
+  width: 34px; height: 34px;
+  display: grid; place-items: center;
+  border: none; background: transparent; border-radius: 8px;
+  color: var(--ink-3); cursor: pointer;
+  transition: color 0.18s, background 0.18s;
+}
+.field-eye svg { width: 20px; height: 20px; }
+.field-eye:hover { color: var(--ink-2); background: var(--line-2); }
+.field-eye:focus-visible { outline: 2px solid var(--brand); outline-offset: 1px; }
+
+// invalid state
+.field--invalid .field-control input { border-color: var(--input-error); }
+.field--invalid .field-control input:focus { box-shadow: var(--input-ring-error); }
+.field--invalid .field-icon { color: var(--error); }
+
+.field-msg { font-size: 12.5px; line-height: 1.4; color: var(--ink-3); margin: 0; padding-left: 4px; }
+.field-msg--error {
+  display: flex; align-items: center; gap: 6px;
+  color: var(--error-ink); font-weight: 500;
+}
+.field-msg--error svg { width: 14px; height: 14px; flex-shrink: 0; }
+
+// =============================================================================
+// CHECKBOX + ROW
+// =============================================================================
+.form-row {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; margin-top: -2px;
+}
+.check { display: inline-flex; align-items: flex-start; gap: 10px; cursor: pointer; user-select: none; }
+.check input {
+  appearance: none; -webkit-appearance: none;
+  width: 20px; height: 20px; flex-shrink: 0; margin: 0;
+  border: 1.5px solid var(--line); border-radius: 6px;
+  background: #fff; cursor: pointer; position: relative;
+  transition: background 0.15s, border-color 0.15s;
+}
+.check input:checked { background: var(--brand); border-color: var(--brand); }
+.check input:checked::after {
+  content: ''; position: absolute; left: 6px; top: 2.5px;
+  width: 5px; height: 10px; border: solid #fff; border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.check input:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+.check span { font-size: 13.5px; color: var(--ink-2); line-height: 1.5; }
+.check span a { color: var(--brand-strong); font-weight: 600; text-decoration: none; }
+.check span a:hover { text-decoration: underline; }
+
+.link {
+  font-size: 13.5px; font-weight: 600; color: var(--brand-strong);
+  text-decoration: none; transition: color 0.15s;
+}
+.link:hover { color: var(--brand-deep); text-decoration: underline; }
+.link:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; border-radius: 4px; }
+
+// =============================================================================
+// BUTTONS
+// =============================================================================
+.btn {
+  position: relative;
+  display: inline-flex; align-items: center; justify-content: center; gap: 9px;
+  width: 100%; height: 54px;
+  border: none; border-radius: var(--r-md);
+  font: 700 15.5px/1 var(--font-body); letter-spacing: -0.01em;
+  cursor: pointer; overflow: hidden;
+  transition: transform 0.15s, box-shadow 0.2s, opacity 0.15s;
+}
+.btn svg { width: 18px; height: 18px; }
+.btn-primary {
+  color: #fff;
+  background: linear-gradient(135deg, var(--brand) 0%, var(--brand-strong) 100%);
+  box-shadow: 0 10px 24px -8px rgba(0, 71, 204, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+.btn-primary:hover:not(:disabled) { transform: translateY(-1px); box-shadow: 0 16px 30px -10px rgba(0, 71, 204, 0.62); }
+.btn-primary:active:not(:disabled) { transform: translateY(0); }
+.btn-primary:disabled { opacity: 0.55; cursor: not-allowed; box-shadow: none; }
+.btn-primary::after {
+  content: ''; position: absolute; top: 50%; left: 50%;
+  width: 8px; height: 8px; margin: -4px 0 0 -4px;
+  background: rgba(255, 255, 255, 0.5); border-radius: 50%;
+  transform: scale(0); opacity: 0; pointer-events: none;
+}
+.btn-primary:active:not(:disabled)::after { animation: ripple 0.6s ease-out; }
+.btn:focus-visible { outline: 2px solid var(--brand); outline-offset: 3px; }
+
+.btn-secondary {
+  color: var(--brand-strong);
+  background: var(--surface);
+  box-shadow: inset 0 0 0 1.5px var(--line);
+}
+.btn-secondary:hover:not(:disabled) { background: var(--brand-soft); box-shadow: inset 0 0 0 1.5px rgba(0, 71, 204, 0.3); }
+
+.spinner {
+  width: 20px; height: 20px; animation: spin 0.8s linear infinite;
+}
+.spinner circle { opacity: 0.25; }
+.spinner path { opacity: 1; }
+
+// social (future-ready)
+.social-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.btn-social {
+  display: inline-flex; align-items: center; justify-content: center; gap: 9px;
+  height: 48px; border-radius: var(--r-md);
+  background: var(--surface); box-shadow: inset 0 0 0 1.5px var(--line);
+  color: var(--ink-2); font: 600 14px/1 var(--font-body);
+  cursor: not-allowed;
+}
+.btn-social svg { width: 18px; height: 18px; }
+.btn-social[disabled] { opacity: 0.8; }
+
+// =============================================================================
+// DIVIDER / FOOTER
+// =============================================================================
+.divider { display: flex; align-items: center; gap: 16px; margin: 22px 0; }
+.divider::before, .divider::after { content: ''; flex: 1; height: 1px; background: var(--line); }
+.divider span { font-size: 12.5px; color: var(--ink-3); font-weight: 500; }
+
+.auth-alt { text-align: center; margin-top: 22px; font-size: 14px; color: var(--ink-2); }
+.auth-alt a { color: var(--brand-strong); font-weight: 700; text-decoration: none; margin-left: 4px; }
+.auth-alt a:hover { text-decoration: underline; }
+.auth-alt a:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; border-radius: 4px; }
+
+.back-link {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 14px; font-weight: 600; color: var(--ink-2);
+  text-decoration: none; transition: color 0.15s;
+}
+.back-link svg { width: 18px; height: 18px; }
+.back-link:hover { color: var(--brand-strong); }
+.back-link:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; border-radius: 6px; }
+
+// legal note under panel
+.panel-legal {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-size: 12.5px; color: var(--ink-3);
+}
+.panel-legal svg { width: 15px; height: 15px; color: var(--emerald); }
+
+// =============================================================================
+// ALERTS
+// =============================================================================
+.alert {
+  display: flex; align-items: flex-start; gap: 11px;
+  padding: 12px 14px; border-radius: var(--r-sm);
+  font-size: 13.5px; line-height: 1.45; margin-bottom: 18px;
+  animation: authRise 0.3s var(--ease) both;
+}
+.alert svg { width: 19px; height: 19px; flex-shrink: 0; margin-top: 1px; }
+.alert span { flex: 1; }
+.alert-x {
+  background: none; border: none; padding: 0; margin: -2px -2px 0 0;
+  font-size: 19px; line-height: 1; cursor: pointer; color: inherit; opacity: 0.7;
+}
+.alert-x:hover { opacity: 1; }
+.alert--error   { background: var(--error-soft);   border: 1px solid #FECACA; color: var(--error-ink); }
+.alert--success { background: var(--success-soft);  border: 1px solid #BBF7D0; color: #15803D; }
+.alert--info    { background: var(--brand-soft);    border: 1px solid #C7D9FF; color: var(--brand-deep); }
+
+// =============================================================================
+// SUCCESS / STATE BLOCK
+// =============================================================================
+.state { text-align: center; padding: 4px 0; animation: authRise 0.45s var(--ease) both; }
+.state-badge {
+  width: 76px; height: 76px; margin: 0 auto 22px;
+  display: grid; place-items: center; border-radius: 22px;
+  color: #059669; background: linear-gradient(135deg, var(--emerald-soft), #C7F5E4);
+  box-shadow: inset 0 0 0 1px rgba(5, 150, 105, 0.14);
+  animation: pop 0.5s var(--ease) both;
+}
+.state-badge svg { width: 38px; height: 38px; }
+.state-title { font-family: var(--font-display); font-size: 23px; font-weight: 800; letter-spacing: -0.02em; color: var(--ink); margin: 0 0 10px; }
+.state-text { font-size: 15px; line-height: 1.6; color: var(--ink-2); margin: 0 0 24px; }
+.state-text strong { color: var(--ink); }
+
+// =============================================================================
+// ANIMATIONS
+// =============================================================================
+@keyframes authFade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes authRise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+@keyframes pop { 0% { opacity: 0; transform: scale(0.7); } 60% { transform: scale(1.06); } 100% { opacity: 1; transform: scale(1); } }
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes ripple { to { transform: scale(24); opacity: 0; } }
+@keyframes blobFloat {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33%      { transform: translate(30px, -24px) scale(1.06); }
+  66%      { transform: translate(-22px, 18px) scale(0.96); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .auth-shell, .auth-showcase, .auth-panel-wrap, .trust-chip, .alert, .state, .state-badge, .blob { animation: none !important; }
+  .btn-primary:hover:not(:disabled) { transform: none; }
+  .field-control input, .field-control label, .btn { transition: none !important; }
+}
+
+// =============================================================================
+// RESPONSIVE
+// =============================================================================
+@media (max-width: 1023px) {
+  .auth-stage { grid-template-columns: 1fr; justify-items: center; padding: 28px 20px; }
+  .auth-panel-wrap { width: 100%; }
+}
+@media (max-width: 480px) {
+  .auth-panel { padding: 30px 22px; border-radius: var(--r-lg); }
+  .panel-title { font-size: 24px; }
+  .form-row { flex-wrap: wrap; }
+}

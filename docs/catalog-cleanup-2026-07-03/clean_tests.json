@@ -1,0 +1,4286 @@
+[
+ {
+  "orig_id": "e29fa32b-786c-4d71-b95b-1b75e58bb532",
+  "orig_name": "# Acute Kidney Profile",
+  "name": "Acute Kidney Profile",
+  "category": "Kidney",
+  "price": 11100.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "1a4b7962-f003-46b7-925e-b96e2fb0650d",
+  "orig_name": "Anti CCP Level",
+  "name": "Anti CCP Level",
+  "category": "Arthritis",
+  "price": 2950.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "d62630f5-fadb-461d-a39a-72bae71e365b",
+  "orig_name": "# AMINO ACIDS, QUALITATIVE, CSF,Thin Layer Chromatography, One dimensional",
+  "name": "AMINO ACIDS, CSF,Thin Layer Chromatography, One dimensional",
+  "category": "Neurology",
+  "price": 1540.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "c429a192-3b0b-4875-a8dc-00746345dc48",
+  "orig_name": "# Creatine Phosphokinase (CPK) Isoenzyme electrophoresis",
+  "name": "Creatine Phosphokinase CPK Isoenzyme electrophoresis",
+  "category": "Heart",
+  "price": 10270.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "dc54f9f5-0284-4d3c-a37e-3ee37e6d6b96",
+  "orig_name": "# CYFRA 21-1, Lung cancer marker, Serum",
+  "name": "CYFRA 21-1, Lung cancer marker",
+  "category": "Cancer Screening",
+  "price": 3817.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "c6bc874e-9458-4421-8bc3-418e1a970aef",
+  "orig_name": "# ENTAMOEBA ANTIGEN TEST RAPID, STOOL",
+  "name": "Entamoeba Antigen Test Rapid, Stool",
+  "category": "Gastroenterology",
+  "price": 1320.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "66890c73-b2ec-4c24-9f65-2742fcaf068d",
+  "orig_name": "# FEVER AND RASH PROFILE",
+  "name": "Fever And Rash Profile",
+  "category": "Fever",
+  "price": 5000.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "22d638ea-273b-4d53-9e22-2a6a867e527b",
+  "orig_name": "# HEPATITIS A VIRUS RNA DETECTION, PCR,PCR",
+  "name": "Hepatitis A Virus RNA Detection",
+  "category": "Infection",
+  "price": 6420.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "e15eac28-9cb9-4fc3-9f98-8932371a4858",
+  "orig_name": "# HEPATITIS B SURFACE ANTIGEN (QUANTITATIVE) (CMIA)",
+  "name": "Hepatitis B Surface Antigen",
+  "category": "Infection",
+  "price": 1780.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "964fa3bc-c95a-450a-b036-25d6c69c2d1d",
+  "orig_name": "# HEPATITIS D VIRUS DETECTION, PCR",
+  "name": "Hepatitis D Virus Detection",
+  "category": "Infection",
+  "price": 8340.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "8af8d3be-968a-4e67-802b-abf0d14bb078",
+  "orig_name": "# IGF BINDING PROTEIN-2 (IGFBP-2)",
+  "name": "IGF Binding Protein-2 (igfbp-2)",
+  "category": "Hormones",
+  "price": 17600.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "953a44b3-33be-4de1-974a-866566c1f4c1",
+  "orig_name": "# Kidney stone formation, Therapeutic monitoring panel",
+  "name": "Kidney stone formation, Therapeutic monitoring panel",
+  "category": "Kidney",
+  "price": 6030.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "7b02692c-e573-47c2-a178-79060c170cba",
+  "orig_name": "# PARATHYROID HORMONE RELATED PROTEIN (PTHrP)",
+  "name": "Parathyroid Hormone Related Protein (PTHrP)",
+  "category": "Hormones",
+  "price": 17700.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "7fc312e1-0d21-4aea-8a5e-7aefc307c5d1",
+  "orig_name": "# SODIUM : OSMOLALITY RATIO, SERUM,Indirect ISE, Freezing Point Depression, Calculated",
+  "name": "SODIUM : OSMOLALITY RATIO, SERUM,Indirect ISE, Freezing Point Depression, Calculated",
+  "category": "Kidney",
+  "price": 1030.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "03891c83-a83e-4d70-aeae-06335a567863",
+  "orig_name": "# UREA CYCLE DISORDER PANEL,LC-MS/MS, GC/MS",
+  "name": "Urea Cycle Disorder Panel, Gc/ms",
+  "category": "Kidney",
+  "price": 9300.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "c5809dda-dab7-4560-b64d-a469e0267f82",
+  "orig_name": "# Yellow Fever Virus",
+  "name": "Yellow Fever Virus",
+  "category": "Fever",
+  "price": 2700.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "2e843d30-01d7-4100-839d-28c4bb62d379",
+  "orig_name": "# YERSINIA ENTEROCOLITICA ANTIGEN,STOOL",
+  "name": "Yersinia Enterocolitica Antigen,stool",
+  "category": "Gastroenterology",
+  "price": 3500.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "81e00a6f-e939-4e4e-9395-d3c0a73357d3",
+  "orig_name": "11 deoxy cortisol",
+  "name": "11 deoxy cortisol",
+  "category": "Hormones",
+  "price": 3000.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "e8ff377d-01d4-424b-9fdd-f7714e54d5d9",
+  "orig_name": "24 hours urinary protein /creatinine ratio",
+  "name": "24 hours urinary protein /creatinine ratio",
+  "category": "General",
+  "price": 715.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "46d9ce49-ea93-4023-8be8-60b4463afd78",
+  "orig_name": "24hrs BUN/Creatinine Ratio",
+  "name": "24hrs BUN/Creatinine Ratio",
+  "category": "Kidney",
+  "price": 430.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "8bb47d59-5245-4191-9e02-cb00b92a1408",
+  "orig_name": "24HRS CREATININE CLEARANCE",
+  "name": "24hrs Creatinine Clearance",
+  "category": "General",
+  "price": 484.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "e6b62331-cc6f-4905-9d05-ac99e06124ec",
+  "orig_name": "25 OH Vit D (D2+D3), LCMS",
+  "name": "25 Oh Vit D (d2+d3)",
+  "category": "Vitamin",
+  "price": 2500.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "9fc42837-400e-4e06-b144-b121fef417c4",
+  "orig_name": "2hrs Urine Creatinine Clearance",
+  "name": "2hrs Urine Creatinine Clearance",
+  "category": "General",
+  "price": 240.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "4df61f71-1f59-456b-a6df-7f729198ff63",
+  "orig_name": "6HRS URINE CREATININE CLEARANCE",
+  "name": "6hrs Urine Creatinine Clearance",
+  "category": "General",
+  "price": 264.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "b187175e-9f06-4e67-a39f-6245cd6d5d52",
+  "orig_name": "ACTH Level [Adrenocorticotropic hormone]",
+  "name": "ACTH Level [Adrenocorticotropic hormone]",
+  "category": "Hormones",
+  "price": 1980.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "375a203f-ef19-4dd8-8a9b-e6fb3cc0fc70",
+  "orig_name": "CSF BETA HCG",
+  "name": "CSF Beta HCG",
+  "category": "Women's Health",
+  "price": 1177.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "946b53e4-e2a1-44ca-9c52-f61958c752c8",
+  "orig_name": "ADH - Anti Diuretic Hormone",
+  "name": "ADH - Anti Diuretic Hormone",
+  "category": "Hormones",
+  "price": 5786.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "40dcc5c5-fcba-4422-b365-77380e09db17",
+  "orig_name": "AFB (ZN) stain for Sputum",
+  "name": "AFB (ZN) stain for Sputum",
+  "category": "Respiratory",
+  "price": 240.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "dbcee3d5-c1fa-480c-ba0a-7b251151d582",
+  "orig_name": "AFB CULTURE",
+  "name": "Afb Culture",
+  "category": "Infection",
+  "price": 1210.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "601d268f-3bb7-4065-b56b-8223c7eefa12",
+  "orig_name": "AFB Culture (MGIT)",
+  "name": "Afb Culture (mgit)",
+  "category": "Infection",
+  "price": 1500.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "44829541-4060-44f0-ae20-55edf3fdbe62",
+  "orig_name": "AFP (Alpha Feto Protein) Body Fluid",
+  "name": "AFP (Alpha Feto Protein)",
+  "category": "Cancer Screening",
+  "price": 920.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "cf66ee82-5f16-453e-adda-b0582a270ad5",
+  "orig_name": "Albumin-Serum",
+  "name": "Albumin",
+  "category": "Liver",
+  "price": 220.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "0539557a-646c-4a59-b19c-c1e5769dedb3",
+  "orig_name": "Aldosterone/Plasma Renin Activity(PRA) Ratio",
+  "name": "Aldosterone/Plasma Renin Activity(PRA) Ratio",
+  "category": "Hormones",
+  "price": 8100.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "78ad3d00-5c8f-4822-b20a-84454f5d5d2a",
+  "orig_name": "Allergic Bronchopulmonary Aspergillosis Panel -ABPA",
+  "name": "Allergic Bronchopulmonary Aspergillosis Panel -ABPA",
+  "category": "Allergy",
+  "price": 5000.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "86ac8120-6a64-4f00-aeec-383f85fb0742",
+  "orig_name": "ALLERGY ANIMAL/PET DANDER PANEL , Specific IgE#",
+  "name": "Animal/Pet Dander Panel Panel IgE",
+  "category": "Allergy",
+  "price": 2420.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "281d982b-a8c0-41e9-88d0-cb6ce073e8fd",
+  "orig_name": "Allergy-Phadiatop, Adult",
+  "name": "Phadiatop Adult Allergy",
+  "category": "Allergy",
+  "price": 1331.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "f0a02e3b-2137-4a81-bca4-37669fe8688a",
+  "orig_name": "Allergy-Phadiatop, Inf",
+  "name": "Phadiatop Inf Allergy",
+  "category": "Allergy",
+  "price": 1331.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "b09a92d9-212e-48ba-80e9-65488644d2ad",
+  "orig_name": "AMINO ACID, NON- KETOTIC HYPERGLYCINEMIA PANEL QUANTITATIVE, CSF & PLASMA#",
+  "name": "Amino Acid, Non- Ketotic Hyperglycinemia Panel, CSF",
+  "category": "Neurology",
+  "price": 7960.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "120dcc07-0741-4c62-af50-5f7ca1fa84ab",
+  "orig_name": "Amylase,Fluid",
+  "name": "Amylase",
+  "category": "Gastroenterology",
+  "price": 638.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "b095db49-0f73-446f-9a39-be77cf710cef",
+  "orig_name": "ANA 25",
+  "name": "ANA 25",
+  "category": "Arthritis",
+  "price": 3800.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "5e61ce23-1e7f-41d7-b4f7-737f26ddf063",
+  "orig_name": "ANA BLOT / ENA PROFILE (IgG)",
+  "name": "ANA Blot / ENA Profile IgG",
+  "category": "Arthritis",
+  "price": 5500.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "db6b3cfd-c716-4014-aec0-e418ac29726e",
+  "orig_name": "Anaerobic Culture",
+  "name": "Anaerobic Culture",
+  "category": "Infection",
+  "price": 1500.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a0a36b5a-0312-4c5a-9c59-a433bc2aa13a",
+  "orig_name": "ANEROBIC CULTURE",
+  "name": "Anerobic Culture",
+  "category": "Infection",
+  "price": 1500.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "899088b6-4692-4e9b-af6a-5acb606a8767",
+  "orig_name": "Anti Mullerian Hormone -(AMH)",
+  "name": "Anti Mullerian Hormone AMH",
+  "category": "Women's Health",
+  "price": 2400.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "e25dc65c-03b7-4eb4-ae95-7843970243af",
+  "orig_name": "Anti Nuclear Antibody ( IIF )",
+  "name": "Anti Nuclear Antibody",
+  "category": "Arthritis",
+  "price": 2000.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "76555657-78fd-4123-b8c3-aea7c3a3712c",
+  "orig_name": "Anti Thyroid Antibody",
+  "name": "Anti Thyroid Antibody",
+  "category": "Thyroid",
+  "price": 2600.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "2cc06dcc-31a4-4933-9d88-67154392b35e",
+  "orig_name": "ANTIBODY TO HEPATITIS B CORE ANTIGEN",
+  "name": "Antibody To Hepatitis B Core Antigen",
+  "category": "Infection",
+  "price": 2178.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "d5ff966c-758b-4dcf-9341-ca64384bd56a",
+  "orig_name": "Apolipoprotein A - 1",
+  "name": "Apolipoprotein A - 1",
+  "category": "Heart",
+  "price": 594.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "dc3cd53f-9c74-4da9-b33f-20671be250a5",
+  "orig_name": "Apolipoprotein A-1+B",
+  "name": "Apolipoprotein A-1+B",
+  "category": "Heart",
+  "price": 800.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "235f4667-6640-4acd-a92b-8dac0685ca71",
+  "orig_name": "Apolipoprotein B",
+  "name": "Apolipoprotein B",
+  "category": "Heart",
+  "price": 594.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "5accae07-3136-46b6-8231-6405015632b1",
+  "orig_name": "Arsenic Creatinine ratio",
+  "name": "Arsenic Creatinine ratio",
+  "category": "General",
+  "price": 3530.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "6edef314-2d39-4d55-986d-991482f4e15c",
+  "orig_name": "ARTERIAL BLOOD GAS (ABG)",
+  "name": "Arterial Blood Gas (ABG)",
+  "category": "Respiratory",
+  "price": 500.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "281a7d30-f066-4dc5-8d94-1cbcc0aec8a7",
+  "orig_name": "ASCITIC FLUID CULTURE",
+  "name": "Ascitic Fluid Culture",
+  "category": "Infection",
+  "price": 1200.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "353e020c-d4bb-4e33-a8ae-2d5c8a2d0e28",
+  "orig_name": "Autoimmune Hepatitis Profile(EIA)",
+  "name": "Autoimmune Hepatitis Profile",
+  "category": "Infection",
+  "price": 4070.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "5225cbe6-871c-41ac-93ac-c19ebcfb466f",
+  "orig_name": "Autoimmune Liver Disease Profile - 4",
+  "name": "Autoimmune Liver Disease Profile - 4",
+  "category": "Liver",
+  "price": 5725.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "9153b9c8-8f45-429c-ad84-62fa9cfc72a8",
+  "orig_name": "Autoimmune Liver Disease Profile 1 Test",
+  "name": "Autoimmune Liver Disease Profile 1 Test",
+  "category": "Liver",
+  "price": 6100.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "fbe261df-a6ac-418f-b338-e142a771268c",
+  "orig_name": "Autoimmune Liver Disease Profile-3",
+  "name": "Autoimmune Liver Disease Profile-3",
+  "category": "Liver",
+  "price": 4240.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "077b420a-cce6-4037-b305-32e7773c344f",
+  "orig_name": "B - Type Natriuretic Peptide (BNP)",
+  "name": "B - Type Natriuretic Peptide (BNP)",
+  "category": "Heart",
+  "price": 2398.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "942f6ec9-4f50-4625-80b2-51f429f79cb2",
+  "orig_name": "Beta 2 Microglobulin, CSF#",
+  "name": "Beta 2 Microglobulin",
+  "category": "Cancer Screening",
+  "price": 1780.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "bd4a6fa7-71ed-4e7f-a03d-0dbffa65c133",
+  "orig_name": "Beta HCG level",
+  "name": "Beta HCG level",
+  "category": "Women's Health",
+  "price": 1200.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "5df85bc1-c62f-4de9-af8c-9b2752c2cbc4",
+  "orig_name": "Bilirubin level Total",
+  "name": "Bilirubin level Total",
+  "category": "Liver",
+  "price": 187.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "0df1686d-3f79-4788-945e-2f94d30f9066",
+  "orig_name": "BILIRUBIN, FLUID",
+  "name": "Bilirubin",
+  "category": "Liver",
+  "price": 220.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "e5d9f79a-9473-4759-bdf5-9721eab17a52",
+  "orig_name": "Bioavailable Testosterone",
+  "name": "Bioavailable Testosterone",
+  "category": "General",
+  "price": 2200.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "13811107-cf66-4305-97a9-318ac920a0a9",
+  "orig_name": "Biofire Blood Culture ID Panel",
+  "name": "Biofire Blood Culture ID Panel",
+  "category": "Infection",
+  "price": 29500.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "3e2047f6-223a-4558-b7e2-e429b29da3b2",
+  "orig_name": "Blood Group & RH",
+  "name": "Blood Group & RH",
+  "category": "Anemia / Blood",
+  "price": 400.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "371494ab-3a11-46ba-b934-101312054d04",
+  "orig_name": "Blood Urea Nitrogen (BUN)",
+  "name": "Blood Urea Nitrogen BUN",
+  "category": "Kidney",
+  "price": 200.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "3b1be183-14b8-4a22-afbf-b47983faadbb",
+  "orig_name": "Blood Urea Nitrogen (BUN) - CT",
+  "name": "Blood Urea Nitrogen BUN - CT",
+  "category": "Kidney",
+  "price": 143.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "4e6dbbdb-8dc1-462a-9699-e9616c9c21c7",
+  "orig_name": "Bone Formation Markers Test",
+  "name": "Bone Formation Markers Test",
+  "category": "Bone Health",
+  "price": 6625.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "ad0e8923-0c43-4008-91a5-23e77189c471",
+  "orig_name": "Bone Marrow Aspiration and Reporting",
+  "name": "Bone Marrow Aspiration and Reporting",
+  "category": "Bone Health",
+  "price": 2900.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "e95af159-124c-43e6-8998-fe26c7596943",
+  "orig_name": "BONE MARROW CULTURE AND SENSITIVITY",
+  "name": "Bone Marrow Culture And Sensitivity",
+  "category": "Bone Health",
+  "price": 1270.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "764a1340-7a3d-4d46-ab9c-12e909d9a453",
+  "orig_name": "Bone Marrow Reporting",
+  "name": "Bone Marrow Reporting",
+  "category": "Bone Health",
+  "price": 3500.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "1bca66ca-2292-489d-9756-27b2a0afc12f",
+  "orig_name": "Bone marrow second opinion (stained slides)",
+  "name": "Bone marrow second opinion (stained slides)",
+  "category": "Bone Health",
+  "price": 726.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "42aa7d67-d2b5-44ad-ac70-e67cf910ca04",
+  "orig_name": "Bone Profile",
+  "name": "Bone Profile",
+  "category": "Bone Health",
+  "price": 1145.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a4ba623b-21fc-4e63-a6b1-9fec0719496c",
+  "orig_name": "Bone Resorption Marker Test",
+  "name": "Bone Resorption Marker Test",
+  "category": "Bone Health",
+  "price": 4505.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "9e550749-e088-4b35-ae35-95506dbc7068",
+  "orig_name": "Bone specific alkaline phosphatase",
+  "name": "Bone specific alkaline phosphatase",
+  "category": "Bone Health",
+  "price": 6358.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "3ae1101f-18a3-430f-9e5f-239fcaf1c830",
+  "orig_name": "BUN/Creatinine Ratio",
+  "name": "BUN/Creatinine Ratio",
+  "category": "Kidney",
+  "price": 270.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "7559e493-a659-4e6c-9f77-a01fd363cfcd",
+  "orig_name": "C-PEPTIDE (AFTER STIMULATION BY GLUCAGON)",
+  "name": "C-peptide (after Stimulation By Glucagon)",
+  "category": "Diabetes",
+  "price": 1276.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "83bd4336-ac91-4c86-bafb-377cc99199d6",
+  "orig_name": "C-Peptide level",
+  "name": "C-Peptide level",
+  "category": "Diabetes",
+  "price": 1452.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "233b03c0-fe2c-4eb8-a8c0-d831d686a25e",
+  "orig_name": "C-PEPTIDE RESPONSE TO GLUCOSE, 5 HOURS,ChemiluminescentImmunoassay,Hexokinase",
+  "name": "C-PEPTIDE RESPONSE TO GLUCOSE, 5 HOURS,ChemiluminescentImmunoassay,Hexokinase",
+  "category": "Diabetes",
+  "price": 11190.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "95c35dde-8eea-41ef-9eb4-1b4ef0f5c722",
+  "orig_name": "C-PEPTIDE, 24-HOUR URINE",
+  "name": "C-peptide, 24-hour",
+  "category": "Diabetes",
+  "price": 1350.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "d21f56c6-3b41-4601-b50b-19115fa41db4",
+  "orig_name": "C-Peptide,Fasting,Serum",
+  "name": "C-Peptide,Fasting",
+  "category": "Diabetes",
+  "price": 1452.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "1b9ac1be-e0b6-48cf-b374-79933544244d",
+  "orig_name": "C-Peptide,PP,Serum",
+  "name": "C-Peptide,PP",
+  "category": "Diabetes",
+  "price": 1452.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "0a6a0f16-c2e8-427e-a3c5-364aa4015480",
+  "orig_name": "CA 72.4- Gastric Cancer Marker",
+  "name": "CA 72.4- Gastric Cancer Marker",
+  "category": "Cancer Screening",
+  "price": 2046.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "d2d0a2e0-a19c-4e78-b61a-61947f35e9df",
+  "orig_name": "CA-125 level",
+  "name": "CA-125 level",
+  "category": "Women's Health",
+  "price": 1400.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "f79040b7-47c5-44f9-965c-3ca8f3854b4b",
+  "orig_name": "Calcium",
+  "name": "Calcium",
+  "category": "Bone Health",
+  "price": 260.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "1083cce1-271d-4342-9a03-6884606e2669",
+  "orig_name": "CALCIUM EXCRETION 2 HOUR FASTING URINE,Arsenazo III",
+  "name": "Calcium Excretion 2 Hour Fasting URINE,Arsenazo Iii",
+  "category": "Bone Health",
+  "price": 330.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "be19943e-2f08-4476-922d-822d6ab1b19b",
+  "orig_name": "Calcium Test",
+  "name": "Calcium Test",
+  "category": "Bone Health",
+  "price": 270.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "c6f0947d-cc2d-462a-8d19-c4ef92e2f307",
+  "orig_name": "Carcino Embryonic Antigen level(CEA)",
+  "name": "Carcino Embryonic Antigen level(CEA)",
+  "category": "Cancer Screening",
+  "price": 1375.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "fbdcac2e-3952-490f-9b5c-b2fe5d237aaf",
+  "orig_name": "Carcinoembryonic Antigen (CEA), Body fluids",
+  "name": "Carcinoembryonic Antigen CEA Body fluids",
+  "category": "Cancer Screening",
+  "price": 1485.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "8e94bf43-1a4c-4224-b168-3202788d0fc6",
+  "orig_name": "Cardiac Injury Profile Mini Test",
+  "name": "Cardiac Injury Profile Mini Test",
+  "category": "Heart",
+  "price": 1485.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "0be9b79a-a721-4641-8ea1-0c58304e1cf0",
+  "orig_name": "Cardiac Injury Profile-Maxi",
+  "name": "Cardiac Injury Profile-Maxi",
+  "category": "Heart",
+  "price": 4980.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "9972beec-5f6e-43a5-8b29-34306b0af136",
+  "orig_name": "Cardiac Risk Profile Test",
+  "name": "Cardiac Risk Profile Test",
+  "category": "Heart",
+  "price": 4560.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "6f27ae82-6c4b-4735-8533-ae8a9853884d",
+  "orig_name": "Cardiac Screen Test",
+  "name": "Cardiac Screen Test",
+  "category": "Heart",
+  "price": 1455.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "2551d329-0540-47e3-8a4e-f875c0f8558f",
+  "orig_name": "Cardiac Screen-1",
+  "name": "Cardiac Screen-1",
+  "category": "Heart",
+  "price": 6240.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "002af11f-c0e7-4733-94be-7e373d2095d8",
+  "orig_name": "CBC",
+  "name": "CBC",
+  "category": "Anemia / Blood",
+  "price": 480.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "249fb289-05b1-4a20-a017-db852b81dfda",
+  "orig_name": "CBC Haemogram, EDTA Blood",
+  "name": "CBC Haemogram",
+  "category": "Anemia / Blood",
+  "price": 340.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "137245bd-1a24-4dfa-b3a1-33c3593f1561",
+  "orig_name": "Estradiol level",
+  "name": "Estradiol level",
+  "category": "Women's Health",
+  "price": 726.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "00414d75-01f8-444a-a1c4-0e876dcd427a",
+  "orig_name": "CEREBRO SPINAL FLUID CULTURE",
+  "name": "Cerebro Spinal Fluid Culture",
+  "category": "Infection",
+  "price": 1540.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "eac05e28-ed97-4a61-a052-803b553398e8",
+  "orig_name": "Chikungunya antibody IgM",
+  "name": "Chikungunya antibody IgM",
+  "category": "Fever",
+  "price": 1452.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "cebcb7bc-4ec5-45ef-8cd5-89e55d9948f9",
+  "orig_name": "Chikungunya Qualitative by Real-time PCR",
+  "name": "Chikungunya by Real-time PCR",
+  "category": "Fever",
+  "price": 6420.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a644c249-3668-4da3-9124-96fa4c008933",
+  "orig_name": "Chloride",
+  "name": "Chloride",
+  "category": "Kidney",
+  "price": 209.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "49d2b808-2f17-490d-a0fb-5c9585b91313",
+  "orig_name": "Cholesterol",
+  "name": "Cholesterol",
+  "category": "Heart",
+  "price": 210.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "7d6441e6-e010-40b6-a40b-4718d743debc",
+  "orig_name": "Cholinesterase Serum",
+  "name": "Cholinesterase",
+  "category": "Neurology",
+  "price": 1122.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "c895c802-7324-44db-9dcc-4525cfd33639",
+  "orig_name": "CKD EPI EGFR",
+  "name": "Ckd Epi eGFR",
+  "category": "Kidney",
+  "price": 150.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "00f46896-bfa0-45bb-a8d2-3ec218269a1a",
+  "orig_name": "Clostridium Difficile DNA Detection by Real Time PCR - Stool",
+  "name": "Clostridium Difficile DNA Detection by Real Time PCR - Stool",
+  "category": "Gastroenterology",
+  "price": 4750.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "379399c1-ae91-4077-b117-7e729118b4c5",
+  "orig_name": "Clostridium Difficile GDH Ag + Toxin A and B Detection From Stool",
+  "name": "Clostridium Difficile GDH Ag + Toxin A and B Detection From Stool",
+  "category": "Gastroenterology",
+  "price": 2860.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "e2abc10a-0c6f-48e4-a7a2-6b86e5e9ea73",
+  "orig_name": "COAGULATION PROFILE WITH IPF",
+  "name": "Coagulation Profile With Ipf",
+  "category": "Anemia / Blood",
+  "price": 1573.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "3b24e303-9795-4a2c-b172-e51e8d04a698",
+  "orig_name": "COMPLETE BLOOD COUNT (Automated Blood Cell Counter) WITH ABS",
+  "name": "Complete Blood Count (Automated Blood Cell Counter) With Abs",
+  "category": "Anemia / Blood",
+  "price": 700.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "2c9f4f04-4107-4bb2-8cde-1e378889fca5",
+  "orig_name": "Comprehensive Non Invasive Prenatal Testing (NIPT-COMP)",
+  "name": "Comprehensive Non Invasive Prenatal Testing (NIPT-COMP)",
+  "category": "Pregnancy",
+  "price": 11000.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "f3300b96-f393-4813-a022-c261e404a008",
+  "orig_name": "CSF CRYPTOCOCCAL ANTIGEN TEST",
+  "name": "CSF Cryptococcal Antigen Test",
+  "category": "Neurology",
+  "price": 1573.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a980b50f-a19d-4094-8e58-4ac43a9e6c92",
+  "orig_name": "Cortisol 8 AM",
+  "name": "Cortisol 8 AM",
+  "category": "Hormones",
+  "price": 1300.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "4838e190-a023-4368-82fa-c1da2236f280",
+  "orig_name": "Cortisol level- Random",
+  "name": "Cortisol level- Random",
+  "category": "Hormones",
+  "price": 1210.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "00360978-258c-4be9-b4b8-7b55c2b06116",
+  "orig_name": "Cortisol PM",
+  "name": "Cortisol PM",
+  "category": "Hormones",
+  "price": 1331.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "8f368d45-80b5-4a18-bd8d-c1d73004d9d1",
+  "orig_name": "Corynebacterium diphtheriae special culture",
+  "name": "Corynebacterium diphtheriae special culture",
+  "category": "Infection",
+  "price": 1410.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "51c1e5c5-3340-4da9-9caa-356c61b229b2",
+  "orig_name": "Covid Spike Protein IgG",
+  "name": "Covid Spike Protein IgG",
+  "category": "Infection",
+  "price": 800.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a640f8b7-faa3-4dfa-bcae-0ee5e50e42ce",
+  "orig_name": "COVID-19 RAPID TEST (Truenat)",
+  "name": "Covid-19 Rapid Test (Truenat)",
+  "category": "Infection",
+  "price": 400.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "7a87b045-153b-4c0a-87fc-7d4b55b840a0",
+  "orig_name": "CPK Total",
+  "name": "CPK Total",
+  "category": "Heart",
+  "price": 550.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "8ed11996-6825-47f6-993e-31a446dfd1aa",
+  "orig_name": "CPK-MB level",
+  "name": "CPK-MB level",
+  "category": "Heart",
+  "price": 550.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "203dbc75-ddf9-4582-8649-2b60c5fe5300",
+  "orig_name": "Creatinine",
+  "name": "Creatinine",
+  "category": "General",
+  "price": 165.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "fbf4d7a8-3713-4bf9-91d7-2bc18a38f323",
+  "orig_name": "Creatinine Test, Serum",
+  "name": "Creatinine Test",
+  "category": "General",
+  "price": 270.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "376ccf00-f9d0-4d5b-8a5d-0e964aee3ed9",
+  "orig_name": "Creatinine, advanced (Above 18 years)",
+  "name": "Creatinine, advanced (Above 18 years)",
+  "category": "General",
+  "price": 300.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "398ae606-e93a-4d73-8851-f7b31f58c733",
+  "orig_name": "CRP Test (C-Reactive Protein)",
+  "name": "CRP Test (C-Reactive Protein)",
+  "category": "General",
+  "price": 620.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "f3bfde7b-fff5-41ae-8f38-d7b5809bf45c",
+  "orig_name": "Cryptosporidium Antigen From Stool",
+  "name": "Cryptosporidium Antigen From Stool",
+  "category": "Gastroenterology",
+  "price": 902.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a723477a-bece-4503-b650-47d5cce7ced3",
+  "orig_name": "CSF Albumin",
+  "name": "CSF Albumin",
+  "category": "Liver",
+  "price": 715.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "ac58848f-fa68-4175-b2b9-7107715e1878",
+  "orig_name": "CSF ALFA FETO PROTEIN",
+  "name": "CSF Alfa Feto Protein",
+  "category": "Neurology",
+  "price": 1100.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "ec5acbe6-5f28-4b38-906c-9a0844b3d48c",
+  "orig_name": "CSF FOR OLIGOCLONAL BANDS BY ISOELECTRIC FOCUSING",
+  "name": "CSF For Oligoclonal Bands By Isoelectric Focusing",
+  "category": "Neurology",
+  "price": 7700.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "1eababd7-d36f-4c72-aa84-40aa23d27f75",
+  "orig_name": "CSF HSV I/II antibody IgG",
+  "name": "CSF Hsv I/ii antibody IgG",
+  "category": "Neurology",
+  "price": 1930.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "39883a50-acaa-4bd7-a14e-ea7d6490cc43",
+  "orig_name": "CSF HSV I/II antibody IgM",
+  "name": "CSF Hsv I/ii antibody IgM",
+  "category": "Neurology",
+  "price": 450.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "e32fed7d-f3a2-4bbe-8db4-409ffb575f41",
+  "orig_name": "CSF HSV II antibody IgG",
+  "name": "CSF Hsv Ii antibody IgG",
+  "category": "Neurology",
+  "price": 880.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "c3b8cd30-c580-4625-8b76-37fad49c9a47",
+  "orig_name": "CSF IgG Index",
+  "name": "CSF IgG Index",
+  "category": "Neurology",
+  "price": 1320.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "249490ca-fef1-4e7a-85cf-0efd06cadaca",
+  "orig_name": "CSF Lactate Level",
+  "name": "CSF Lactate Level",
+  "category": "Neurology",
+  "price": 506.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "fc496897-ab6a-4821-91ff-e80d853adf2a",
+  "orig_name": "CSF TPHA",
+  "name": "CSF Tpha",
+  "category": "Neurology",
+  "price": 1200.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "e0183bae-0de6-480b-b341-d0cd71819f28",
+  "orig_name": "CSF VZV IgG Index",
+  "name": "CSF Vzv IgG Index",
+  "category": "Neurology",
+  "price": 2800.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "3faa9bb9-0d53-4868-bada-3fb99385582b",
+  "orig_name": "CSF-Viral Panel Qualitative by Real-time PCR",
+  "name": "CSF-Viral Panel by Real-time PCR",
+  "category": "Neurology",
+  "price": 12830.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "8b602175-d22f-4f77-a32e-9bb5edd95f1c",
+  "orig_name": "CULTURE, ANAEROBIC, BLOOD, RAPID",
+  "name": "Culture, Anaerobic, Blood, Rapid",
+  "category": "Infection",
+  "price": 1680.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "8db16937-e9bc-45b8-b057-f2675d2d48c0",
+  "orig_name": "CULTURE, ANAEROBIC, BODY FLUID, RAPID",
+  "name": "Culture, Anaerobic, Body Fluid, Rapid",
+  "category": "Infection",
+  "price": 1320.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "cae9c821-7b38-495b-a960-99c1e74703be",
+  "orig_name": "CULTURE, CLOSTRIDIUM DIFFICILE",
+  "name": "Culture, Clostridium Difficile",
+  "category": "Infection",
+  "price": 1540.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "6b15e5c9-3167-48b0-80f1-0414374b4e33",
+  "orig_name": "CULTURE, GONOCOCCU",
+  "name": "Culture, Gonococcu",
+  "category": "Infection",
+  "price": 1280.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "f097b3c5-8cb6-4c70-a9a4-872adc4118ce",
+  "orig_name": "Culture,Aerobic",
+  "name": "Culture,Aerobic",
+  "category": "Infection",
+  "price": 1000.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "41084474-2c42-4520-8801-d687ee8e8f23",
+  "orig_name": "Culture,Aerobic, Blood",
+  "name": "Culture,Aerobic, Blood",
+  "category": "Infection",
+  "price": 1463.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a417ba4d-ec35-4127-ab1f-dce31580f521",
+  "orig_name": "Culture,Aerobic, Sputum",
+  "name": "Culture,Aerobic, Sputum",
+  "category": "Infection",
+  "price": 1320.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "8dfd3319-3807-4103-a002-2439b19d1c35",
+  "orig_name": "Cystatin C",
+  "name": "Cystatin C",
+  "category": "Kidney",
+  "price": 924.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "5157fccd-c0ac-4909-85cf-ac597ec6d5b5",
+  "orig_name": "DDimer",
+  "name": "DDimer",
+  "category": "Respiratory",
+  "price": 1738.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "fbb72ec8-ec21-422b-b1aa-38f1fe5458c9",
+  "orig_name": "Deamidated Gliadin Peptide antibody IgA",
+  "name": "Deamidated Gliadin Peptide antibody IgA",
+  "category": "Gastroenterology",
+  "price": 2000.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "31f67920-be37-488e-8aa6-8b9e755bc182",
+  "orig_name": "Deamidated Gliadin Peptide antibody IgG",
+  "name": "Deamidated Gliadin Peptide antibody IgG",
+  "category": "Gastroenterology",
+  "price": 2000.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "f076d562-1aa3-4314-b13e-b575a7d3df43",
+  "orig_name": "Dehydroepiandrosterone (DHEA)",
+  "name": "Dehydroepiandrosterone DHEA",
+  "category": "Hormones",
+  "price": 2500.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "9abe59ca-777c-4b52-9f73-8c66305c2c87",
+  "orig_name": "Dengue antibody IgG - ELISA",
+  "name": "Dengue antibody IgG",
+  "category": "Fever",
+  "price": 300.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "83ae64e5-0a5e-42bc-927e-70b76edc959b",
+  "orig_name": "Dengue antibody IgM - ELISA",
+  "name": "Dengue antibody IgM",
+  "category": "Fever",
+  "price": 300.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "d193d341-08f3-4a5c-8c3c-f56b6ec952c5",
+  "orig_name": "Dengue Antigen (NS1)- Rapid",
+  "name": "Dengue Antigen NS1 Rapid",
+  "category": "Fever",
+  "price": 280.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "4cea97f9-fd1b-427f-a49a-5c221384bc96",
+  "orig_name": "Dengue Antigen NS1 Elisa",
+  "name": "Dengue Antigen NS1",
+  "category": "Fever",
+  "price": 300.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "f52957e4-d166-4810-a4a0-c12c9288244f",
+  "orig_name": "Dengue antigen NS1-FIA",
+  "name": "Dengue antigen NS1-FIA",
+  "category": "Fever",
+  "price": 700.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "7b2d3e01-4c81-4306-9370-adc71b5d0674",
+  "orig_name": "Dengue Qualitative by Real-time PCR",
+  "name": "Dengue by Real-time PCR",
+  "category": "Fever",
+  "price": 6160.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "68de3008-368a-405d-bab5-4de8fe378437",
+  "orig_name": "DHEA-S",
+  "name": "Dhea-s",
+  "category": "Hormones",
+  "price": 2750.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "66272688-4486-4596-abc2-33e60aa9eec7",
+  "orig_name": "Double Marker",
+  "name": "Double Marker",
+  "category": "Pregnancy",
+  "price": 3696.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "86fd7e68-5e61-4a63-b08c-bb16136bc6c2",
+  "orig_name": "Double marker by DELFIA-Smart report",
+  "name": "Double marker by DELFIA-Smart report",
+  "category": "Pregnancy",
+  "price": 2250.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "9aa339fc-02da-4c29-905c-8e38496e3e6e",
+  "orig_name": "Double Marker with Delfia Graph",
+  "name": "Double Marker with Delfia Graph",
+  "category": "Pregnancy",
+  "price": 2250.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "50392a0c-db99-4e03-99e5-20e05bc744d9",
+  "orig_name": "ENHANCED LIVER FIBROSIS (ELF) PANEL",
+  "name": "Enhanced Liver Fibrosis (elf) Panel",
+  "category": "Liver",
+  "price": 5780.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "526350be-dfe9-4dc5-a5e6-0d8d50c66701",
+  "orig_name": "ESR",
+  "name": "ESR",
+  "category": "Anemia / Blood",
+  "price": 155.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "89ad6312-1b71-4e1e-a7ea-dd9640da2242",
+  "orig_name": "ESR Automated Blood Test",
+  "name": "ESR Automated Blood Test",
+  "category": "Anemia / Blood",
+  "price": 200.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "bcce6e5e-edbd-4251-87bc-4548188963d9",
+  "orig_name": "Estimated Glomerular Filtration Rate (eGFR)",
+  "name": "Estimated Glomerular Filtration Rate eGFR",
+  "category": "Kidney",
+  "price": 250.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "596876cf-bdff-4f51-b9f5-e600a22e9f9b",
+  "orig_name": "Fasting Blood Sugar (FBS) Test",
+  "name": "Fasting Blood Sugar (FBS) Test",
+  "category": "Diabetes",
+  "price": 90.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "80021fc0-4c73-4b1d-8e01-7e9fe547da42",
+  "orig_name": "Fasting Insulin & Glucose",
+  "name": "Fasting Insulin & Glucose",
+  "category": "Diabetes",
+  "price": 850.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "add4aa9f-5fdc-4542-ad83-258dc5f2f98e",
+  "orig_name": "Fatty Liver Test",
+  "name": "Fatty Liver Test",
+  "category": "Liver",
+  "price": 6110.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "3588c7ca-ce72-4006-aa54-7062e4062799",
+  "orig_name": "Febrile agglutinins panel (combined brucella, widal & weil felix)",
+  "name": "Febrile agglutinins panel (combined brucella, widal & weil felix)",
+  "category": "Fever",
+  "price": 940.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "f83e8822-1d90-4731-bdfa-aa590e47a534",
+  "orig_name": "FERRIC CHLORIDE TEST(Phenylketonurea), URINE",
+  "name": "Ferric Chloride TEST(Phenylketonurea)",
+  "category": "Kidney",
+  "price": 160.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "645cc673-f316-47bc-849e-aafb77879ebe",
+  "orig_name": "Ferritin",
+  "name": "Ferritin",
+  "category": "Anemia / Blood",
+  "price": 1100.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "53bfa602-a3b9-4c35-b61b-47dda909eb94",
+  "orig_name": "Fluid Albumin",
+  "name": "Fluid Albumin",
+  "category": "Liver",
+  "price": 220.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "010d48dd-b15b-4b44-ad33-90df3a1daa11",
+  "orig_name": "Fluid Culture",
+  "name": "Fluid Culture",
+  "category": "Infection",
+  "price": 1320.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "6a11f0a6-8626-43ee-b975-94a37a288159",
+  "orig_name": "FLUID FOR ANTI NUCLEAR ANTIBODY TEST",
+  "name": "Fluid For Anti Nuclear Antibody Test",
+  "category": "Arthritis",
+  "price": 1166.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "ce9adf87-1155-4f63-9f70-8ba5d5d7e1ea",
+  "orig_name": "FLUID FOR BUN",
+  "name": "Fluid For BUN",
+  "category": "Kidney",
+  "price": 143.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "13ac4ae4-7d92-405c-a452-b0b0cd93d0c5",
+  "orig_name": "FLUID FOR CA 19-9",
+  "name": "Fluid For CA 19-9",
+  "category": "Cancer Screening",
+  "price": 1930.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "9919b141-bc3e-40af-b14c-949efdf18894",
+  "orig_name": "FLUID FOR CALCIUM :",
+  "name": "Fluid For Calcium",
+  "category": "Bone Health",
+  "price": 198.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "dbbf0ba9-06fb-42be-8723-7250272f84af",
+  "orig_name": "FLUID FOR CHOLESTEROL",
+  "name": "Fluid For Cholesterol",
+  "category": "Heart",
+  "price": 209.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "ebdda867-45d7-4b3f-b373-36d3db900bf0",
+  "orig_name": "FLUID FOR MAGNESIUM",
+  "name": "Fluid For Magnesium",
+  "category": "General",
+  "price": 510.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "01e68d48-76f3-4bfb-97ad-67ea906bdf75",
+  "orig_name": "FLUID FOR PARATHYROID HORMONE LEVEL (Chemilumininescence)",
+  "name": "Fluid For Parathyroid Hormone Level (Chemilumininescence)",
+  "category": "Hormones",
+  "price": 2560.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a0c2eee9-d8bc-4bca-9461-e0a71239456a",
+  "orig_name": "FLUID FOR PHOSPHORUS",
+  "name": "Fluid For Phosphorus",
+  "category": "General",
+  "price": 220.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "3fd2c61c-0f92-43e9-b457-f3d6ae9c3b8c",
+  "orig_name": "FLUID FOR RHEUMATOID FACTOR - Immunoturbidimetry",
+  "name": "Fluid For Rheumatoid Factor",
+  "category": "Arthritis",
+  "price": 650.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "24c26895-5678-4f29-b1b8-5ccde3b6bd43",
+  "orig_name": "FLUID FOR SODIUM (ISE)",
+  "name": "Fluid For Sodium (ise)",
+  "category": "Kidney",
+  "price": 180.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "558c3382-a8e4-4ac9-aa85-0292afaafef3",
+  "orig_name": "FLUID FOR UREA",
+  "name": "Fluid For Urea",
+  "category": "Kidney",
+  "price": 220.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "f146c4b1-e640-4d68-b4f6-21b686362d30",
+  "orig_name": "FLUID FOR URIC ACID",
+  "name": "Fluid For Uric Acid",
+  "category": "Kidney",
+  "price": 350.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "e422a19e-b6aa-4249-ae95-a3b449ea97dd",
+  "orig_name": "FLUID THYROGLOBULIN LEVEL (Chemiluminesence)",
+  "name": "Fluid Thyroglobulin Level (Chemiluminesence)",
+  "category": "Thyroid",
+  "price": 1710.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "25016d3f-d585-4d5c-8d1e-283b7ccbc742",
+  "orig_name": "Focus Non Invasive Prenatal Testing (NIPT-FOCUS)",
+  "name": "Focus Non Invasive Prenatal Testing (NIPT-FOCUS)",
+  "category": "Pregnancy",
+  "price": 38500.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "176aa7b1-28e7-4d3d-bfb2-5c78c1108cc8",
+  "orig_name": "Folate (Folic Acid), RBC",
+  "name": "Folate (Folic Acid), RBC",
+  "category": "Vitamin",
+  "price": 2970.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a5615db8-81d5-4b61-82a1-43ad56b1225e",
+  "orig_name": "FOLIC ACID (Chemiluminescence)",
+  "name": "Folic Acid",
+  "category": "Vitamin",
+  "price": 1595.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "9d131af5-7630-4b84-8109-8913879a8851",
+  "orig_name": "Folic Acid level",
+  "name": "Folic Acid level",
+  "category": "Vitamin",
+  "price": 800.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "03bcaab4-47bd-4a63-9c5b-e2c16746bfba",
+  "orig_name": "Follicle Stimulating Hormone level",
+  "name": "Follicle Stimulating Hormone level",
+  "category": "Hormones",
+  "price": 638.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "0f9ea9c3-63e4-43c7-b965-7d86deabba45",
+  "orig_name": "FOOD ALLERGY PANEL (Euroblot Food Allergy Basic)",
+  "name": "FOOD ALLERGY PANEL (Euroblot Food Allergy Basic)",
+  "category": "Allergy",
+  "price": 5500.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "613b1d07-5196-4812-92c9-55748edb014e",
+  "orig_name": "FRACTIONAL EXCRETION OF SODIUM",
+  "name": "Fractional Excretion Of Sodium",
+  "category": "Kidney",
+  "price": 979.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "39039cee-b78e-4c78-85a5-16e0dc2ae772",
+  "orig_name": "Free Beta HCG level",
+  "name": "Free Beta HCG level",
+  "category": "Women's Health",
+  "price": 1595.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "bfe54259-7e97-4ad7-a23e-764be75615c4",
+  "orig_name": "Free Prostate Specific Antigen",
+  "name": "Free Prostate Specific Antigen",
+  "category": "Men's Health",
+  "price": 1166.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "eee0a988-099e-461e-b0d8-b7baea3da67e",
+  "orig_name": "Free Testosterone",
+  "name": "Free Testosterone",
+  "category": "General",
+  "price": 2607.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "2c117af5-50bd-4e35-a782-4426feb698e1",
+  "orig_name": "Free Thyroid Profile",
+  "name": "Free Thyroid Profile",
+  "category": "Thyroid",
+  "price": 1089.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "5cd5d9b3-2315-4d52-96fb-3bb2f4b627c8",
+  "orig_name": "Free Thyroxine(Free T4)",
+  "name": "Free Thyroxine(Free T4)",
+  "category": "Thyroid",
+  "price": 500.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "45dbf843-9586-46c0-8be1-5fd39f6e550d",
+  "orig_name": "Free Triiodothyronine(Free T3)",
+  "name": "Free Triiodothyronine(Free T3)",
+  "category": "Thyroid",
+  "price": 460.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "e6574c3e-273b-42b9-bd7e-50d4f4c4aef8",
+  "orig_name": "Fructosamine",
+  "name": "Fructosamine",
+  "category": "Diabetes",
+  "price": 660.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "bd708b6e-545c-4dfc-8cdb-cc5591b240be",
+  "orig_name": "FSH and LH stimulation by Gonadotropin releasing hormone (GnRH)",
+  "name": "FSH and LH stimulation by Gonadotropin releasing hormone (GnRH)",
+  "category": "Fertility",
+  "price": 4180.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "20b90efa-3035-4f8f-8a73-bf2ecac2c74a",
+  "orig_name": "Fungal Culture ( Any Specimen )",
+  "name": "Fungal Culture (Any Specimen)",
+  "category": "Infection",
+  "price": 1452.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "bd70306c-6ea3-4cda-be2b-b6a6994eee9c",
+  "orig_name": "Fungus Culture",
+  "name": "Fungus Culture",
+  "category": "Infection",
+  "price": 363.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "0d0ad37c-fffd-49f2-9813-34085731bc29",
+  "orig_name": "G6PD",
+  "name": "G6PD",
+  "category": "Anemia / Blood",
+  "price": 1419.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "c6589ac3-561f-4f45-ae53-894c927b1cf3",
+  "orig_name": "Gamma Glutamyl Transferase (GGT)",
+  "name": "Gamma Glutamyl Transferase GGT",
+  "category": "Liver",
+  "price": 286.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "0fc0ffdc-4443-4a2d-a5da-1cc65fe37fbb",
+  "orig_name": "GeneXpert-TB CB-NAAT",
+  "name": "GeneXpert-TB Cb-naat",
+  "category": "Infection",
+  "price": 2400.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "32e16d64-02fe-4bc2-8000-2d8b8fa1c8c0",
+  "orig_name": "GFR With Creatinine",
+  "name": "GFR With Creatinine",
+  "category": "General",
+  "price": 335.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "fd4bbe73-e075-4d16-9e33-fcbf1a23d5ac",
+  "orig_name": "Giardia lamblia Antigen From Stool",
+  "name": "Giardia lamblia Antigen From Stool",
+  "category": "Gastroenterology",
+  "price": 121.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "fbfc82b2-98f7-4e6f-ab7a-8d006fef6ad8",
+  "orig_name": "Glucose - Fasting",
+  "name": "Glucose - Fasting",
+  "category": "Diabetes",
+  "price": 80.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "8c9ab2c4-5dc6-480b-bfa6-a3185329a4db",
+  "orig_name": "Glucose - Post Dinner",
+  "name": "Glucose - Post Dinner",
+  "category": "Diabetes",
+  "price": 80.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "3745da76-9e70-4259-9231-0507fafbfa9f",
+  "orig_name": "Glucose - Post Prandial",
+  "name": "Glucose - Post Prandial",
+  "category": "Diabetes",
+  "price": 80.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "17fed429-0d5c-4086-9214-3010ea260ac0",
+  "orig_name": "Glucose - Post Prandial 1 hrs.",
+  "name": "Glucose - Post Prandial 1 hrs.",
+  "category": "Diabetes",
+  "price": 80.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "65c9e077-42db-4ccc-91f5-47faec416b6f",
+  "orig_name": "Glucose - Pre Dinner",
+  "name": "Glucose - Pre Dinner",
+  "category": "Diabetes",
+  "price": 80.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a77e65e9-7d43-40b5-82c0-de88173ef4b1",
+  "orig_name": "Glucose - Pre Lunch",
+  "name": "Glucose - Pre Lunch",
+  "category": "Diabetes",
+  "price": 80.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "11f2c261-077e-42fb-99ae-efe88c050161",
+  "orig_name": "Glucose - Random",
+  "name": "Glucose - Random",
+  "category": "Diabetes",
+  "price": 80.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "11fb038d-27f6-4622-aec7-7aa76c52899b",
+  "orig_name": "Glucose Challenge Test (2Hr Sample)",
+  "name": "Glucose Challenge Test (2Hr Sample)",
+  "category": "Diabetes",
+  "price": 150.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "d961b449-8ffe-42b4-95f3-ae61d9bd3412",
+  "orig_name": "Glucose for CSF",
+  "name": "Glucose",
+  "category": "Diabetes",
+  "price": 77.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "71efcc31-5e40-4fa2-a7ba-3f1c0ce8e90e",
+  "orig_name": "Glucose,Post Prandial - 1hr (Post Lunch)",
+  "name": "Glucose,Post Prandial - 1hr (Post Lunch)",
+  "category": "Diabetes",
+  "price": 80.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "90cbdf6f-1e4b-49f0-b433-41c24e137cf8",
+  "orig_name": "Glyco Hemoglobin (HbA1c)",
+  "name": "Glyco Hemoglobin (HbA1c)",
+  "category": "Diabetes",
+  "price": 775.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "f5ece967-4472-4b64-86f8-2187553152e6",
+  "orig_name": "Growth hormone stimulation test",
+  "name": "Growth hormone stimulation test",
+  "category": "Hormones",
+  "price": 4180.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "0d26e4d9-6435-4156-9ae6-65b8584af420",
+  "orig_name": "H. Pylori antibody IgG & IgA",
+  "name": "H. Pylori antibody IgG & IgA",
+  "category": "Gastroenterology",
+  "price": 2244.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "51642b6f-0f9d-487a-9d15-04eebd5f4a7a",
+  "orig_name": "H.Pylori antibody IgA",
+  "name": "H.Pylori antibody IgA",
+  "category": "Gastroenterology",
+  "price": 1177.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "d58103d2-a224-4498-a739-89249f3289b1",
+  "orig_name": "H.Pylori antibody IgG",
+  "name": "H.Pylori antibody IgG",
+  "category": "Gastroenterology",
+  "price": 1177.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "5435c63f-1bd9-4fb9-bbba-e2e13f2b91f0",
+  "orig_name": "H.Pylori antibody IgM",
+  "name": "H.Pylori antibody IgM",
+  "category": "Gastroenterology",
+  "price": 2607.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "ab2730ca-d558-4a44-aecc-2a29a531eb95",
+  "orig_name": "H.Pylori Antigen Detection from stool",
+  "name": "H.Pylori Antigen Detection from stool",
+  "category": "Gastroenterology",
+  "price": 946.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "66c25c91-3e8e-477e-9709-93f538bc3409",
+  "orig_name": "Haemogram (CBC)",
+  "name": "Haemogram CBC",
+  "category": "Anemia / Blood",
+  "price": 680.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "8c200639-ece8-4679-a887-bc672977f614",
+  "orig_name": "HB Electrophoresis (Capillary)",
+  "name": "HB Electrophoresis (Capillary)",
+  "category": "Anemia / Blood",
+  "price": 1452.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "ca5caf30-7155-4a64-ae99-21b4b47f8561",
+  "orig_name": "HB Electrophoresis (HPLC)",
+  "name": "HB Electrophoresis",
+  "category": "Anemia / Blood",
+  "price": 700.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "c5de7a50-0d6b-4e1d-9bff-9da5c9d60741",
+  "orig_name": "HbA1c - Glycated Haemoglobin, EDTA Blood",
+  "name": "HbA1c - Glycated Haemoglobin",
+  "category": "Diabetes",
+  "price": 640.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "82e56a77-0850-47f3-8a73-6f51b36b8463",
+  "orig_name": "HBV (Hepatitis B) Qualitative by Real-time PCR",
+  "name": "HBV (Hepatitis B) by Real-time PCR",
+  "category": "Infection",
+  "price": 5324.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "50872175-0622-43b2-a93c-2965b5391099",
+  "orig_name": "HCG Stimulation test for Testosterone",
+  "name": "HCG Stimulation test for Testosterone",
+  "category": "General",
+  "price": 1540.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "34dd5c98-f8b5-42c3-adf1-942aa99a9b19",
+  "orig_name": "HCV (Hepatitis C) Qualitative by Real-time PCR",
+  "name": "HCV (Hepatitis C) by Real-time PCR",
+  "category": "Infection",
+  "price": 5203.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "6781b7d4-7f5c-4a93-a587-dbad4d45b739",
+  "orig_name": "HCV antibody IgM",
+  "name": "HCV antibody IgM",
+  "category": "Infection",
+  "price": 2046.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "d5eba6e5-524f-47ed-b7d6-b15cce9da6b9",
+  "orig_name": "HCV antibody Total",
+  "name": "HCV antibody Total",
+  "category": "Infection",
+  "price": 1600.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "423e757a-0c70-4391-a1ae-6f7eabdbed91",
+  "orig_name": "HCV antibody-Rapid",
+  "name": "HCV antibody-Rapid",
+  "category": "Infection",
+  "price": 500.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "7a89b96f-0672-4faa-a38d-b69a72182f08",
+  "orig_name": "HCV Genotyping by Sequencing",
+  "name": "HCV Genotyping by Sequencing",
+  "category": "Infection",
+  "price": 9240.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "e668cfc5-9f01-44ac-8578-ec0fc6172757",
+  "orig_name": "HDL Cholesterol",
+  "name": "HDL Cholesterol",
+  "category": "Heart",
+  "price": 363.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "5b7b98ff-5c05-49ed-a7fa-f186f00fca06",
+  "orig_name": "HEPARIN INDUCED THROMBOCYTOPENIA(HIT)/ANTI PLATELET FACTOR 4",
+  "name": "Heparin Induced Thrombocytopenia(hit)/anti Platelet Factor 4",
+  "category": "Anemia / Blood",
+  "price": 16797.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "6f9ffb3c-eb43-4be4-a363-80cddcb485cc",
+  "orig_name": "Hepatitis A Virus IgG",
+  "name": "Hepatitis A Virus IgG",
+  "category": "Infection",
+  "price": 1683.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "0748df98-020c-4cd2-ab87-f60fa89cd430",
+  "orig_name": "HEPATITIS A& B VIRUS EVALUATION",
+  "name": "Hepatitis A& B Virus Evaluation",
+  "category": "Infection",
+  "price": 7150.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "72961edd-0501-41d9-941b-9e290996b288",
+  "orig_name": "HEPATITIS B CHRONIC PANEL",
+  "name": "Hepatitis B Chronic Panel",
+  "category": "Infection",
+  "price": 2090.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "9728e208-6328-4685-b16f-4daf529077b2",
+  "orig_name": "Hepatitis B Envelope Antibody (HBe) or Anti HBe",
+  "name": "Hepatitis B Envelope Antibody (HBe) or Anti HBe",
+  "category": "Infection",
+  "price": 1309.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "7691daf5-5aad-4a28-b1cd-94f7d1d94c93",
+  "orig_name": "Hepatitis B Envelope Antigen (HBe Ag)",
+  "name": "Hepatitis B Envelope Antigen (HBe Ag)",
+  "category": "Infection",
+  "price": 1419.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "98ef6ca0-8fef-43d0-a0b7-78129d7e72af",
+  "orig_name": "HEPATITIS B IMMUNITY SCREEN,ECLIA",
+  "name": "Hepatitis B Immunity Screen",
+  "category": "Infection",
+  "price": 3025.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "c5d98fc7-8d26-4815-ac82-d7a7832fdc50",
+  "orig_name": "HEPATITIS B PROFILE",
+  "name": "Hepatitis B Profile",
+  "category": "Infection",
+  "price": 5082.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "cb28b736-762e-4a9f-b3d0-4094b5dac26a",
+  "orig_name": "Hepatitis B surface antigen (HbsAg)",
+  "name": "Hepatitis B surface antigen HBsAg",
+  "category": "Infection",
+  "price": 625.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "d8e3ff2c-c4b5-495a-9e0a-a1603cfdf053",
+  "orig_name": "HEPATITIS B SURFACE ANTIGEN (HBsAg) CONFIRMATION#",
+  "name": "Hepatitis B Surface Antigen HBsAg Confirmation",
+  "category": "Infection",
+  "price": 1309.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "83637f9a-1e75-4e85-b00d-ee6abd5cea91",
+  "orig_name": "HEPATITIS Be PANEL,ECLIA",
+  "name": "Hepatitis Be Panel",
+  "category": "Infection",
+  "price": 2200.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "8477d52f-b830-4822-8c60-2686875451cc",
+  "orig_name": "Hepatitis D virus (HDV) antibody, IgM",
+  "name": "Hepatitis D virus (HDV) antibody, IgM",
+  "category": "Infection",
+  "price": 3597.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "605dc127-1c32-433e-a354-542725ac9906",
+  "orig_name": "Hepatitis E Virus antibody IgG",
+  "name": "Hepatitis E Virus antibody IgG",
+  "category": "Infection",
+  "price": 1936.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "4b8080dd-66f1-4bb1-8355-22c0d5913195",
+  "orig_name": "Hepatitis E Virus antibody IgM",
+  "name": "Hepatitis E Virus antibody IgM",
+  "category": "Infection",
+  "price": 3190.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "62a14ef6-f928-47b0-b275-d5d5fc7065bd",
+  "orig_name": "HEV (Hepatitis E) Qualitative by Real-time PCR",
+  "name": "HEV (Hepatitis E) by Real-time PCR",
+  "category": "Infection",
+  "price": 5780.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "1d7020ce-bc2a-4b28-af05-2a775b856b4b",
+  "orig_name": "High Sensitive CRP",
+  "name": "High Sensitive CRP",
+  "category": "General",
+  "price": 550.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "16daa50c-4b83-4ea4-9255-a4ab5710da8d",
+  "orig_name": "HIV Drug Resistance and Genotyping (PI, NRTI, NNRTI)",
+  "name": "HIV Drug Resistance and Genotyping (PI, NRTI, NNRTI)",
+  "category": "Infection",
+  "price": 15400.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "3d758064-1ffe-4b61-9cba-43ce2b2c2a03",
+  "orig_name": "HIV DUO COMBO",
+  "name": "HIV Duo Combo",
+  "category": "Infection",
+  "price": 671.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "6f0323c0-ade0-43c2-8937-06f8575b5f03",
+  "orig_name": "HIV I & II",
+  "name": "HIV I & Ii",
+  "category": "Infection",
+  "price": 1250.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "7951b074-f85d-47c0-bfb1-c9915da5f852",
+  "orig_name": "HIV MANUAL",
+  "name": "HIV Manual",
+  "category": "Infection",
+  "price": 220.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "d308beb3-b46e-4562-a7a8-f126696c9e1b",
+  "orig_name": "HIV Proviral DNA Qualitative by Real-time PCR",
+  "name": "HIV Proviral DNA by Real-time PCR",
+  "category": "Infection",
+  "price": 2827.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "adce8be0-cec6-4834-9a75-4e12b1558fad",
+  "orig_name": "HIV Western Blot",
+  "name": "HIV",
+  "category": "Infection",
+  "price": 4983.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "0c3258e6-df2d-4715-a1b2-2d7d2acec1ff",
+  "orig_name": "HIV-1 (Human Immunodeficiency Virus-1) Qualitative by Real-time PCR",
+  "name": "HIV-1 (Human Immunodeficiency Virus-1) by Real-time PCR",
+  "category": "Infection",
+  "price": 5390.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "89ab749a-9cfd-4840-bcb8-a2eca5d89058",
+  "orig_name": "HIV-2 (Human Immunodeficiency Virus-2) Qualitative by Real-time PCR",
+  "name": "HIV-2 (Human Immunodeficiency Virus-2) by Real-time PCR",
+  "category": "Infection",
+  "price": 5368.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "e786549d-f50a-4fa2-9d67-8e6b28b2e97e",
+  "orig_name": "HLA - DQ for Celiac disease",
+  "name": "HLA - DQ for Celiac disease",
+  "category": "Gastroenterology",
+  "price": 7320.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "7d14148f-0e73-4f19-9e0c-9a59cb2c5cac",
+  "orig_name": "HOMA-IR ; INSULIN RESISTANCE INDEX, C- PEPTIDE MODEL",
+  "name": "Homa-ir ; Insulin Resistance Index, C- Peptide Model",
+  "category": "Diabetes",
+  "price": 1364.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "c0b4e736-9244-4220-ab4e-a799da817276",
+  "orig_name": "Human Growth Hormone level",
+  "name": "Human Growth Hormone level",
+  "category": "Hormones",
+  "price": 968.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "c28278a1-d111-43c2-a355-f70a4c95134c",
+  "orig_name": "IgE level",
+  "name": "IgE level",
+  "category": "Allergy",
+  "price": 1200.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "8bb33bcf-aa64-49c1-80dd-34f799c59862",
+  "orig_name": "Immature Platelet Fraction",
+  "name": "Immature Platelet Fraction",
+  "category": "Anemia / Blood",
+  "price": 330.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "c54dcf36-6223-4dd2-9de8-9874fd93a25c",
+  "orig_name": "IMMUNOFIXATION ELECTROPHORESIS (IFE), URINE",
+  "name": "Electrophoresis (ife)",
+  "category": "Anemia / Blood",
+  "price": 7029.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "951334d1-5d73-4b60-b3fb-c38073e6f0e4",
+  "orig_name": "Immunofixation electrophoresis (IFE),Quantitative(with Protein electrophoresis), Serum",
+  "name": "electrophoresis (IFE),(with Protein electrophoresis)",
+  "category": "Anemia / Blood",
+  "price": 10999.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "c5ddac7c-7a05-483f-ab15-90b0a97d7aaf",
+  "orig_name": "Immunofixation Electrophoresis Qualitative",
+  "name": "Electrophoresis",
+  "category": "Anemia / Blood",
+  "price": 5750.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "05766349-4168-46d3-8a9f-a8a4af1ea6ea",
+  "orig_name": "IMMUNOGLOBULIN IgD & IgE TYPING, SERUM#",
+  "name": "Immunoglobulin IgD & IgE Typing",
+  "category": "Allergy",
+  "price": 9812.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "761bcf82-87ae-4195-909e-f98515151ea0",
+  "orig_name": "IMMUNOHISTOCHEMISTRY - ACTH",
+  "name": "Immunohistochemistry - ACTH",
+  "category": "Hormones",
+  "price": 2010.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "d600c96a-dc82-4bc2-89d6-ce6f6417384d",
+  "orig_name": "IMMUNOHISTOCHEMISTRY - FSH",
+  "name": "Immunohistochemistry - FSH",
+  "category": "Fertility",
+  "price": 2010.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "52d2302b-712a-4c9d-8ad0-9104f13d0710",
+  "orig_name": "IMMUNOHISTOCHEMISTRY, CEA",
+  "name": "Immunohistochemistry, CEA",
+  "category": "Cancer Screening",
+  "price": 2010.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "49b036fe-0552-489d-8bb2-7577c55272f4",
+  "orig_name": "Immunohistochemistry, Estrogen receptor (ER)",
+  "name": "Immunohistochemistry, Estrogen receptor (ER)",
+  "category": "Women's Health",
+  "price": 1650.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "b586ebe0-4f0e-465c-a3fe-23053c03dcba",
+  "orig_name": "Immunohistochemistry, Thyroglobulin",
+  "name": "Immunohistochemistry, Thyroglobulin",
+  "category": "Thyroid",
+  "price": 2120.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "bb03062c-0f65-4f9b-81c0-00f32ec23590",
+  "orig_name": "IMMUNOHISTOCHEMISTRY,AFP (Alpha Feto Protein)",
+  "name": "Immunohistochemistry,afp (Alpha Feto Protein)",
+  "category": "Cancer Screening",
+  "price": 2010.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "ab67d154-14d0-4416-b87c-29e070525b63",
+  "orig_name": "Insulin and glucose-Post Prandial",
+  "name": "Insulin and glucose-Post Prandial",
+  "category": "Diabetes",
+  "price": 850.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "34b5afc9-0a1e-48b0-9702-313d3a2b6ec1",
+  "orig_name": "Insulin antibody",
+  "name": "Insulin antibody",
+  "category": "Diabetes",
+  "price": 1540.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "6f8903b4-d155-43ed-b9d2-bb388b1dd17b",
+  "orig_name": "Insulin Fasting",
+  "name": "Insulin Fasting",
+  "category": "Diabetes",
+  "price": 1089.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a8570096-5edd-44f9-8ae8-a4d3c9f38724",
+  "orig_name": "Insulin like Growth Factor - 1 level",
+  "name": "Insulin like Growth Factor - 1 level",
+  "category": "Diabetes",
+  "price": 5632.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "9486ff67-fe18-4e03-8401-e9d750c0b7db",
+  "orig_name": "Insulin Like Growth Factor BP3 level",
+  "name": "Insulin Like Growth Factor BP3 level",
+  "category": "Diabetes",
+  "price": 5720.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a47f02b3-cdb4-4b14-afa5-8a2dbbf52e9e",
+  "orig_name": "Insulin PP (2hrs),Serum",
+  "name": "Insulin PP (2hrs)",
+  "category": "Diabetes",
+  "price": 1089.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "be10d3a3-f2b7-44bf-bb41-7793dc3ef9fd",
+  "orig_name": "Insulin Random",
+  "name": "Insulin Random",
+  "category": "Diabetes",
+  "price": 1089.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "541741a4-5dd4-42fa-85b0-43d54ebb8063",
+  "orig_name": "Ionic Calcium",
+  "name": "Ionic Calcium",
+  "category": "Bone Health",
+  "price": 264.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "618b48cd-757a-418e-b946-fda00a284808",
+  "orig_name": "Iron Level",
+  "name": "Iron Level",
+  "category": "Anemia / Blood",
+  "price": 583.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "37cc1908-0d4d-4c5f-b0ee-da274ce208a8",
+  "orig_name": "IRON PROFILE",
+  "name": "Iron Profile",
+  "category": "Anemia / Blood",
+  "price": 1419.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "96335d74-7994-41c6-8516-83d7621c3b4a",
+  "orig_name": "IRON PROFILE WITH STFR",
+  "name": "Iron Profile With Stfr",
+  "category": "Anemia / Blood",
+  "price": 1499.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "9b0098c7-b14b-4fde-bae4-f8ed9a06bb7f",
+  "orig_name": "Iron Studies (TIBC)",
+  "name": "Iron Studies TIBC",
+  "category": "Anemia / Blood",
+  "price": 600.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "3e7d0c66-2027-4102-b995-d97da7b188cc",
+  "orig_name": "KA - ANTI NUCLEAR ANTIBODY (CTD Screen) TEST, (ANA-EIA)",
+  "name": "Anti Nuclear Antibody (ctd Screen) Test, ANA",
+  "category": "Arthritis",
+  "price": 770.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "4eb8b18a-211b-48a0-80bd-f5e52d28843c",
+  "orig_name": "KA Vitamin B complex",
+  "name": "Vitamin B complex",
+  "category": "Vitamin",
+  "price": 8470.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "0dc1ae4c-5f15-410e-9501-be1f0da468c5",
+  "orig_name": "KA-Aldosterone /Plasma Renin Direct Ratio",
+  "name": "Aldosterone /Plasma Renin Direct Ratio",
+  "category": "Hormones",
+  "price": 3000.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "eb383c50-7335-47c2-8e9f-6e381642394d",
+  "orig_name": "KA-Fluid for chloride",
+  "name": "Fluid for chloride",
+  "category": "Kidney",
+  "price": 150.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "e0bf7dae-a471-4f7a-81f8-8e2feca3a4e4",
+  "orig_name": "KA-GLUCOSE CHALLENGE TEST (1 HOUR)",
+  "name": "Glucose Challenge Test (1 Hour)",
+  "category": "Diabetes",
+  "price": 100.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "eba20d06-5cd3-46e6-98aa-6ef7d86f47d5",
+  "orig_name": "KA-GLUCOSE CHALLENGE TEST (2 HOUR)",
+  "name": "Glucose Challenge Test (2 Hour)",
+  "category": "Diabetes",
+  "price": 110.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "05ccf93a-a83a-40f3-974d-7ec6792e16a6",
+  "orig_name": "KA-LIPID PROFILE EXTENDED",
+  "name": "Lipid Profile Extended",
+  "category": "Heart",
+  "price": 1250.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "1f916d52-165f-43ae-8f23-dbc5a5ee099e",
+  "orig_name": "KA-LIVER AUTOANTIBODY PROFILE",
+  "name": "Liver Autoantibody Profile",
+  "category": "Liver",
+  "price": 8000.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a334dd0a-2ac0-4afe-b10a-0066f8a3cccb",
+  "orig_name": "KA-Urine Microalbumin Creatinine Ratio -24Hours",
+  "name": "Urine Microalbumin Creatinine Ratio -24Hours",
+  "category": "Diabetes",
+  "price": 650.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "5ddd4a9a-ad2f-4c01-b18c-52a204cdb3a9",
+  "orig_name": "Kidney Function Test",
+  "name": "Kidney Function Test",
+  "category": "Kidney",
+  "price": 1140.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "7cf2b044-217a-4ede-86ab-4e99d08bf0f6",
+  "orig_name": "Kidney Function Test (KFT) Renal",
+  "name": "Kidney Function Test (KFT) Renal",
+  "category": "Kidney",
+  "price": 1250.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "59bacb21-d7f9-463e-a18e-5a63a2c7b243",
+  "orig_name": "Kidney stone formation, Diagnostic panel",
+  "name": "Kidney stone formation, Diagnostic panel",
+  "category": "Kidney",
+  "price": 7766.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "7710febc-f427-480b-ab7e-3c024dbda34e",
+  "orig_name": "LDL Cholesterol (Direct)",
+  "name": "LDL Cholesterol (Direct)",
+  "category": "Heart",
+  "price": 363.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "b89965de-f811-44e0-bbc8-0c3be5414018",
+  "orig_name": "Leutinizing Hormone level",
+  "name": "Leutinizing Hormone level",
+  "category": "Hormones",
+  "price": 715.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "064032f6-f813-4330-90a8-fb54ec9279a9",
+  "orig_name": "LH / FSH Ratio",
+  "name": "LH / FSH Ratio",
+  "category": "Fertility",
+  "price": 1350.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "230a624b-9e9f-4e25-ae76-2704abd63b40",
+  "orig_name": "Lipase",
+  "name": "Lipase",
+  "category": "Gastroenterology",
+  "price": 715.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "847a477a-6ba0-4cf7-a534-fed24a365802",
+  "orig_name": "Lipid Profile - 2 (Mini : Fasting), Serum",
+  "name": "Lipid Profile - 2 (Mini : Fasting)",
+  "category": "Heart",
+  "price": 800.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a6eb5222-a34b-42cd-84d2-7233d3466a69",
+  "orig_name": "Lipid Profile - 2 (Mini : Non - fasting), Serum",
+  "name": "Lipid Profile - 2 (Mini : Non - fasting)",
+  "category": "Heart",
+  "price": 840.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "21356c10-64c3-4b4d-ba30-af49ca3be075",
+  "orig_name": "Lipid Profile - 3 (Screening : Fasting), Serum",
+  "name": "Lipid Profile - 3 (Screening : Fasting)",
+  "category": "Heart",
+  "price": 475.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "40668205-2710-497f-8f9d-214ab4253b2b",
+  "orig_name": "Lipid Profile - 3 (Screening : Non - fasting), Serum",
+  "name": "Lipid Profile - 3 (Screening : Non - fasting)",
+  "category": "Heart",
+  "price": 545.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "5b695a3c-7219-4f8d-995d-5811f52a298a",
+  "orig_name": "Lipid Profile - Maxi Test",
+  "name": "Lipid Profile - Maxi Test",
+  "category": "Heart",
+  "price": 1600.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "d60126f7-2b57-4032-a479-71faa8dc7fc7",
+  "orig_name": "Lipid profile, Comprehensive",
+  "name": "Lipid profile, Comprehensive",
+  "category": "Heart",
+  "price": 860.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "0869ee0c-5bfc-4587-9be1-142b5d980ffd",
+  "orig_name": "Lipoprotein Electrophoresis",
+  "name": "Lipoprotein Electrophoresis",
+  "category": "Anemia / Blood",
+  "price": 2000.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a9f1054b-0578-4ca4-ad7f-a0f50d818d6b",
+  "orig_name": "Liver Function Test",
+  "name": "Liver Function Test",
+  "category": "Liver",
+  "price": 950.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "75b0a68a-c338-4881-b19f-4e1796309080",
+  "orig_name": "Liver Function Test (LFT) - LIVER SCREEN",
+  "name": "Liver Function Test (LFT) - Liver Screen",
+  "category": "Liver",
+  "price": 650.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "036fa378-c69e-4036-99cb-acaa9469f282",
+  "orig_name": "Liver Function Test-1 (Maxi)",
+  "name": "Liver Function Test-1 (Maxi)",
+  "category": "Liver",
+  "price": 1600.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "84e440b6-f8d1-4b6d-8623-f7277ea2977f",
+  "orig_name": "Liver Function Test-2 (Mini)",
+  "name": "Liver Function Test-2 (Mini)",
+  "category": "Liver",
+  "price": 1200.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "cfbd0ea5-f0e7-4bb4-ad7c-03d24f1ba506",
+  "orig_name": "Liver Onco Marker Profile",
+  "name": "Liver Onco Marker Profile",
+  "category": "Liver",
+  "price": 1590.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "bfd100ce-c37f-402f-9271-b9ab2ac21a3a",
+  "orig_name": "LIVER PEDIATRIC BASIC",
+  "name": "Liver Pediatric Basic",
+  "category": "Liver",
+  "price": 1485.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "b3cbb9eb-66ea-44a2-8ab3-86abf125252f",
+  "orig_name": "LKM1 Test By IFA Liver Kidney Microsomes Reflex To End Point Titre",
+  "name": "LKM1 Test By Liver Kidney Microsomes Reflex To End Point Titre",
+  "category": "Kidney",
+  "price": 2100.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "0af1bba3-4da2-448e-9269-82c8057acd21",
+  "orig_name": "Magnesium Level",
+  "name": "Magnesium Level",
+  "category": "General",
+  "price": 620.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "5a9e9cd0-dcdd-40e9-b8a6-12fa85b39099",
+  "orig_name": "Malaria ( PF/PV) antigen test",
+  "name": "Malaria (PF/PV) antigen test",
+  "category": "Fever",
+  "price": 363.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "bab5996d-c0ba-44f9-a826-23b7e44616c1",
+  "orig_name": "Mantoux Test",
+  "name": "Mantoux Test",
+  "category": "Infection",
+  "price": 250.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "0d8710ad-3d6f-4808-937e-c07ccfd54e40",
+  "orig_name": "Microalbumin creatinine ratio, Urine",
+  "name": "Microalbumin creatinine ratio",
+  "category": "Diabetes",
+  "price": 650.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "3844278f-47d1-40ec-b085-cf66231319f6",
+  "orig_name": "Microdeletion Non Invasive Prenatal Testing (NIPT-MD)",
+  "name": "Microdeletion Non Invasive Prenatal Testing (NIPT-MD)",
+  "category": "Pregnancy",
+  "price": 38500.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "123c6a0e-0150-47f3-adc0-dc39c28b1075",
+  "orig_name": "MIXING STUDIES (APTT)",
+  "name": "Mixing Studies (APTT)",
+  "category": "Anemia / Blood",
+  "price": 3388.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "6c3b070e-3d2a-4aad-af90-f2773cb3002c",
+  "orig_name": "Mycobacterium Tuberculosis (TB) - PCR",
+  "name": "Mycobacterium Tuberculosis (TB) - PCR",
+  "category": "Infection",
+  "price": 2420.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "dcfe333e-00ca-49ff-9721-5e2c431025a7",
+  "orig_name": "Myeloperoxidase (MPO) stain, Blood/Bone marrow",
+  "name": "Myeloperoxidase (MPO) stain, Blood/Bone marrow",
+  "category": "Bone Health",
+  "price": 580.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "3efbd831-736d-4370-a527-6e081d7aae99",
+  "orig_name": "Nasal Swab Culture",
+  "name": "Nasal Swab Culture",
+  "category": "Infection",
+  "price": 1320.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "17e2a11c-bfbc-4884-982c-a3fb65f66a11",
+  "orig_name": "New Born Screening-G6PD",
+  "name": "New Born Screening-G6PD",
+  "category": "Anemia / Blood",
+  "price": 420.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "486e2063-f2ff-438c-ad84-0f36d3248ae8",
+  "orig_name": "New Born Screening-TSH",
+  "name": "New Born Screening-TSH",
+  "category": "Thyroid",
+  "price": 792.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "4ac65a8e-d6fd-4760-98b4-8685e580ee9a",
+  "orig_name": "Novel Corona Virus (COVID-19)",
+  "name": "Novel Corona Virus (COVID-19)",
+  "category": "Infection",
+  "price": 750.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "ee3ff168-a71c-4948-892d-8fe0c06f6ba3",
+  "orig_name": "NT- pro B - Type Natriuretic Peptide level (NT-PRO-BNP)",
+  "name": "NT- pro B - Type Natriuretic Peptide level (NT-PRO-BNP)",
+  "category": "Heart",
+  "price": 2500.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "2891721a-469e-4c31-bc4a-4da5685b0f3a",
+  "orig_name": "Occult Blood",
+  "name": "Occult Blood",
+  "category": "Gastroenterology",
+  "price": 275.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "ab399bfe-f553-4d28-bd00-850325cb18bb",
+  "orig_name": "OPPORTUNISTIC ENTERIC PARASITE SCREEN, STOOL",
+  "name": "Opportunistic Enteric Parasite Screen, Stool",
+  "category": "Gastroenterology",
+  "price": 2420.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "5ae73d15-0a5a-453b-8889-2a3b5cfdeb9a",
+  "orig_name": "OSTEOCALCI N; BONE Gla PROTEIN (BGP)",
+  "name": "Osteocalci N; Bone Gla Protein (bgp)",
+  "category": "Bone Health",
+  "price": 3500.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "73379ad4-ff60-4f50-b099-69b7b40cb316",
+  "orig_name": "Para Thyroid Hormone Intact level",
+  "name": "Para Thyroid Hormone Intact level",
+  "category": "Thyroid",
+  "price": 2376.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "37b63bea-aee0-4814-a382-09b3748bd863",
+  "orig_name": "PARATHYROID HORMONE LEVEL (Chemiluminescence)",
+  "name": "Parathyroid Hormone Level",
+  "category": "Hormones",
+  "price": 2600.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "ca6bfbe0-6245-496c-8443-c7859aab4fa1",
+  "orig_name": "Parathyroid Panel Test",
+  "name": "Parathyroid Panel Test",
+  "category": "Hormones",
+  "price": 2965.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "4d8b8860-bd2f-4c26-b5ac-e33a1a7964b9",
+  "orig_name": "Platelet count by Flow Cytometer",
+  "name": "Platelet count by Flow Cytometer",
+  "category": "Anemia / Blood",
+  "price": 1200.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "c5420526-11f9-47bb-ab71-734fc40f0b3d",
+  "orig_name": "PEDIATRIC ALLERGY PANEL (Euroblot Food and Inhalation Allergy)",
+  "name": "PEDIATRIC ALLERGY PANEL (Euroblot Food and Inhalation Allergy)",
+  "category": "Allergy",
+  "price": 5000.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "61d77822-fdcb-4ab9-af61-3e89e7b2de51",
+  "orig_name": "Peripheral Smear",
+  "name": "Peripheral Smear",
+  "category": "Anemia / Blood",
+  "price": 450.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "8c522169-a9d5-43ff-b0c6-39082a0ad23c",
+  "orig_name": "Phosphorus Inorganic",
+  "name": "Phosphorus Inorganic",
+  "category": "General",
+  "price": 210.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "5b2d57c0-dfe2-4c2a-a7c5-224aa10af800",
+  "orig_name": "Phosphorus, urine",
+  "name": "Phosphorus",
+  "category": "General",
+  "price": 187.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "aa66ecd3-518f-448f-a0f5-1659e96b8e04",
+  "orig_name": "PLASMA RENIN, Direct",
+  "name": "Plasma Renin, Direct",
+  "category": "Hormones",
+  "price": 2000.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "fe693c54-d7f2-43bd-a765-0112d25455d0",
+  "orig_name": "Platelet Count",
+  "name": "Platelet Count",
+  "category": "Anemia / Blood",
+  "price": 200.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "1fc6c459-a97f-4bfd-8100-f90af0c285a8",
+  "orig_name": "Polycystic Ovarian Diease (PCOD)- Steroid panel by LCMS",
+  "name": "Polycystic Ovarian Diease (PCOD)- Steroid panel",
+  "category": "Women's Health",
+  "price": 3630.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "7f13a85a-0557-4029-a574-a9ad188bc7a9",
+  "orig_name": "Potassium",
+  "name": "Potassium",
+  "category": "Kidney",
+  "price": 210.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "20cca4a8-ef21-4b49-8090-e407931e3c80",
+  "orig_name": "Quantiferon TB Gold (IGRA)",
+  "name": "Quantiferon TB Gold (IGRA)",
+  "category": "Infection",
+  "price": 3000.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "d8d0026f-418a-4e7a-b54a-60232d43de9f",
+  "orig_name": "QuantiFERON-TB Gold Plus (QFT-Plus) assay",
+  "name": "QuantiFERON-TB Gold Plus (QFT-Plus) assay",
+  "category": "Infection",
+  "price": 3300.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "f38e7946-1e1e-400d-95a1-4d0decd55854",
+  "orig_name": "Prenatal ORION (V2)",
+  "name": "Prenatal ORION (V2)",
+  "category": "Pregnancy",
+  "price": 660.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "cdb75e2d-6ffb-4da4-9128-37dbe1819581",
+  "orig_name": "Prolactin level",
+  "name": "Prolactin level",
+  "category": "Women's Health",
+  "price": 675.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a7afa9f4-affc-4e98-bdfd-14d3aae5aa77",
+  "orig_name": "Prolactin- Active Monomeric Prolactin (Macroprolactin)",
+  "name": "Prolactin- Active Monomeric Prolactin (Macroprolactin)",
+  "category": "Women's Health",
+  "price": 1364.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "f50fb051-8057-412e-b08a-02d906b5f4c2",
+  "orig_name": "Prostate Specific Antigen level",
+  "name": "Prostate Specific Antigen level",
+  "category": "Men's Health",
+  "price": 1180.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "db032332-0acd-454d-a021-8ef88a6dacc1",
+  "orig_name": "Protein Electrophoresis (Capillary)",
+  "name": "Protein Electrophoresis (Capillary)",
+  "category": "Anemia / Blood",
+  "price": 1100.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "198a5070-7cf3-4bd1-a099-eee45ae776db",
+  "orig_name": "PSA Profile (Free PSA/PSA Ratio)",
+  "name": "PSA Profile (Free PSA/PSA Ratio)",
+  "category": "Men's Health",
+  "price": 1958.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a6e40b2c-5358-476e-8262-428e2c9e35c5",
+  "orig_name": "PT (Prothrombin Time), Citrated Plasma",
+  "name": "PT (Prothrombin Time), Citrated",
+  "category": "Anemia / Blood",
+  "price": 450.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "b4baeccf-27d4-4382-bc1c-675a93144359",
+  "orig_name": "Pus Culture & AST",
+  "name": "Pus Culture & AST",
+  "category": "Liver",
+  "price": 1350.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "2f3ca045-ec74-4474-a253-358130395e75",
+  "orig_name": "Pyogenic Culture And Sensitivity For Bacteria",
+  "name": "Pyogenic Culture And Sensitivity For Bacteria",
+  "category": "Infection",
+  "price": 315.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "9e7ff2f0-aeb7-4938-9eee-1be0d4a3835c",
+  "orig_name": "Quadruple Marker",
+  "name": "Quadruple Marker",
+  "category": "Pregnancy",
+  "price": 3872.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "106c2866-e714-4c08-9114-935cc96e4a34",
+  "orig_name": "Rapid Plasma Reagin (VDRL)",
+  "name": "Rapid Plasma Reagin VDRL",
+  "category": "Infection",
+  "price": 946.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "6c361cbb-04b9-492b-833c-c136d2b12b82",
+  "orig_name": "RAPID TB ANTIGEN MPT64,Immunochromatography",
+  "name": "RAPID TB ANTIGEN MPT64,Immunochromatography",
+  "category": "Infection",
+  "price": 770.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a2d49e98-3a4b-45f5-b68f-413372b13635",
+  "orig_name": "Renal Function Test",
+  "name": "Renal Function Test",
+  "category": "Kidney",
+  "price": 900.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "def7699f-f980-4102-8fcb-8d7bdd299803",
+  "orig_name": "Renal Function Test (RFT) - Maxi",
+  "name": "Renal Function Test (RFT) - Maxi",
+  "category": "Kidney",
+  "price": 2150.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a90ef222-2959-40c0-88b3-32cc2edd60fc",
+  "orig_name": "Renin Activity",
+  "name": "Renin Activity",
+  "category": "Hormones",
+  "price": 6300.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "df4d9bdc-b58a-499c-8270-8fd4d8fa4e2e",
+  "orig_name": "Rheumatoid Arthritis Panel-1 Test",
+  "name": "Rheumatoid Arthritis Panel-1 Test",
+  "category": "Arthritis",
+  "price": 3485.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "4a0fd387-80fc-4285-a15f-379753aa8429",
+  "orig_name": "Rheumatoid Arthritis Panel-2",
+  "name": "Rheumatoid Arthritis Panel-2",
+  "category": "Arthritis",
+  "price": 5305.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "39875510-2941-4fb4-884c-5fbce61a48a7",
+  "orig_name": "Rheumatoid Arthritis Panel-3 Test",
+  "name": "Rheumatoid Arthritis Panel-3 Test",
+  "category": "Arthritis",
+  "price": 8060.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "bcbdaa81-2cb1-4dc7-9624-52172d0376c9",
+  "orig_name": "Rheumatoid Factor",
+  "name": "Rheumatoid Factor",
+  "category": "Arthritis",
+  "price": 750.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "116f5e4d-7b81-4d23-8452-95e9fdc996a4",
+  "orig_name": "RHEUMATOID FACTOR IgM CLASS",
+  "name": "Rheumatoid Factor IgM",
+  "category": "Arthritis",
+  "price": 750.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "b7ed067a-6d3d-4116-8dd1-f3cc59ac2b4d",
+  "orig_name": "Rotavirus Antigen From Stool",
+  "name": "Rotavirus Antigen From Stool",
+  "category": "Gastroenterology",
+  "price": 1220.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "7db0d850-b603-429c-952d-724aed48c530",
+  "orig_name": "SEMEN CULTURE",
+  "name": "Semen Culture",
+  "category": "Men's Health",
+  "price": 1089.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "6f08d234-bd39-4dd0-9321-0cd0f6417a97",
+  "orig_name": "Semen Fructose",
+  "name": "Semen Fructose",
+  "category": "Men's Health",
+  "price": 120.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "448b7604-695f-45d0-a473-aaa23afd1420",
+  "orig_name": "Serotonin Level-Urine",
+  "name": "Serotonin Level",
+  "category": "Hormones",
+  "price": 5780.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "e4b77e17-d6c6-4916-9879-a7d6f2c5abef",
+  "orig_name": "Serotonin-Serum",
+  "name": "Serotonin",
+  "category": "Hormones",
+  "price": 2541.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "c3ec97ab-ba2f-4167-87fa-7de20907f00d",
+  "orig_name": "Serum Albumin Ascitis Gradient",
+  "name": "Serum Albumin Ascitis Gradient",
+  "category": "Liver",
+  "price": 363.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "42f237c2-80c0-49a5-9fbb-6655e38a6326",
+  "orig_name": "Sex Hormone Binding Globulin level",
+  "name": "Sex Hormone Binding Globulin level",
+  "category": "Liver",
+  "price": 2000.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "bb895aac-b6bd-4c0e-8819-899e4768b974",
+  "orig_name": "SGOT (AST)",
+  "name": "SGOT AST",
+  "category": "Liver",
+  "price": 210.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "ea44a35a-6ef3-4811-b2ad-945a97a02a53",
+  "orig_name": "SGPT (ALT)",
+  "name": "SGPT ALT",
+  "category": "Liver",
+  "price": 210.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "391150d4-c3ce-4d32-a4db-3f285bdf9fd7",
+  "orig_name": "SGPT Test / Alanine Aminotransferase (ALT)",
+  "name": "SGPT Test / Alanine Aminotransferase ALT",
+  "category": "Liver",
+  "price": 270.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "f3237de7-13f7-48cd-8ac5-ba180c18dd54",
+  "orig_name": "Sodium",
+  "name": "Sodium",
+  "category": "Kidney",
+  "price": 210.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "9bd263c1-adc8-4e9e-9e3f-27044df8726c",
+  "orig_name": "Soluble Liver Antigen",
+  "name": "Soluble Liver Antigen",
+  "category": "Liver",
+  "price": 1670.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "e6753306-879b-45e8-a5e0-d02ec1f412c8",
+  "orig_name": "Sperm antibody",
+  "name": "Sperm antibody",
+  "category": "Men's Health",
+  "price": 1694.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "2aa6322e-a967-4808-bdbc-137ea3267c34",
+  "orig_name": "Sperm DNA Fragmentation (SCD)",
+  "name": "Sperm DNA Fragmentation (SCD)",
+  "category": "Men's Health",
+  "price": 2500.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "5f131d0d-ed6a-41fb-8e14-a28f23cec7bb",
+  "orig_name": "Spot Urine Urea",
+  "name": "Spot Urine Urea",
+  "category": "Kidney",
+  "price": 143.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "b6b38f22-94dc-455f-9978-7826337c15ce",
+  "orig_name": "Stone Analysis, Kidney calculus",
+  "name": "Stone Analysis, Kidney calculus",
+  "category": "Kidney",
+  "price": 1650.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "0b62b3b3-be3c-452e-9855-1b52aca09e94",
+  "orig_name": "Stool Culture & AST",
+  "name": "Stool Culture & AST",
+  "category": "Liver",
+  "price": 1287.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "590fed17-bfa8-4820-b3e7-0f794ad8df6b",
+  "orig_name": "Stool Examination",
+  "name": "Stool Examination",
+  "category": "Gastroenterology",
+  "price": 550.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a8e64f76-351a-4d12-baef-4fc9ea029df5",
+  "orig_name": "Stool For Hanging Drop Preparation",
+  "name": "Stool For Hanging Drop Preparation",
+  "category": "Gastroenterology",
+  "price": 363.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "92b4da92-7149-47eb-a973-85eb03902401",
+  "orig_name": "STOOL ROUTINE",
+  "name": "Stool Routine",
+  "category": "Gastroenterology",
+  "price": 187.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "f06991ae-5700-48b3-a3e7-2c7f0059dbf7",
+  "orig_name": "Syphilis Antibody",
+  "name": "Syphilis Antibody",
+  "category": "Infection",
+  "price": 400.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "3bcc2722-4d40-4c8e-87b5-7c48e3ae126a",
+  "orig_name": "Syphilis panel",
+  "name": "Syphilis panel",
+  "category": "Infection",
+  "price": 850.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "8ee4fc3c-04c9-4845-b501-45091e4ed592",
+  "orig_name": "TB Drug First Line",
+  "name": "TB Drug First Line",
+  "category": "Infection",
+  "price": 3300.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "89f8d034-a462-4791-9db3-9e44493fe57b",
+  "orig_name": "TB Drug Second Line",
+  "name": "TB Drug Second Line",
+  "category": "Infection",
+  "price": 12000.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "3dd47b6d-1c61-40f7-8cd6-4f573a20bb8f",
+  "orig_name": "Testosterone level",
+  "name": "Testosterone level",
+  "category": "General",
+  "price": 750.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "26d576c3-6d0b-4dfe-9e02-14d370b863aa",
+  "orig_name": "Testosterone Profile Test",
+  "name": "Testosterone Profile Test",
+  "category": "General",
+  "price": 3640.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "64864f84-3426-42a4-9447-a65000efd7b3",
+  "orig_name": "Testosterone Total , Serum - (LCMS)",
+  "name": "Testosterone Total, Serum",
+  "category": "General",
+  "price": 2500.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "2b073777-f8ae-4016-abe8-d4af4467197a",
+  "orig_name": "THROAT SWAB CULTURE",
+  "name": "Throat Swab Culture",
+  "category": "Infection",
+  "price": 1320.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "7eb779bc-35d9-43ab-9833-20ecd41ad908",
+  "orig_name": "Throat Swab Examination",
+  "name": "Throat Swab Examination",
+  "category": "Infection",
+  "price": 264.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "afadc72e-d6b7-4404-8798-71e16346bfb9",
+  "orig_name": "Thyroglobulin antibody",
+  "name": "Thyroglobulin antibody",
+  "category": "Thyroid",
+  "price": 1518.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "835f80e4-0fd4-48f1-a85e-4f4b7b8b24d7",
+  "orig_name": "Thyroglobulin level",
+  "name": "Thyroglobulin level",
+  "category": "Thyroid",
+  "price": 1958.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "b0f17a7c-0d12-4802-a37f-bb3f67494ea2",
+  "orig_name": "Thyroid Antibodies, Serum",
+  "name": "Thyroid Antibodies",
+  "category": "Thyroid",
+  "price": 2400.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "7bcc9700-49bc-49f4-812d-3c6ec388b758",
+  "orig_name": "Thyroid Comprehensive Profile 1 Test",
+  "name": "Thyroid Comprehensive Profile 1 Test",
+  "category": "Thyroid",
+  "price": 2850.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "5a5600cd-766d-44db-9ff2-e04120d985a1",
+  "orig_name": "Thyroid Comprehensive Profile 2 Test",
+  "name": "Thyroid Comprehensive Profile 2 Test",
+  "category": "Thyroid",
+  "price": 1680.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "5059f77c-befe-4818-9dba-93185f4587e9",
+  "orig_name": "Thyroid Function Test",
+  "name": "Thyroid Function Test",
+  "category": "Thyroid",
+  "price": 590.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "19e7e75b-6cc0-4df6-91d4-c0afa253b198",
+  "orig_name": "Thyroid Marker Profile",
+  "name": "Thyroid Marker Profile",
+  "category": "Thyroid",
+  "price": 4230.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "11931bd5-a134-4788-8947-537544b53260",
+  "orig_name": "Thyroid Panel-3 (Reflex)",
+  "name": "Thyroid Panel-3 (Reflex)",
+  "category": "Thyroid",
+  "price": 420.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "546f623d-a9bb-41fe-a31b-69273f1dab9f",
+  "orig_name": "Thyroid Profile - 1",
+  "name": "Thyroid Profile - 1",
+  "category": "Thyroid",
+  "price": 600.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "918a2a07-2e9e-4cf1-9c05-24cee37b3e09",
+  "orig_name": "Thyroid Profile - 2",
+  "name": "Thyroid Profile - 2",
+  "category": "Thyroid",
+  "price": 820.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "eb8a94a8-8d4a-42f5-98df-e7b148a427e1",
+  "orig_name": "THYROID PROFILE EXTENDED",
+  "name": "Thyroid Profile Extended",
+  "category": "Thyroid",
+  "price": 1463.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "64c6f8a2-d47e-4526-9b23-3818918a7d4b",
+  "orig_name": "Thyroid Stimulating Immunoglobulin level (TSI)",
+  "name": "Thyroid Stimulating Immunoglobulin level (TSI)",
+  "category": "Thyroid",
+  "price": 2750.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "9727d74d-6621-4fcc-993f-1de6de1c7069",
+  "orig_name": "Thyroperoxidase Antibody (Anti-TPO)/Microsomal antibody",
+  "name": "Thyroperoxidase Antibody (Anti-TPO)/Microsomal antibody",
+  "category": "Thyroid",
+  "price": 1450.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "97a36345-26fe-4be0-87bc-59ab7b6c2a8a",
+  "orig_name": "Thyroxine -T4",
+  "name": "Thyroxine -T4",
+  "category": "Thyroid",
+  "price": 240.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "171ffd1b-accf-4b0f-a9d2-b7bd0fc11789",
+  "orig_name": "Thyroxine Binding Globulin level",
+  "name": "Thyroxine Binding Globulin level",
+  "category": "Liver",
+  "price": 6420.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "5cf0ee7e-4191-401e-a5aa-19dc54a0e1a6",
+  "orig_name": "TISSUE CULTURE",
+  "name": "Tissue Culture",
+  "category": "Infection",
+  "price": 1320.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "9087dcc4-d57f-416d-b840-dbdd030cef5a",
+  "orig_name": "Torch Complex (10 Parameters)",
+  "name": "Torch Complex (10 Parameters)",
+  "category": "Pregnancy",
+  "price": 3500.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "195f04c3-c370-4e6f-8f78-7d4d8e3a109d",
+  "orig_name": "Torch IgG",
+  "name": "Torch IgG",
+  "category": "Pregnancy",
+  "price": 3487.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "faa323f3-a0dc-4e47-8071-c8dd8e4b2ad1",
+  "orig_name": "TORCH Infections Qualitative by Real-Time PCR",
+  "name": "TORCH Infections by Real-Time PCR",
+  "category": "Pregnancy",
+  "price": 10400.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "cef294c2-55b6-42a8-a90f-da412a9d5ebc",
+  "orig_name": "Total and Free Testosterone",
+  "name": "Total and Free Testosterone",
+  "category": "General",
+  "price": 2000.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "52212d63-cacd-4d84-8aac-32641d923631",
+  "orig_name": "TOTAL BILIRUBIN",
+  "name": "Total Bilirubin",
+  "category": "Liver",
+  "price": 200.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "d9f9d0d8-bab0-4203-a2d8-ab18e71b9510",
+  "orig_name": "Total Iron Binding Capacity(TIBC) ,Serum",
+  "name": "Total Iron Binding Capacity(TIBC)",
+  "category": "Anemia / Blood",
+  "price": 770.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "283bad27-3511-4a74-8209-44095be48b8b",
+  "orig_name": "Triiodothyronine - T3",
+  "name": "Triiodothyronine - T3",
+  "category": "Thyroid",
+  "price": 240.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a4bea92a-6a51-44ef-aedb-68469670aeb6",
+  "orig_name": "Triple Marker",
+  "name": "Triple Marker",
+  "category": "Pregnancy",
+  "price": 3245.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "0cc6432b-03c9-40a8-a732-b938106b9d86",
+  "orig_name": "Troponin I",
+  "name": "Troponin I",
+  "category": "Heart",
+  "price": 1600.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "bc6ac76b-5e63-49ad-9fcd-1b156d9c56a8",
+  "orig_name": "Troponin T",
+  "name": "Troponin T",
+  "category": "Heart",
+  "price": 1760.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "420f3330-2fbc-43c1-973a-36f52b0eaa4f",
+  "orig_name": "Troponin T,High sensitive#",
+  "name": "Troponin T,High sensitive",
+  "category": "Heart",
+  "price": 2400.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "d29a770f-1498-4dd3-9e62-9cf3e0c07f81",
+  "orig_name": "TSH",
+  "name": "TSH",
+  "category": "Thyroid",
+  "price": 350.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "8c685a4c-ea54-4171-9554-8f43347cdfe8",
+  "orig_name": "TSH (Ultrasensitive)/ TSH-U Test",
+  "name": "TSH (Ultrasensitive)/ TSH-U Test",
+  "category": "Thyroid",
+  "price": 400.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "481903a9-c31a-4a19-bd6f-e0418a98918b",
+  "orig_name": "TSH Receptor Antibody",
+  "name": "TSH Receptor Antibody",
+  "category": "Thyroid",
+  "price": 4543.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "0b7a084b-5555-4118-abb8-586a7b80b452",
+  "orig_name": "Urea",
+  "name": "Urea",
+  "category": "Kidney",
+  "price": 200.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "34e23ff0-aabf-4c3d-a5d4-94942c181874",
+  "orig_name": "Uric Acid",
+  "name": "Uric Acid",
+  "category": "Kidney",
+  "price": 300.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "84e4faa6-678a-4a64-8650-fb3d5cd63e6f",
+  "orig_name": "Uric Acid Test, Serum",
+  "name": "Uric Acid Test",
+  "category": "Kidney",
+  "price": 270.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "cd0d95a2-7082-490c-b94c-587b89844686",
+  "orig_name": "Urinary Albumin Creatinine ratio",
+  "name": "Urinary Albumin Creatinine ratio",
+  "category": "Liver",
+  "price": 850.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "86bdac94-b6d6-475e-b796-6593c5434e66",
+  "orig_name": "Urinary Calcium Creatinine Ratio",
+  "name": "Urinary Calcium Creatinine Ratio",
+  "category": "Bone Health",
+  "price": 561.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "4d207464-6056-48f9-a007-07f3574f80f4",
+  "orig_name": "Urinary Calcium spot",
+  "name": "Urinary Calcium spot",
+  "category": "Bone Health",
+  "price": 187.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "70d23151-6a4b-4b26-a271-9c601380b206",
+  "orig_name": "Urinary Calcium-24 hours",
+  "name": "Urinary Calcium-24 hours",
+  "category": "Bone Health",
+  "price": 187.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "92fbbab2-683d-4c25-ab37-091b03b4e2d8",
+  "orig_name": "Urinary Citrate creatinine Ratio",
+  "name": "Urinary Citrate creatinine Ratio",
+  "category": "General",
+  "price": 1030.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "f36b616f-9a8c-4fe7-8f5a-0780ac8c1215",
+  "orig_name": "Urinary Cortisol- 24 hours",
+  "name": "Urinary Cortisol- 24 hours",
+  "category": "Hormones",
+  "price": 1133.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "6c3ec869-01e5-4395-ab63-17c2b19014b2",
+  "orig_name": "Urinary Creatinine-24 hours",
+  "name": "Urinary Creatinine-24 hours",
+  "category": "General",
+  "price": 286.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "649f433b-4e33-4fe1-b46e-240ef18983f7",
+  "orig_name": "Urinary Creatinine-Spot",
+  "name": "Urinary Creatinine-Spot",
+  "category": "General",
+  "price": 286.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "642fa849-bec9-41fa-bdcb-ae0f296e0c98",
+  "orig_name": "URINARY CYSTATIN C (RATE NEPHELOMETRY)",
+  "name": "Urinary Cystatin C (rate",
+  "category": "Kidney",
+  "price": 840.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "7bec5888-f590-47ca-8eea-81d9449b4672",
+  "orig_name": "Urinary Lead Creatinine Ratio",
+  "name": "Urinary Lead Creatinine Ratio",
+  "category": "General",
+  "price": 2100.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "e95c2f2d-9f1e-4810-9816-e71ec103c377",
+  "orig_name": "Urinary Magnesium-24 hours",
+  "name": "Urinary Magnesium-24 hours",
+  "category": "General",
+  "price": 550.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "30fbcc24-565a-4deb-b6a1-3e5a0c0a7498",
+  "orig_name": "Urinary Mercury Creatinine Ratio",
+  "name": "Urinary Mercury Creatinine Ratio",
+  "category": "General",
+  "price": 4160.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "cef774d1-ad09-46e0-a324-0ebcd89735d8",
+  "orig_name": "Urinary Microalbumin-24 hours",
+  "name": "Urinary Microalbumin-24 hours",
+  "category": "Diabetes",
+  "price": 649.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "336a07ea-9416-41df-b36b-1943a0665066",
+  "orig_name": "Urinary Oxalate Creatinine Ratio",
+  "name": "Urinary Oxalate Creatinine Ratio",
+  "category": "General",
+  "price": 2398.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "15519804-e0b9-4a85-9381-2df2a048412a",
+  "orig_name": "Urinary Phosphorus- 24 hours",
+  "name": "Urinary Phosphorus- 24 hours",
+  "category": "General",
+  "price": 308.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "4c656514-fedb-4dfc-8a99-8f04966a40d0",
+  "orig_name": "Urinary Potassium -Spot",
+  "name": "Urinary Potassium -Spot",
+  "category": "Kidney",
+  "price": 220.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "4a6eb70e-b5bf-48a2-a236-c5fefb81f8c1",
+  "orig_name": "Urinary Potassium-24 hours",
+  "name": "Urinary Potassium-24 hours",
+  "category": "Kidney",
+  "price": 220.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "bf525034-f181-4ef0-988b-37cb87916099",
+  "orig_name": "Urinary Protein Creatinine Ratio",
+  "name": "Urinary Protein Creatinine Ratio",
+  "category": "General",
+  "price": 670.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "75daed75-4684-4342-9d73-b73baec3a4ed",
+  "orig_name": "Urinary Sodium -Spot",
+  "name": "Urinary Sodium -Spot",
+  "category": "Kidney",
+  "price": 165.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "ec719952-6a1b-4468-8afb-2a4bf342d334",
+  "orig_name": "Urinary Sodium-24 hours",
+  "name": "Urinary Sodium-24 hours",
+  "category": "Kidney",
+  "price": 165.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "7f2ce603-3810-432d-acf5-204bfede9663",
+  "orig_name": "Urinary Uric Acid",
+  "name": "Urinary Uric Acid",
+  "category": "Kidney",
+  "price": 264.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "5523e3fc-4fca-40ec-98d0-4d70492b8a94",
+  "orig_name": "Urinary Uric Acid Creatinine Ratio",
+  "name": "Urinary Uric Acid Creatinine Ratio",
+  "category": "Kidney",
+  "price": 350.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "a2c9708a-f098-4d8a-bcc8-870d0bb61656",
+  "orig_name": "Urinary Uric acid-24 hours",
+  "name": "Urinary Uric acid-24 hours",
+  "category": "Kidney",
+  "price": 264.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "c9d20095-4d20-41f3-aa3d-83d61851251d",
+  "orig_name": "Urine Albumin",
+  "name": "Urine Albumin",
+  "category": "Liver",
+  "price": 40.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "e880c4b6-f9d8-474f-a809-8fa615a90388",
+  "orig_name": "Urine Chloride Spot",
+  "name": "Urine Chloride Spot",
+  "category": "Kidney",
+  "price": 209.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "fc4d3406-a769-43fa-88f2-728dc20ac293",
+  "orig_name": "URINE CULTURE :",
+  "name": "Urine Culture",
+  "category": "Infection",
+  "price": 1067.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "41b52123-26c5-4b10-a487-a0b6f7cb9c79",
+  "orig_name": "Urine Electrophoresis",
+  "name": "Urine Electrophoresis",
+  "category": "Anemia / Blood",
+  "price": 1815.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "cd966f95-8c97-4f68-a0c8-13be2cb44be3",
+  "orig_name": "URINE FOR BUN",
+  "name": "Urine For BUN",
+  "category": "Kidney",
+  "price": 143.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "d83e2d84-67a3-473e-b0f6-f4da31f64f8a",
+  "orig_name": "Urine for Magnesium",
+  "name": "Urine for Magnesium",
+  "category": "General",
+  "price": 550.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "c38cb5bb-3250-4c02-bae8-24997f1d2ec6",
+  "orig_name": "Vaginal swab culture",
+  "name": "Vaginal swab culture",
+  "category": "Infection",
+  "price": 1320.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "134d7701-aaa8-41d2-97b1-77b7444cfb6a",
+  "orig_name": "VDRL (RPR)",
+  "name": "VDRL (rpr)",
+  "category": "Infection",
+  "price": 440.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "9b1756fb-f45d-4cc3-bb59-ed9030936b7b",
+  "orig_name": "VIRAL HEPATITIS PROFILE",
+  "name": "Viral Hepatitis Profile",
+  "category": "Infection",
+  "price": 6259.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "d2ba6abf-ec61-4b79-9188-d33092072c1b",
+  "orig_name": "Vitamin A",
+  "name": "Vitamin A",
+  "category": "Vitamin",
+  "price": 5900.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "7b1c30a0-77df-4b8a-9d5d-5c583a0189da",
+  "orig_name": "Vitamin A and Vitamin E",
+  "name": "Vitamin A and Vitamin E",
+  "category": "Vitamin",
+  "price": 8250.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "83cb03c1-a03b-4b94-8b50-4db9c5950cc9",
+  "orig_name": "Vitamin B - 12 Level",
+  "name": "Vitamin B - 12 Level",
+  "category": "Vitamin",
+  "price": 1600.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "ce180ad7-b042-4691-b193-d03d9f33056c",
+  "orig_name": "Vitamin B1 (Thiamine)",
+  "name": "Vitamin B1 (Thiamine)",
+  "category": "Vitamin",
+  "price": 3993.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "28a64b6e-f94b-487c-826a-fa2b1992944f",
+  "orig_name": "Vitamin B12 (Cyanocobalamin) Test",
+  "name": "Vitamin B12 (Cyanocobalamin) Test",
+  "category": "Vitamin",
+  "price": 1250.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "b2d24e5e-938b-4ccf-8358-f30250cf43c5",
+  "orig_name": "Vitamin B2 (Riboflavin)",
+  "name": "Vitamin B2 (Riboflavin)",
+  "category": "Vitamin",
+  "price": 4235.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "01cf4c68-daee-45bd-bda2-90b690c659d9",
+  "orig_name": "Vitamin B5",
+  "name": "Vitamin B5",
+  "category": "Vitamin",
+  "price": 2500.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "d3adb8cf-3c76-4052-904e-23a4e58e70a2",
+  "orig_name": "Vitamin B6",
+  "name": "Vitamin B6",
+  "category": "Vitamin",
+  "price": 4235.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "b0ff8df3-bf23-4511-835f-a2faab96902e",
+  "orig_name": "Vitamin C",
+  "name": "Vitamin C",
+  "category": "Vitamin",
+  "price": 4235.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "89766cfd-f0cf-4462-ab7b-aeb646b967fa",
+  "orig_name": "Vitamin D - 1,25 Dihydroxy",
+  "name": "Vitamin D - 1,25 Dihydroxy",
+  "category": "Vitamin",
+  "price": 4521.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "684efd4f-6540-47e6-bc9a-d1e848ba4421",
+  "orig_name": "Vitamin D Gold Profile - Quantitative, Serum",
+  "name": "Vitamin D Gold Profile",
+  "category": "Vitamin",
+  "price": 2650.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "798460ff-5500-4b75-af5a-372011f79323",
+  "orig_name": "Vitamin D Plus Profile",
+  "name": "Vitamin D Plus Profile",
+  "category": "Vitamin",
+  "price": 1920.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "718f2625-47dc-4e44-a416-5d4289aa513a",
+  "orig_name": "Vitamin D Test (25-Hydroxy)",
+  "name": "Vitamin D Test (25-Hydroxy)",
+  "category": "Vitamin",
+  "price": 1800.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "73f50266-8797-4de1-8629-cd175ba58d77",
+  "orig_name": "Vitamin E (Tocopherol)",
+  "name": "Vitamin E (Tocopherol)",
+  "category": "Vitamin",
+  "price": 5900.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "65f1b51a-59ef-4d15-aa70-fc993a530e42",
+  "orig_name": "Vitamin K1",
+  "name": "Vitamin K1",
+  "category": "Vitamin",
+  "price": 5643.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "dbcb5384-262b-44c9-9e87-64e497adb9ec",
+  "orig_name": "VLDL Cholesterol",
+  "name": "VLDL Cholesterol",
+  "category": "Heart",
+  "price": 120.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "b72b154e-504a-490e-8fa2-121272d5bb37",
+  "orig_name": "Widal by Slide Method",
+  "name": "Widal by Slide Method",
+  "category": "Fever",
+  "price": 150.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "cd9c57c3-3b16-4678-9fcb-3db88d539b95",
+  "orig_name": "WIDAL by tube method",
+  "name": "WIDAL by tube method",
+  "category": "Fever",
+  "price": 725.0,
+  "turnaround_hours": 24,
+  "description": null
+ },
+ {
+  "orig_id": "aa343d73-bf97-44be-addc-757ee498ed4d",
+  "orig_name": "XPERT HCV (HEPATITIS C VIRUS) VIRAL LOAD",
+  "name": "Xpert HCV (hepatitis C Virus) Viral Load",
+  "category": "Infection",
+  "price": 9075.0,
+  "turnaround_hours": 24,
+  "description": null
+ }
+]

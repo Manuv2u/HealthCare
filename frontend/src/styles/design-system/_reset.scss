@@ -1,0 +1,393 @@
+// ============================================================================
+// SRI HEALTH PLUS DESIGN SYSTEM - CSS RESET
+// ============================================================================
+// A modern CSS reset that provides a clean foundation while preserving
+// useful default behaviors.
+
+@use 'tokens' as *;
+
+// ============================================================================
+// BOX SIZING
+// ============================================================================
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// ============================================================================
+// ROOT ELEMENT
+// ============================================================================
+
+html {
+  // Prevent font size inflation on mobile
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  
+  // Smooth scrolling
+  scroll-behavior: smooth;
+  
+  // Prevent horizontal overflow
+  overflow-x: hidden;
+  
+  // Set base font size
+  font-size: 16px;
+  
+  // Improve text rendering
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+// Respect reduced motion preference
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+// ============================================================================
+// BODY
+// ============================================================================
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  min-height: 100dvh; // Dynamic viewport height for mobile
+  font-family: $font-family-sans;
+  font-size: $font-size-base;
+  line-height: $line-height-normal;
+  color: $text-primary;
+  background-color: $bg-secondary;
+  
+  // Prevent horizontal overflow
+  overflow-x: hidden;
+}
+
+// ============================================================================
+// TYPOGRAPHY RESET
+// ============================================================================
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  overflow-wrap: break-word;
+}
+
+p {
+  margin: 0;
+  overflow-wrap: break-word;
+}
+
+// ============================================================================
+// LINKS
+// ============================================================================
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  
+  // Remove tap highlight on iOS
+  -webkit-tap-highlight-color: transparent;
+}
+
+// ============================================================================
+// LISTS
+// ============================================================================
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+// ============================================================================
+// MEDIA ELEMENTS
+// ============================================================================
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  // Prevent image distortion
+  object-fit: cover;
+}
+
+// ============================================================================
+// FORM ELEMENTS
+// ============================================================================
+
+input, button, textarea, select {
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  
+  // Remove tap highlight on iOS
+  -webkit-tap-highlight-color: transparent;
+  
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+// Remove default spinner from number inputs
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+// Remove default search input styling
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+}
+
+// Textarea resize
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+// Remove default focus outline, we'll add custom ones
+:focus {
+  outline: none;
+}
+
+// Custom focus visible for keyboard navigation
+:focus-visible {
+  outline: 2px solid $color-primary-500;
+  outline-offset: 2px;
+}
+
+// Placeholder styling
+::placeholder {
+  color: $text-muted;
+  opacity: 1; // Firefox fix
+}
+
+// Selection styling
+::selection {
+  background-color: rgba($color-primary-500, 0.2);
+  color: $text-primary;
+}
+
+// ============================================================================
+// TABLES
+// ============================================================================
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  font-weight: $font-weight-semibold;
+}
+
+// ============================================================================
+// MISC ELEMENTS
+// ============================================================================
+
+hr {
+  border: none;
+  border-top: 1px solid $border-default;
+  margin: $spacing-4 0;
+}
+
+abbr[title] {
+  text-decoration: underline dotted;
+  cursor: help;
+}
+
+address {
+  font-style: normal;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+code, kbd, pre, samp {
+  font-family: $font-family-mono;
+  font-size: 0.875em;
+}
+
+pre {
+  margin: 0;
+  overflow-x: auto;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+// ============================================================================
+// INTERACTIVE ELEMENTS
+// ============================================================================
+
+summary {
+  cursor: pointer;
+  display: list-item;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+// ============================================================================
+// DIALOG / MODAL
+// ============================================================================
+
+dialog {
+  padding: 0;
+  margin: 0;
+  border: none;
+  max-width: none;
+  max-height: none;
+  background: transparent;
+  
+  &::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
+
+// ============================================================================
+// FIELDSET
+// ============================================================================
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+legend {
+  padding: 0;
+}
+
+// ============================================================================
+// PROGRESS & METER
+// ============================================================================
+
+progress {
+  vertical-align: baseline;
+}
+
+meter {
+  vertical-align: baseline;
+}
+
+// ============================================================================
+// IFRAME
+// ============================================================================
+
+iframe {
+  border: none;
+}
+
+// ============================================================================
+// HIDDEN ATTRIBUTE
+// ============================================================================
+
+[hidden] {
+  display: none !important;
+}
+
+// ============================================================================
+// PRINT STYLES
+// ============================================================================
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+  
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+  
+  // Don't show links that are fragment identifiers
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+  
+  pre {
+    white-space: pre-wrap !important;
+  }
+  
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  
+  thead {
+    display: table-header-group;
+  }
+  
+  tr, img {
+    page-break-inside: avoid;
+  }
+  
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  
+  h2, h3 {
+    page-break-after: avoid;
+  }
+}

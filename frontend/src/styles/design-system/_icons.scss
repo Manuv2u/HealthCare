@@ -1,0 +1,414 @@
+// ============================================================================
+// SRI HEALTH PLUS DESIGN SYSTEM - ICON SYSTEM
+// ============================================================================
+// A consistent icon system using SVG icons with standardized sizing and colors.
+// We recommend using Lucide Icons (https://lucide.dev) for their clean,
+// consistent design that works well in healthcare applications.
+
+@use 'tokens' as *;
+
+// ============================================================================
+// ICON SIZE SYSTEM
+// ============================================================================
+
+// Icon sizes that align with our spacing scale
+$icon-size-xs: 12px;
+$icon-size-sm: 16px;
+$icon-size-md: 20px;
+$icon-size-lg: 24px;
+$icon-size-xl: 32px;
+$icon-size-2xl: 40px;
+$icon-size-3xl: 48px;
+
+// ============================================================================
+// BASE ICON STYLES
+// ============================================================================
+
+// Base icon class for consistent styling
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: $icon-size-md;
+  height: $icon-size-md;
+  
+  svg {
+    width: 100%;
+    height: 100%;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+  }
+}
+
+// ============================================================================
+// ICON SIZES
+// ============================================================================
+
+.icon--xs {
+  width: $icon-size-xs;
+  height: $icon-size-xs;
+  
+  svg {
+    stroke-width: 2.5;
+  }
+}
+
+.icon--sm {
+  width: $icon-size-sm;
+  height: $icon-size-sm;
+  
+  svg {
+    stroke-width: 2.25;
+  }
+}
+
+.icon--md {
+  width: $icon-size-md;
+  height: $icon-size-md;
+}
+
+.icon--lg {
+  width: $icon-size-lg;
+  height: $icon-size-lg;
+  
+  svg {
+    stroke-width: 1.75;
+  }
+}
+
+.icon--xl {
+  width: $icon-size-xl;
+  height: $icon-size-xl;
+  
+  svg {
+    stroke-width: 1.5;
+  }
+}
+
+.icon--2xl {
+  width: $icon-size-2xl;
+  height: $icon-size-2xl;
+  
+  svg {
+    stroke-width: 1.5;
+  }
+}
+
+.icon--3xl {
+  width: $icon-size-3xl;
+  height: $icon-size-3xl;
+  
+  svg {
+    stroke-width: 1.25;
+  }
+}
+
+// ============================================================================
+// ICON COLORS
+// ============================================================================
+
+.icon--primary { color: $color-primary-600; }
+.icon--secondary { color: $text-secondary; }
+.icon--muted { color: $text-muted; }
+.icon--accent { color: $color-accent-500; }
+.icon--success { color: $color-success-500; }
+.icon--warning { color: $color-warning-500; }
+.icon--error { color: $color-error-500; }
+.icon--info { color: $color-info-500; }
+.icon--inverse { color: $text-inverse; }
+
+// ============================================================================
+// ICON CONTAINERS (for decorative backgrounds)
+// ============================================================================
+
+// Base icon container
+.icon-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: $radius-lg;
+  
+  .icon {
+    color: currentColor;
+  }
+}
+
+// Size variants
+.icon-container--sm {
+  width: 32px;
+  height: 32px;
+  
+  .icon {
+    width: $icon-size-sm;
+    height: $icon-size-sm;
+  }
+}
+
+.icon-container--md {
+  width: 40px;
+  height: 40px;
+  
+  .icon {
+    width: $icon-size-md;
+    height: $icon-size-md;
+  }
+}
+
+.icon-container--lg {
+  width: 48px;
+  height: 48px;
+  
+  .icon {
+    width: $icon-size-lg;
+    height: $icon-size-lg;
+  }
+}
+
+.icon-container--xl {
+  width: 56px;
+  height: 56px;
+  
+  .icon {
+    width: $icon-size-xl;
+    height: $icon-size-xl;
+  }
+}
+
+.icon-container--2xl {
+  width: 72px;
+  height: 72px;
+  border-radius: $radius-xl;
+  
+  .icon {
+    width: $icon-size-2xl;
+    height: $icon-size-2xl;
+  }
+}
+
+// Color variants
+.icon-container--primary {
+  background: $color-primary-50;
+  color: $color-primary-600;
+}
+
+.icon-container--secondary {
+  background: $color-secondary-50;
+  color: $color-secondary-600;
+}
+
+.icon-container--accent {
+  background: $color-accent-50;
+  color: $color-accent-600;
+}
+
+.icon-container--success {
+  background: $color-success-50;
+  color: $color-success-600;
+}
+
+.icon-container--warning {
+  background: $color-warning-50;
+  color: $color-warning-600;
+}
+
+.icon-container--error {
+  background: $color-error-50;
+  color: $color-error-600;
+}
+
+.icon-container--info {
+  background: $color-info-50;
+  color: $color-info-600;
+}
+
+.icon-container--neutral {
+  background: $color-neutral-100;
+  color: $text-secondary;
+}
+
+// Gradient variants (for feature highlights)
+.icon-container--gradient-primary {
+  background: linear-gradient(135deg, $color-primary-500 0%, $color-primary-600 100%);
+  color: $text-inverse;
+  box-shadow: $shadow-primary;
+}
+
+.icon-container--gradient-accent {
+  background: linear-gradient(135deg, $color-accent-400 0%, $color-accent-500 100%);
+  color: $text-inverse;
+  box-shadow: $shadow-accent;
+}
+
+.icon-container--gradient-success {
+  background: linear-gradient(135deg, $color-success-400 0%, $color-success-500 100%);
+  color: $text-inverse;
+}
+
+// Circle variant
+.icon-container--circle {
+  border-radius: $radius-full;
+}
+
+// ============================================================================
+// ICON BUTTON INTEGRATION
+// ============================================================================
+
+// Icon-only button styling
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: $spacing-2;
+  border-radius: $radius-md;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: $text-secondary;
+  transition: background-color $transition-duration-fast $transition-timing-default,
+              color $transition-duration-fast $transition-timing-default;
+  
+  &:hover {
+    background: $color-neutral-100;
+    color: $text-primary;
+  }
+  
+  &:focus-visible {
+    outline: 2px solid $color-primary-500;
+    outline-offset: 2px;
+  }
+  
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    
+    &:hover {
+      background: transparent;
+      color: $text-secondary;
+    }
+  }
+}
+
+.icon-btn--primary {
+  color: $color-primary-600;
+  
+  &:hover {
+    background: $color-primary-50;
+    color: $color-primary-700;
+  }
+}
+
+.icon-btn--error {
+  color: $color-error-500;
+  
+  &:hover {
+    background: $color-error-50;
+    color: $color-error-600;
+  }
+}
+
+// ============================================================================
+// ICON ANIMATIONS
+// ============================================================================
+
+// Spinning icon (for loading states)
+.icon--spin {
+  animation: spin 1s linear infinite;
+}
+
+// Pulsing icon (for attention)
+.icon--pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+// Bouncing icon (for notifications)
+.icon--bounce {
+  animation: bounce 1s ease infinite;
+}
+
+// ============================================================================
+// HEALTHCARE-SPECIFIC ICON RECOMMENDATIONS
+// ============================================================================
+// 
+// Below is a recommended set of icons for healthcare applications.
+// Use Lucide Icons (https://lucide.dev) for consistency.
+//
+// NAVIGATION:
+// - Home: home, house
+// - Dashboard: layout-dashboard
+// - Menu: menu, menu-square
+// - Settings: settings, cog
+// - User/Profile: user, user-circle
+// - Logout: log-out
+//
+// MEDICAL/HEALTHCARE:
+// - Tests: test-tube, flask-conical
+// - Lab: microscope, beaker
+// - Heart/Vitals: heart, heart-pulse, activity
+// - Blood: droplet, droplets
+// - Syringe: syringe
+// - Stethoscope: stethoscope
+// - Pills/Medicine: pill, tablets
+// - DNA: dna
+// - Thermometer: thermometer
+//
+// BOOKING & APPOINTMENTS:
+// - Calendar: calendar, calendar-check, calendar-plus
+// - Clock/Time: clock, alarm-clock
+// - Schedule: calendar-range
+// - Appointment: calendar-days
+//
+// DOCUMENTS & REPORTS:
+// - Report: file-text, file-check
+// - Download: download
+// - Upload: upload
+// - Print: printer
+// - PDF: file-type-2
+//
+// USERS & PATIENTS:
+// - Patient: user, user-circle
+// - Family: users, users-2
+// - Group: group
+// - Add User: user-plus
+//
+// ACTIONS:
+// - Add/Create: plus, plus-circle
+// - Edit: pencil, edit
+// - Delete: trash, trash-2
+// - Save: save, check
+// - Cancel: x, x-circle
+// - Search: search
+// - Filter: filter, sliders
+// - Sort: arrow-up-down
+// - Refresh: refresh-cw
+// - Copy: copy
+// - Share: share-2
+//
+// STATUS & FEEDBACK:
+// - Success: check-circle, check
+// - Warning: alert-triangle
+// - Error: x-circle, alert-circle
+// - Info: info
+// - Pending: clock, loader
+// - Active: circle-dot
+//
+// COMMUNICATION:
+// - Phone: phone
+// - Email: mail
+// - Message: message-circle
+// - Notification: bell
+//
+// LOCATION:
+// - Location: map-pin
+// - Map: map
+// - Building: building-2
+// - Home Address: home
+//
+// PAYMENT:
+// - Payment: credit-card, wallet
+// - Money: banknote, indian-rupee
+// - Invoice: receipt
+// - Discount: percent, badge-percent

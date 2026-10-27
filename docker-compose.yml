@@ -1,0 +1,78 @@
+services:
+  postgres:
+    image: postgres:15
+    restart: unless-stopped
+    env_file:
+      - ${ENV_FILE:-.env.local}
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-srihealthplus}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-srihealthplus_secret}
+      POSTGRES_DB: ${POSTGRES_DB:-srihealthplus_dev}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-srihealthplus} -d ${POSTGRES_DB:-srihealthplus_dev}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks:
+      - srihealthplus_net
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    env_file:
+      - ${ENV_FILE:-.env.local}
+    environment:
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-srihealthplus}:${POSTGRES_PASSWORD:-srihealthplus_secret}@postgres:5432/${POSTGRES_DB:-srihealthplus_dev}
+    entrypoint: >
+      sh -c "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload"
+    volumes:
+      - ./backend:/app
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    networks:
+      - srihealthplus_net
+    develop:
+      watch:
+        # sync Python source changes directly into the container (uvicorn --reload picks them up)
+        - action: sync
+          path: ./backend
+          target: /app
+          ignore:
+            - __pycache__/
+            - "*.pyc"
+            - .pytest_cache/
+        # rebuild if dependencies change
+        - action: rebuild
+          path: ./backend/pyproject.toml
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "4200:80"
+    networks:
+      - srihealthplus_net
+    develop:
+      watch:
+        # rebuild the nginx image whenever frontend source changes
+        - action: rebuild
+          path: ./frontend/src
+        - action: rebuild
+          path: ./frontend/package.json
+
+volumes:
+  pgdata:
+
+networks:
+  srihealthplus_net:
+    driver: bridge

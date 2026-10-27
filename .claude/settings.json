@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(cat)",
+      "mcp__playwright__browser_file_upload",
+      "mcp__playwright__browser_tabs",
+      "Bash(curl -s -X POST http://localhost:8000/api/v1/callback-requests -H \"Content-Type: application/json\" -d '{\"source\":\"contact\",\"name\":\"Ramesh Kumar\",\"phone\":\"98765 43210\",\"email\":\"Ramesh@Example.COM\",\"subject\":\"booking\",\"message\":\"I need a home collection for a thyroid test this Friday.\"}')",
+      "Bash(curl -s -X POST http://localhost:8000/api/v1/callback-requests -H \"Content-Type: application/json\" -d '{\"name\":\"Sita\",\"phone\":\"9123456780\",\"preferred_time\":\"Morning \\(9 AM – 12 PM\\)\",\"message\":\"Please call about CBC pricing\"}')",
+      "Bash(docker info *)",
+      "Bash(curl -s -X POST http://localhost:8000/api/v1/auth/login -H \"Content-Type: application/json\" -d '{\"email\":\"admin@sri.local\",\"password\":\"<ADMIN_PASSWORD>\"}')",
+      "Bash(curl -s http://localhost:8000/api/v1/packages -H 'Authorization: Bearer __CMDSUB_OUTPUT__')",
+      "Bash(tee /private/tmp/claude-501/-Users-manuv-PersonalGithub-Sri-HealthCare/865223a5-3a9b-483e-9f9a-6d5e44dbf1ce/scratchpad/banner_create.json)",
+      "Bash(curl -s http://localhost:8000/api/v1/banners/admin -H 'Authorization: Bearer __CMDSUB_OUTPUT__')",
+      "Bash(curl -s -X DELETE http://localhost:8000/api/v1/banners/c41019b2-96d6-4cb1-8ef2-d64005ccbcae -H 'Authorization: Bearer __CMDSUB_OUTPUT__' -w '\\\\nstatus=%{http_code}\\\\n')",
+      "Bash(python3 -c \"import ast; ast.parse\\(open\\('app/services/invoice_service.py'\\).read\\(\\)\\)\")",
+      "Bash(python3 -c \"import reportlab; print\\(reportlab.Version\\)\")",
+      "Bash(pdftoppm -png -r 150 -f 1 -l 1 /private/tmp/claude-501/-Users-manuv-PersonalGithub-Sri-HealthCare/d72b1b80-9235-4085-a486-4fd813020742/scratchpad/sample_invoice.pdf /private/tmp/claude-501/-Users-manuv-PersonalGithub-Sri-HealthCare/d72b1b80-9235-4085-a486-4fd813020742/scratchpad/sample_invoice)",
+      "Bash(python3 -c \"import fitz; print\\(fitz.__doc__\\)\")",
+      "Bash(pip3 install *)",
+      "Bash(python3 -c \"import sys; print\\(sys.executable\\)\")",
+      "Bash(python3 -m pip install --break-system-packages pymupdf)",
+      "Bash(python3 -m pytest tests/test_integration.py -k \"billing or invoice or Billing or Invoice\" -q)",
+      "Bash(curl -s -o /dev/null -w \"frontend:%{http_code}\\\\n\" http://localhost:4200)",
+      "Bash(curl -s -o /dev/null -w \"backend:%{http_code}\\\\n\" http://localhost:8000/docs)",
+      "WebFetch(domain:www.pexels.com)",
+      "Bash(bash -c ' *)",
+      "Bash(python3 -c \"import ast; ast.parse\\(open\\('app/main.py'\\).read\\(\\)\\)\")",
+      "Bash(\nSCRATCH=\"/private/tmp/claude-501/-Users-manuv-PersonalGithub-Sri-HealthCare/a23567f4-4394-4714-b0dc-6b280e5cb29e/scratchpad/fs-test-volume\"\nmkdir -p \"$SCRATCH\"\nrm -f \"$SCRATCH\"/*\n\necho \"=== run 1: container A, write a fake 'uploaded banner image' ===\"\ndocker run -d --name fstest -v \"$SCRATCH:/app/file_storage\" sri-backend-fstest sleep infinity\ndocker exec fstest sh -c 'mkdir -p /app/file_storage/banners/abc123 && echo \"real prod banner upload\" > /app/file_storage/banners/abc123/desktop-xyz.png'\ndocker exec fstest cat /app/file_storage/banners/abc123/desktop-xyz.png\n\necho \"=== simulate redeploy: destroy container A, rebuild image, start container B with same volume ===\"\ndocker rm -f fstest >/dev/null\ndocker build -q -t sri-backend-fstest ./backend >/dev/null\ndocker run -d --name fstest2 -v \"$SCRATCH:/app/file_storage\" sri-backend-fstest sleep infinity\n\necho \"=== does the upload survive in the new container? ===\"\ndocker exec fstest2 cat /app/file_storage/banners/abc123/desktop-xyz.png\n\ndocker rm -f fstest2 >/dev/null\n)",
+      "Bash(docker rmi *)"
+    ],
+    "additionalDirectories": [
+      "/private/tmp/claude-501/-Users-manuv-PersonalGithub-Sri-HealthCare/a23567f4-4394-4714-b0dc-6b280e5cb29e/scratchpad/fs-test-volume"
+    ]
+  }
+}

@@ -1,0 +1,383 @@
+// ============================================================================
+// SRI HEALTH PLUS DESIGN SYSTEM - CSS CUSTOM PROPERTIES
+// ============================================================================
+// This file generates CSS custom properties from our SCSS tokens
+// for runtime theming and component styling.
+
+@use 'tokens' as *;
+
+:root {
+  // ==========================================================================
+  // COLOR SYSTEM
+  // ==========================================================================
+  
+  // Primary Palette
+  --color-primary-50: #{$color-primary-50};
+  --color-primary-100: #{$color-primary-100};
+  --color-primary-200: #{$color-primary-200};
+  --color-primary-300: #{$color-primary-300};
+  --color-primary-400: #{$color-primary-400};
+  --color-primary-500: #{$color-primary-500};
+  --color-primary-600: #{$color-primary-600};
+  --color-primary-700: #{$color-primary-700};
+  --color-primary-800: #{$color-primary-800};
+  --color-primary-900: #{$color-primary-900};
+  
+  // Secondary Palette
+  --color-secondary-50: #{$color-secondary-50};
+  --color-secondary-100: #{$color-secondary-100};
+  --color-secondary-200: #{$color-secondary-200};
+  --color-secondary-300: #{$color-secondary-300};
+  --color-secondary-400: #{$color-secondary-400};
+  --color-secondary-500: #{$color-secondary-500};
+  --color-secondary-600: #{$color-secondary-600};
+  --color-secondary-700: #{$color-secondary-700};
+  --color-secondary-800: #{$color-secondary-800};
+  --color-secondary-900: #{$color-secondary-900};
+  
+  // Accent Palette
+  --color-accent-50: #{$color-accent-50};
+  --color-accent-100: #{$color-accent-100};
+  --color-accent-200: #{$color-accent-200};
+  --color-accent-300: #{$color-accent-300};
+  --color-accent-400: #{$color-accent-400};
+  --color-accent-500: #{$color-accent-500};
+  --color-accent-600: #{$color-accent-600};
+  --color-accent-700: #{$color-accent-700};
+  --color-accent-800: #{$color-accent-800};
+  --color-accent-900: #{$color-accent-900};
+  
+  // Success
+  --color-success-50: #{$color-success-50};
+  --color-success-100: #{$color-success-100};
+  --color-success-200: #{$color-success-200};
+  --color-success-300: #{$color-success-300};
+  --color-success-400: #{$color-success-400};
+  --color-success-500: #{$color-success-500};
+  --color-success-600: #{$color-success-600};
+  --color-success-700: #{$color-success-700};
+  --color-success-800: #{$color-success-800};
+  --color-success-900: #{$color-success-900};
+  
+  // Warning
+  --color-warning-50: #{$color-warning-50};
+  --color-warning-100: #{$color-warning-100};
+  --color-warning-200: #{$color-warning-200};
+  --color-warning-300: #{$color-warning-300};
+  --color-warning-400: #{$color-warning-400};
+  --color-warning-500: #{$color-warning-500};
+  --color-warning-600: #{$color-warning-600};
+  --color-warning-700: #{$color-warning-700};
+  --color-warning-800: #{$color-warning-800};
+  --color-warning-900: #{$color-warning-900};
+  
+  // Error
+  --color-error-50: #{$color-error-50};
+  --color-error-100: #{$color-error-100};
+  --color-error-200: #{$color-error-200};
+  --color-error-300: #{$color-error-300};
+  --color-error-400: #{$color-error-400};
+  --color-error-500: #{$color-error-500};
+  --color-error-600: #{$color-error-600};
+  --color-error-700: #{$color-error-700};
+  --color-error-800: #{$color-error-800};
+  --color-error-900: #{$color-error-900};
+  
+  // Info
+  --color-info-50: #{$color-info-50};
+  --color-info-100: #{$color-info-100};
+  --color-info-200: #{$color-info-200};
+  --color-info-300: #{$color-info-300};
+  --color-info-400: #{$color-info-400};
+  --color-info-500: #{$color-info-500};
+  --color-info-600: #{$color-info-600};
+  --color-info-700: #{$color-info-700};
+  --color-info-800: #{$color-info-800};
+  --color-info-900: #{$color-info-900};
+  
+  // Neutral
+  --color-neutral-0: #{$color-neutral-0};
+  --color-neutral-25: #{$color-neutral-25};
+  --color-neutral-50: #{$color-neutral-50};
+  --color-neutral-100: #{$color-neutral-100};
+  --color-neutral-200: #{$color-neutral-200};
+  --color-neutral-300: #{$color-neutral-300};
+  --color-neutral-400: #{$color-neutral-400};
+  --color-neutral-500: #{$color-neutral-500};
+  --color-neutral-600: #{$color-neutral-600};
+  --color-neutral-700: #{$color-neutral-700};
+  --color-neutral-800: #{$color-neutral-800};
+  --color-neutral-900: #{$color-neutral-900};
+  --color-neutral-950: #{$color-neutral-950};
+  
+  // Semantic Background Colors
+  --bg-primary: #{$bg-primary};
+  --bg-secondary: #{$bg-secondary};
+  --bg-tertiary: #{$bg-tertiary};
+  --bg-inverse: #{$bg-inverse};
+  --bg-brand: #{$bg-brand};
+  --bg-brand-subtle: #{$bg-brand-subtle};
+  --bg-accent: #{$bg-accent};
+  --bg-accent-subtle: #{$bg-accent-subtle};
+  
+  // Semantic Text Colors
+  --text-primary: #{$text-primary};
+  --text-secondary: #{$text-secondary};
+  --text-tertiary: #{$text-tertiary};
+  --text-muted: #{$text-muted};
+  --text-inverse: #{$text-inverse};
+  --text-brand: #{$text-brand};
+  --text-accent: #{$text-accent};
+  --text-success: #{$text-success};
+  --text-warning: #{$text-warning};
+  --text-error: #{$text-error};
+  --text-info: #{$text-info};
+  
+  // Semantic Border Colors
+  --border-default: #{$border-default};
+  --border-subtle: #{$border-subtle};
+  --border-strong: #{$border-strong};
+  --border-focus: #{$border-focus};
+  --border-error: #{$border-error};
+  --border-success: #{$border-success};
+  
+  // ==========================================================================
+  // TYPOGRAPHY
+  // ==========================================================================
+  
+  // Font Families
+  --font-sans: #{$font-family-sans};
+  --font-mono: #{$font-family-mono};
+  --font-display: #{$font-family-display};
+  
+  // Font Sizes
+  --text-2xs: #{$font-size-2xs};
+  --text-xs: #{$font-size-xs};
+  --text-sm: #{$font-size-sm};
+  --text-base: #{$font-size-base};
+  --text-lg: #{$font-size-lg};
+  --text-xl: #{$font-size-xl};
+  --text-2xl: #{$font-size-2xl};
+  --text-3xl: #{$font-size-3xl};
+  --text-4xl: #{$font-size-4xl};
+  --text-5xl: #{$font-size-5xl};
+  --text-6xl: #{$font-size-6xl};
+  --text-7xl: #{$font-size-7xl};
+  
+  // Font Weights
+  --font-normal: #{$font-weight-normal};
+  --font-medium: #{$font-weight-medium};
+  --font-semibold: #{$font-weight-semibold};
+  --font-bold: #{$font-weight-bold};
+  --font-extrabold: #{$font-weight-extrabold};
+  
+  // Line Heights
+  --leading-none: #{$line-height-none};
+  --leading-tight: #{$line-height-tight};
+  --leading-snug: #{$line-height-snug};
+  --leading-normal: #{$line-height-normal};
+  --leading-relaxed: #{$line-height-relaxed};
+  --leading-loose: #{$line-height-loose};
+  
+  // Letter Spacing
+  --tracking-tighter: #{$letter-spacing-tighter};
+  --tracking-tight: #{$letter-spacing-tight};
+  --tracking-normal: #{$letter-spacing-normal};
+  --tracking-wide: #{$letter-spacing-wide};
+  --tracking-wider: #{$letter-spacing-wider};
+  --tracking-widest: #{$letter-spacing-widest};
+  
+  // ==========================================================================
+  // SPACING
+  // ==========================================================================
+  
+  --space-0: #{$spacing-0};
+  --space-px: #{$spacing-px};
+  --space-0-5: #{$spacing-0-5};
+  --space-1: #{$spacing-1};
+  --space-1-5: #{$spacing-1-5};
+  --space-2: #{$spacing-2};
+  --space-2-5: #{$spacing-2-5};
+  --space-3: #{$spacing-3};
+  --space-3-5: #{$spacing-3-5};
+  --space-4: #{$spacing-4};
+  --space-5: #{$spacing-5};
+  --space-6: #{$spacing-6};
+  --space-7: #{$spacing-7};
+  --space-8: #{$spacing-8};
+  --space-9: #{$spacing-9};
+  --space-10: #{$spacing-10};
+  --space-11: #{$spacing-11};
+  --space-12: #{$spacing-12};
+  --space-14: #{$spacing-14};
+  --space-16: #{$spacing-16};
+  --space-20: #{$spacing-20};
+  --space-24: #{$spacing-24};
+  --space-28: #{$spacing-28};
+  --space-32: #{$spacing-32};
+  --space-36: #{$spacing-36};
+  --space-40: #{$spacing-40};
+  --space-44: #{$spacing-44};
+  --space-48: #{$spacing-48};
+  --space-52: #{$spacing-52};
+  --space-56: #{$spacing-56};
+  --space-60: #{$spacing-60};
+  --space-64: #{$spacing-64};
+  --space-72: #{$spacing-72};
+  --space-80: #{$spacing-80};
+  --space-96: #{$spacing-96};
+  
+  // ==========================================================================
+  // BORDER RADIUS
+  // ==========================================================================
+  
+  --radius-none: #{$radius-none};
+  --radius-sm: #{$radius-sm};
+  --radius-default: #{$radius-default};
+  --radius-md: #{$radius-md};
+  --radius-lg: #{$radius-lg};
+  --radius-xl: #{$radius-xl};
+  --radius-2xl: #{$radius-2xl};
+  --radius-3xl: #{$radius-3xl};
+  --radius-full: #{$radius-full};
+  
+  // ==========================================================================
+  // SHADOWS
+  // ==========================================================================
+  
+  --shadow-xs: #{$shadow-xs};
+  --shadow-sm: #{$shadow-sm};
+  --shadow-default: #{$shadow-default};
+  --shadow-md: #{$shadow-md};
+  --shadow-lg: #{$shadow-lg};
+  --shadow-xl: #{$shadow-xl};
+  --shadow-2xl: #{$shadow-2xl};
+  --shadow-inner: #{$shadow-inner};
+  --shadow-primary: #{$shadow-primary};
+  --shadow-primary-lg: #{$shadow-primary-lg};
+  --shadow-accent: #{$shadow-accent};
+  --shadow-accent-lg: #{$shadow-accent-lg};
+
+  // ==========================================================================
+  // BRAND GRADIENTS (homepage design language)
+  // ==========================================================================
+  --gradient-primary: linear-gradient(135deg, #{$color-primary-600} 0%, #{$color-primary-700} 100%);
+  --gradient-primary-hover: linear-gradient(135deg, #{$color-primary-700} 0%, #{$color-primary-800} 100%);
+  --gradient-teal: linear-gradient(135deg, #{$color-accent-500} 0%, #{$color-accent-600} 100%);
+  --gradient-brand: linear-gradient(135deg, #{$color-primary-600} 0%, #{$color-accent-500} 100%);
+  --gradient-hero: linear-gradient(145deg, #EEF4FF 0%, #E6F9F8 40%, #F0F7FF 100%);
+  --gradient-dark: linear-gradient(135deg, #{$color-primary-600} 0%, #{$color-primary-700} 50%, #{$color-primary-800} 100%);
+  
+  // ==========================================================================
+  // Z-INDEX
+  // ==========================================================================
+  
+  --z-dropdown: #{$z-index-dropdown};
+  --z-sticky: #{$z-index-sticky};
+  --z-fixed: #{$z-index-fixed};
+  --z-modal-backdrop: #{$z-index-modal-backdrop};
+  --z-modal: #{$z-index-modal};
+  --z-popover: #{$z-index-popover};
+  --z-tooltip: #{$z-index-tooltip};
+  --z-toast: #{$z-index-toast};
+  
+  // ==========================================================================
+  // TRANSITIONS
+  // ==========================================================================
+  
+  --duration-fast: #{$transition-duration-fast};
+  --duration-normal: #{$transition-duration-normal};
+  --duration-slow: #{$transition-duration-slow};
+  --duration-slower: #{$transition-duration-slower};
+  
+  --ease-default: #{$transition-timing-default};
+  --ease-in: #{$transition-timing-in};
+  --ease-out: #{$transition-timing-out};
+  --ease-bounce: #{$transition-timing-bounce};
+  
+  // ==========================================================================
+  // LAYOUT
+  // ==========================================================================
+  
+  --container-max: #{$container-max-width};
+  --sidebar-width: #{$sidebar-width};
+  --sidebar-collapsed: #{$sidebar-collapsed-width};
+  --header-height: #{$header-height};
+  --footer-height: #{$footer-height};
+  
+  // ==========================================================================
+  // COMPONENT TOKENS
+  // ==========================================================================
+  
+  // Buttons
+  --btn-height-sm: #{$button-height-sm};
+  --btn-height-md: #{$button-height-md};
+  --btn-height-lg: #{$button-height-lg};
+  --btn-height-xl: #{$button-height-xl};
+  
+  // Inputs — the single field standard. See _tokens.scss.
+  --input-height-sm: #{$input-height-sm};
+  --input-height-md: #{$input-height-md};
+  --input-height-lg: #{$input-height-lg};
+  --input-radius: #{$input-radius};
+  --input-border-width: #{$input-border-width};
+  --input-padding-x: #{$input-padding-x};
+  --input-padding-icon: #{$input-padding-icon};
+  --input-icon-size: #{$input-icon-size};
+  --input-icon-inset: #{$input-icon-inset};
+  --input-font-size: #{$input-font-size};
+  --input-font-weight: #{$input-font-weight};
+  --input-gap: #{$input-gap};
+  --input-transition: #{$input-transition};
+
+  // Field colours — resolved once so no component re-picks a shade.
+  --input-bg: #{$bg-primary};
+  --input-bg-disabled: #{$color-neutral-50};
+  --input-border-color: #{$border-default};
+  --input-border-hover: #{$color-neutral-300};
+  --input-ink: #{$text-primary};
+  --input-placeholder: #{$text-muted};
+  --input-icon-color: #{$text-muted};
+  --input-accent: #{$color-primary-600};
+  --input-ring: 0 0 0 4px #{rgba($color-primary-600, 0.13)};
+  --input-error: #{$color-error-500};
+  --input-ring-error: 0 0 0 4px #{rgba($color-error-500, 0.14)};
+  --input-success: #{$color-success-500};
+  --input-ring-success: 0 0 0 4px #{rgba($color-success-500, 0.14)};
+  
+  // Cards
+  --card-padding: #{$card-padding};
+  --card-radius: #{$card-radius};
+  --card-shadow: #{$card-shadow};
+  
+  // Tables
+  --table-row-height: #{$table-row-height};
+  --table-header-height: #{$table-header-height};
+  
+  // Avatars
+  --avatar-xs: #{$avatar-size-xs};
+  --avatar-sm: #{$avatar-size-sm};
+  --avatar-md: #{$avatar-size-md};
+  --avatar-lg: #{$avatar-size-lg};
+  --avatar-xl: #{$avatar-size-xl};
+  --avatar-2xl: #{$avatar-size-2xl};
+  
+  // Badges
+  --badge-height-sm: #{$badge-height-sm};
+  --badge-height-md: #{$badge-height-md};
+  --badge-height-lg: #{$badge-height-lg};
+}
+
+// ==========================================================================
+// DARK MODE (Future Enhancement)
+// ==========================================================================
+
+// @media (prefers-color-scheme: dark) {
+//   :root {
+//     // Dark mode overrides will go here
+//   }
+// }
+
+// [data-theme="dark"] {
+//   // Manual dark mode toggle overrides
+// }

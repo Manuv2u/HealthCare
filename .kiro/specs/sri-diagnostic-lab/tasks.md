@@ -1,0 +1,627 @@
+# Implementation Plan: Sri Health Plus — Diagnostic Laboratory & Health Care
+
+## Overview
+
+Full-stack diagnostic lab platform built with FastAPI (Python 3.11), Angular 17, PostgreSQL 15, Alembic, APScheduler, and Docker Compose. Tasks are ordered so every dependency is satisfied before it is needed.
+
+## Tasks
+
+- [x] 1. Project scaffolding & infrastructure
+  - [x] 1.1 Initialise monorepo directory structure
+    - Create `backend/`, `frontend/`, `nginx/`, `.github/workflows/` directories
+    - Add root `.gitignore` covering Python, Node, Docker artefacts
+    - _Requirements: 16.1_
+  - [x] 1.2 Create Docker Compose configuration
+    - Write `docker-compose.yml` with `postgres`, `backend`, `frontend`, and `nginx` services
+    - Configure `pgdata` named volume on the `postgres` service
+    - Add `healthcheck` on `postgres` using `pg_isready`
+    - Make `backend` depend on `postgres` with `condition: service_healthy`
+    - _Requirements: 16.1, 16.2, 16.4_
+  - [x] 1.3 Create environment profile files
+    - Write `.env.example`, `.env.local`, `.env.staging`, `.env.production` templates
+    - Include variables: `DATABASE_URL`, `JWT_SECRET`, `FILE_STORAGE_BACKEND`, `FILE_STORAGE_PATH`, `AWS_*`, `PAYMENT_WEBHOOK_SECRET`, `SMTP_*`, `SMS_*`, `LOG_LEVEL`, `GST_RATE`, `ENV_PROFILE`
+    - Ensure no secrets are hardcoded; all sensitive values reference env vars
+    - _Requirements: 16.3, 16.6_
+  - [x] 1.4 Configure Nginx reverse proxy
+    - Write `nginx/nginx.conf` routing `/api/v1/*` to FastAPI and all other paths to Angular build
+    - Add `limit_req_zone` on `/api/v1/auth/` (10 req/min per IP, burst 5 nodelay)
+    - Enable gzip for JSON, HTML, CSS, JS response types
+    - Set `Cache-Control: max-age=31536000, immutable` for hashed Angular assets
+    - Configure HTTPS redirect (301) from HTTP
+    - _Requirements: 16.1, 20.1_
+  - [x] 1.5 Scaffold FastAPI backend project
+    - Initialise `backend/` with `pyproject.toml` (Python 3.11, FastAPI, SQLAlchemy async, Pydantic v2, Alembic, APScheduler, hypothesis, pytest, ruff, mypy)
+    - Create `backend/app/` package with `main.py`, `config.py` (Pydantic Settings), `database.py` (async engine + session factory)
+    - Register global exception handler returning standard error envelope
+    - Mount `/api/v1/` router prefix
+    - _Requirements: 15.1, 15.5, 23.1, 23.3_
+  - [x] 1.6 Scaffold Angular frontend project
+    - Initialise Angular 17 workspace with standalone components, `@ngrx/signals`, and `@angular/material`
+    - Create `core/`, `shared/`, `features/` directory structure
+    - Configure `app.routes.ts` with lazy-loaded feature routes
+    - Add `HttpClient` with base URL interceptor pointing to `/api/v1/`
+    - _Requirements: 16.1_
+  - [x] 1.7 Create GitHub Actions CI/CD pipeline
+    - Write `.github/workflows/ci.yml` with jobs: `lint` (ruff + mypy for backend, eslint for frontend), `test` (pytest + ng test --run), `build` (docker build both images), `push` (push to registry on `main` only)
+    - Ensure `push` job depends on all prior jobs passing
+    - _Requirements: 16.7_
+
+- [x] 2. Database schema & Alembic migrations
+  - [x] 2.1 Configure Alembic and async SQLAlchemy base
+    - Set up `backend/alembic/` with `env.py` using async engine and `DATABASE_URL` from config
+    - Create `backend/app/models/base.py` with `Base` declarative class and `TimestampMixin`
+    - _Requirements: 16.8_
+  - [x] 2.2 Create SQLAlchemy models for auth and user tables
+    - Implement `User`, `Session`, `FamilyMember` ORM models with all columns and constraints from design
+    - _Requirements: 1.1–1.6, 2.1–2.11, 3.1–3.5_
+  - [x] 2.3 Create SQLAlchemy models for test and package tables
+    - Implement `Test`, `Package`, `PackageTest` ORM models
+    - Include `search_vector` TSVECTOR generated column on `Test`
+    - _Requirements: 4.1–4.7, 5.1–5.6_
+  - [x] 2.4 Create SQLAlchemy models for booking and slot tables
+    - Implement `Booking`, `BookingItem`, `BookingSlotCount`, `BookingStatusHistory` ORM models
+    - _Requirements: 7.1–7.14, 8.1–8.6, 17.1–17.7_
+  - [x] 2.5 Create SQLAlchemy models for service, branch, and technician tables
+    - Implement `ServiceArea`, `ServiceRequest`, `LabBranch`, `TimeSlot`, `Technician`, `TechnicianServiceArea`, `TechnicianAssignment` ORM models
+    - _Requirements: 6.1–6.7, 9.1–9.9, 17.1–17.7, 18.1–18.6_
+  - [x] 2.6 Create SQLAlchemy models for payment, report, notification, audit, and feature flag tables
+    - Implement `Payment`, `Refund`, `Report`, `Notification`, `AuditLog`, `FeatureFlag` ORM models
+    - _Requirements: 10.1–10.8, 11.1–11.11, 12.1–12.6, 19.1–19.5, 28.1–28.6_
+  - [x] 2.7 Create SQLAlchemy models for archive tables
+    - Implement `BookingArchive`, `PaymentArchive` mirror models
+    - _Requirements: 27.2_
+  - [x] 2.8 Write initial Alembic migration (all 20 tables)
+    - Generate migration creating all tables, foreign keys, unique constraints, and check constraints
+    - Add `booking_reference_seq` PostgreSQL sequence
+    - _Requirements: 16.8, 7.14_
+  - [x] 2.9 Write Alembic migration for search indexes
+    - Add `GIN(search_vector)` index, `pg_trgm` extension, trigram index on `tests.name`, BTREE on `tests.category`, partial index on `service_areas.pincode`
+    - _Requirements: 4.5, 4.7_
+  - [x] 2.10 Write Alembic migration for audit log DB-level protection
+    - Add `BEFORE DELETE ON reports` trigger enforcing `retention_until > NOW()`
+    - Revoke `UPDATE` and `DELETE` on `audit_logs` from the application DB user
+    - _Requirements: 19.3, 27.6_
+  - [x] 2.11 Verify migrations apply cleanly end-to-end
+    - Confirm `alembic upgrade head` runs without errors against a fresh PostgreSQL 15 container
+    - Confirm `alembic downgrade base` reverses all migrations cleanly
+    - _Requirements: 16.8_
+
+- [x] 3. Core backend — auth & users
+  - [x] 3.1 Implement `UserRepository` and `SessionRepository`
+    - Write async CRUD methods: `create_user`, `get_by_phone`, `get_by_email`, `get_by_id`, `soft_delete`
+    - Write session methods: `create_session`, `get_by_refresh_token_hash`, `revoke_session`, `revoke_all_user_sessions`, `update_last_seen`
+    - _Requirements: 1.1–1.6, 2.1–2.11_
+  - [x] 3.2 Implement OTP service
+    - Write `OTPService` storing OTPs in an in-process dict with 10-minute TTL (or DB-backed for multi-instance)
+    - Implement `generate_otp`, `verify_otp` (single-use, replay prevention)
+    - _Requirements: 1.1, 1.3, 1.4_
+  - [x] 3.3 Implement JWT utilities
+    - Write `create_access_token` (HS256, 24h, payload: sub/role/jti) and `decode_access_token`
+    - Write `generate_refresh_token` (256-bit random), `hash_refresh_token` (bcrypt)
+    - _Requirements: 2.1, 2.2_
+  - [x] 3.4 Implement rate limiting middleware
+    - Write `RateLimitMiddleware` using sliding window counter per IP (5 attempts / 15 min for auth/OTP endpoints)
+    - Return HTTP 429 with `Retry-After` header on limit exceeded
+    - _Requirements: 2.7_
+  - [x] 3.5 Implement JWT auth and RBAC middleware
+    - Write `JWTAuthMiddleware` validating Bearer token and injecting `request.state.user`
+    - Write `RBACMiddleware` enforcing per-endpoint role permissions from the RBAC matrix
+    - Return 401 for missing/invalid token, 403 for insufficient role
+    - _Requirements: 2.5, 2.6, 14.1–14.5_
+  - [x] 3.6 Implement `AuthService` and auth router
+    - Implement `POST /auth/register` (phone OTP flow), `POST /auth/verify-otp`, `POST /auth/login`, `POST /auth/logout`, `POST /auth/refresh`
+    - Implement `GET /auth/sessions`, `DELETE /auth/sessions/{id}`, `DELETE /auth/sessions` (logout all)
+    - Hash passwords with bcrypt cost ≥ 12; return identical error for wrong password vs unknown user
+    - _Requirements: 1.1–1.6, 2.1–2.11_
+  - [x] 3.7 Write property test for OTP verification creates account (Property 1)
+    - **Property 1: OTP Verification Creates Account**
+    - **Validates: Requirements 1.3, 1.4**
+  - [ ]* 3.8 Write property test for duplicate registration rejected (Property 2)
+    - **Property 2: Duplicate Registration Rejected**
+    - **Validates: Requirements 1.5**
+  - [ ]* 3.9 Write property test for authentication round trip (Property 3)
+    - **Property 3: Authentication Round Trip**
+    - **Validates: Requirements 2.1, 2.2, 2.3, 2.10, 2.11**
+  - [ ]* 3.10 Write property test for invalid credentials indistinguishable error (Property 4)
+    - **Property 4: Invalid Credentials Indistinguishable Error**
+    - **Validates: Requirements 2.4**
+  - [ ]* 3.11 Write property test for RBAC enforcement (Property 5)
+    - **Property 5: RBAC Enforcement**
+    - **Validates: Requirements 2.5, 2.6, 14.1, 14.2, 14.3, 14.4**
+  - [ ]* 3.12 Write property test for rate limiting enforced (Property 6)
+    - **Property 6: Rate Limiting Enforced**
+    - **Validates: Requirements 2.7**
+  - [x] 3.13 Implement `UserService` and users router
+    - Implement `GET /users/me`, `PUT /users/me`
+    - Implement `GET /users/me/family-members`, `POST /users/me/family-members`, `PUT /users/me/family-members/{id}`, `DELETE /users/me/family-members/{id}`
+    - Enforce max 10 family members per user
+    - _Requirements: 3.1–3.5_
+  - [ ]* 3.14 Write property test for family member limit invariant (Property 7)
+    - **Property 7: Family Member Limit Invariant**
+    - **Validates: Requirements 3.2, 3.5**
+  - [ ]* 3.15 Write property test for profile update round trip (Property 8)
+    - **Property 8: Profile Update Round Trip**
+    - **Validates: Requirements 3.1**
+  - [x] 3.16 Implement audit middleware for 401/403 logging
+    - Write `AuditMiddleware` that logs 401 and 403 responses with endpoint path, method, and timestamp to `audit_logs`
+    - _Requirements: 14.5_
+
+- [x] 4. Checkpoint — auth & users
+  - Ensure all auth and user tests pass. Ask the user if questions arise.
+
+
+- [x] 5. Backend — test & package management
+  - [x] 5.1 Implement `TestRepository`
+    - Write async methods: `create`, `get_by_id`, `list` (with FTS + trigram search, category filter, pagination, sort), `update`, `soft_delete`
+    - Apply `search_vector @@ plainto_tsquery` OR trigram similarity; rank by `ts_rank` when text query present
+    - Exclude soft-deleted records from default list; support `include_deleted=true` for Admin
+    - _Requirements: 4.1–4.7, 21.1–21.3_
+  - [x] 5.2 Implement `PackageRepository`
+    - Write async methods: `create`, `get_by_id`, `list` (active only by default), `update`, `soft_delete`, `add_tests`, `remove_tests`
+    - _Requirements: 5.1–5.6, 21.1–21.3_
+  - [x] 5.3 Implement `TestService` and tests router
+    - Implement `POST /tests`, `GET /tests`, `GET /tests/{id}`, `PUT /tests/{id}`, `DELETE /tests/{id}`
+    - Enforce Admin-only write access; return discounted effective price in responses
+    - _Requirements: 4.1–4.7_
+  - [ ]* 5.4 Write property test for test CRUD round trip (Property 9)
+    - **Property 9: Test CRUD Round Trip**
+    - **Validates: Requirements 4.1, 4.2**
+  - [ ]* 5.5 Write property test for soft delete exclusion (Property 10)
+    - **Property 10: Soft Delete Exclusion**
+    - **Validates: Requirements 4.3, 21.1, 21.2, 21.3, 21.4**
+  - [ ]* 5.6 Write property test for discounted price calculation (Property 11)
+    - **Property 11: Discounted Price Calculation**
+    - **Validates: Requirements 4.6**
+  - [x] 5.7 Implement `PackageService` and packages router
+    - Implement `POST /packages`, `GET /packages`, `GET /packages/{id}`, `PUT /packages/{id}`, `DELETE /packages/{id}`
+    - Exclude soft-deleted tests from package display; retain historical booking references
+    - _Requirements: 5.1–5.6_
+  - [x] 5.8 Write property test for package contents reflect active tests only (Property 12)
+    - **Property 12: Package Contents Reflect Active Tests Only**
+    - **Validates: Requirements 5.6**
+
+- [x] 6. Backend — service areas, lab branches, time slots
+  - [x] 6.1 Implement `ServiceAreaRepository` and `ServiceRequestRepository`
+    - Write CRUD methods for `service_areas`; partial index lookup by pincode
+    - Write `create_service_request` with unique constraint on `(user_id, pincode)` where `notified_at IS NULL`
+    - Write `get_pending_requests_by_pincode`, `mark_notified`
+    - _Requirements: 6.1–6.7, 22.1–22.4_
+  - [x] 6.2 Implement `LabBranchRepository`
+    - Write CRUD methods; filter active branches for user-facing queries
+    - _Requirements: 18.1–18.6_
+  - [x] 6.3 Implement `TimeSlotRepository`
+    - Write CRUD methods; `get_available_slots(date, collection_type)` joining `booking_slot_counts` to compute remaining capacity
+    - _Requirements: 17.1–17.7_
+  - [x] 6.4 Implement service areas router
+    - Implement `POST /service-areas`, `GET /service-areas`, `GET /service-areas/{id}`, `PUT /service-areas/{id}`, `DELETE /service-areas/{id}`
+    - Implement `POST /service-areas/notify-me` with deduplication (409) and per-user rate limit (5/24h, 429 + Retry-After)
+    - Implement `GET /admin/service-requests` (Admin only, grouped by pincode)
+    - _Requirements: 6.1–6.7, 22.1–22.4_
+  - [ ]* 6.5 Write property test for notify me deduplication (Property 30)
+    - **Property 30: Notify Me Deduplication**
+    - **Validates: Requirements 22.1**
+  - [ ]* 6.6 Write property test for notify me rate limit (Property 31)
+    - **Property 31: Notify Me Rate Limit**
+    - **Validates: Requirements 22.2, 22.3**
+  - [x] 6.7 Implement lab branches router
+    - Implement `POST /lab-branches`, `GET /lab-branches`, `GET /lab-branches/{id}`, `PUT /lab-branches/{id}`, `DELETE /lab-branches/{id}`
+    - _Requirements: 18.1–18.6_
+  - [x] 6.8 Implement time slots router
+    - Implement `POST /time-slots`, `GET /time-slots`, `GET /time-slots/{id}`, `PUT /time-slots/{id}`, `DELETE /time-slots/{id}`
+    - Implement `GET /time-slots/available?date=&collection_type=` returning only enabled slots with remaining capacity > 0
+    - _Requirements: 17.1–17.7_
+
+
+- [x] 7. Backend — booking system
+  - [x] 7.1 Implement `BookingRepository`
+    - Write `create_booking_atomic` using REPEATABLE READ transaction: `SELECT FOR UPDATE` on `booking_slot_counts`, check capacity, increment count, insert booking + items + payment record
+    - Generate reference number via `SELECT 'SRI-' || EXTRACT(YEAR FROM NOW()) || '-' || LPAD(nextval('booking_reference_seq')::text, 6, '0')`
+    - Write `get_by_id`, `list_by_user`, `cancel_booking` (decrement slot count), `reschedule_booking` (atomic swap of slot counts)
+    - Write `update_status` with state machine validation; record `BookingStatusHistory` entry on each transition
+    - _Requirements: 7.1–7.14, 8.1–8.6_
+  - [x] 7.2 Implement `BookingService` and bookings router
+    - Implement `POST /bookings`: validate patient, tests/packages (not soft-deleted), pincode (if home), slot availability, then call `create_booking_atomic`
+    - Implement `GET /bookings`, `GET /bookings/{id}`, `POST /bookings/{id}/cancel`, `POST /bookings/{id}/reschedule`, `PUT /bookings/{id}/status`
+    - Enforce 2-hour cancellation/reschedule window; enforce valid status transitions
+    - Enqueue booking_confirmed notification after successful creation
+    - _Requirements: 7.1–7.14, 8.1–8.6_
+  - [ ]* 7.3 Write property test for slot capacity invariant (Property 13)
+    - **Property 13: Slot Capacity Invariant**
+    - Use `@settings(max_examples=200)` for this concurrency property
+    - **Validates: Requirements 7.4, 7.5, 7.6, 7.12, 7.13, 17.5**
+  - [ ]* 7.4 Write property test for slot capacity restoration on cancel/reschedule (Property 14)
+    - **Property 14: Slot Capacity Restoration on Cancel/Reschedule**
+    - **Validates: Requirements 7.7, 7.8, 7.9, 17.6, 17.7**
+  - [ ]* 7.5 Write property test for booking reference number format (Property 15)
+    - **Property 15: Booking Reference Number Format**
+    - **Validates: Requirements 7.14**
+  - [ ]* 7.6 Write property test for booking status state machine (Property 16)
+    - **Property 16: Booking Status State Machine**
+    - **Validates: Requirements 8.1, 8.6**
+  - [ ]* 7.7 Write property test for status transition timestamps (Property 17)
+    - **Property 17: Status Transition Timestamps**
+    - **Validates: Requirements 8.2, 8.3, 8.4**
+  - [ ]* 7.8 Write property test for soft-deleted entity booking prevention (Property 29)
+    - **Property 29: Soft-Deleted Entity Booking Prevention**
+    - **Validates: Requirements 7.11, 21.5**
+
+- [x] 8. Checkpoint — booking system
+  - Ensure all booking and slot tests pass, including concurrent capacity tests. Ask the user if questions arise.
+
+
+- [x] 9. Backend — technician management
+  - [x] 9.1 Implement `TechnicianRepository`
+    - Write CRUD methods: `create`, `get_by_id`, `list`, `soft_delete`, `assign_service_areas`
+    - Write `get_daily_booking_count(technician_id, date)` and `get_workload_summary(date)`
+    - Write `auto_assign(service_area_id, date)` selecting active technician with minimum booking count
+    - _Requirements: 9.1–9.9_
+  - [x] 9.2 Implement `TechnicianService` and technicians router
+    - Implement `POST /technicians`, `GET /technicians`, `GET /technicians/{id}`, `PUT /technicians/{id}`, `DELETE /technicians/{id}`
+    - Implement `POST /technicians/{id}/assign` (to booking): validate active status, enforce 20-booking daily limit
+    - Implement `POST /bookings/{id}/auto-assign` triggering auto-assignment logic
+    - Implement `GET /technicians/workload?date=` returning per-technician booking counts
+    - Enqueue technician_assigned notification after assignment
+    - _Requirements: 9.1–9.9_
+  - [ ]* 9.3 Write property test for technician daily booking limit (Property 18)
+    - **Property 18: Technician Daily Booking Limit**
+    - **Validates: Requirements 9.7**
+  - [ ]* 9.4 Write property test for auto-assignment selects minimum workload technician (Property 19)
+    - **Property 19: Auto-Assignment Selects Minimum Workload Technician**
+    - **Validates: Requirements 9.8**
+
+- [x] 10. Backend — reports
+  - [x] 10.1 Implement pluggable `StorageBackend` interface
+    - Define `StorageBackend` Protocol with `upload`, `generate_signed_url`, `delete`, `health_check` async methods
+    - Implement `LocalStorage`: stores files under `FILE_STORAGE_PATH`, generates JWT-signed download URLs (`{report_id, user_id, exp}`)
+    - Implement `S3Storage`: uses `aiobotocore`, generates pre-signed S3 URLs with 24h expiry
+    - Select backend via `FILE_STORAGE_BACKEND=local|s3` env var; no code changes required to switch
+    - _Requirements: 10.7, 10.8_
+  - [x] 10.2 Implement `ReportRepository`
+    - Write `create`, `get_by_id`, `list_by_booking`, `list_by_user`
+    - _Requirements: 10.1–10.8_
+  - [x] 10.3 Implement `ReportService` and reports router
+    - Implement `POST /reports/upload`: validate PDF ≤ 20 MB, upload to storage backend, insert `reports` row, update booking status to Completed, enqueue report_ready notification
+    - Implement `GET /reports/{id}/download-url`: verify owning user (403 if not owner and not Admin), generate signed URL, log `REPORT_DOWNLOAD_URL_GENERATED` to audit_logs
+    - Implement `GET /files/download/{token}` endpoint for local storage JWT token validation and file streaming
+    - _Requirements: 10.1–10.8_
+  - [ ]* 10.4 Write property test for report access control (Property 20)
+    - **Property 20: Report Access Control**
+    - **Validates: Requirements 10.5**
+  - [ ]* 10.5 Write property test for report download URL expiry (Property 21)
+    - **Property 21: Report Download URL Expiry**
+    - **Validates: Requirements 10.2, 10.8**
+
+- [x] 11. Backend — payments & billing
+  - [x] 11.1 Implement `PaymentRepository` and `RefundRepository`
+    - Write `create`, `get_by_id`, `get_by_booking_id`, `update_status`, `get_by_gateway_payment_id`
+    - Write `create_refund`, `update_refund_status`
+    - _Requirements: 11.1–11.11_
+  - [x] 11.2 Implement payment gateway client
+    - Write `GatewayClient` with `create_order`, `verify_webhook_signature` (HMAC-SHA256 using `PAYMENT_WEBHOOK_SECRET`), `initiate_refund` methods
+    - Abstract behind an interface so gateway (Razorpay/Stripe) is swappable via env var
+    - _Requirements: 11.2, 11.8_
+  - [x] 11.3 Implement invoice PDF generation
+    - Write `InvoiceService.generate_pdf(payment_id)` using `reportlab` or `weasyprint`
+    - Include: booking reference, patient name, booking date, itemised booking_items with unit prices, GST amount (from `GST_RATE` env var), total amount, unique invoice number, payment method
+    - _Requirements: 11.4, 11.7_
+  - [x] 11.4 Implement `PaymentService` and payments router
+    - Implement `POST /payments/initiate`: create gateway order, return payment URL
+    - Implement `POST /payments/webhook`: verify HMAC signature (400 on mismatch), check idempotency (return 200 if already Paid), update payment + booking status, generate invoice, enqueue notification
+    - Implement `POST /payments/{id}/refund` (Admin only): call gateway refund API, insert refund record, update statuses; on gateway failure log to audit_logs and return descriptive error
+    - Implement `GET /payments/{id}/invoice` returning invoice PDF
+    - _Requirements: 11.1–11.11_
+  - [ ]* 11.5 Write property test for payment webhook idempotency (Property 22)
+    - **Property 22: Payment Webhook Idempotency**
+    - **Validates: Requirements 11.9**
+  - [ ]* 11.6 Write property test for invoice content completeness (Property 23)
+    - **Property 23: Invoice Content Completeness**
+    - **Validates: Requirements 11.4**
+
+
+- [x] 12. Backend — notifications
+  - [x] 12.1 Implement `NotificationRepository`
+    - Write `create`, `get_pending_retries` (status=pending/failed with attempt_count < 3), `update_attempt`
+    - _Requirements: 12.1–12.6_
+  - [x] 12.2 Implement SMS and email provider clients
+    - Write `SMSClient` (MSG91/Twilio) and `EmailClient` (SMTP/SendGrid) with `send` async methods
+    - Abstract behind interfaces; select provider via env vars
+    - _Requirements: 12.1–12.6_
+  - [x] 12.3 Implement `NotificationService` with APScheduler retry queue
+    - Write `enqueue(user_id, booking_id, event_type, channels)` inserting `notifications` rows with status=pending
+    - Write APScheduler job running every minute: fetch pending notifications, attempt delivery, update `attempt_count` + `last_attempted_at`; apply exponential backoff (1min → 5min → 25min); set status=failed after 3 attempts
+    - Log all attempts with timestamp, channel, status, booking reference
+    - _Requirements: 12.1–12.6_
+  - [ ]* 12.4 Write property test for notification enqueuing at key events (Property 24)
+    - **Property 24: Notification Enqueuing at Key Events**
+    - **Validates: Requirements 12.1, 12.2, 12.3, 12.4**
+  - [ ]* 12.5 Write property test for notification retry limit (Property 25)
+    - **Property 25: Notification Retry Limit**
+    - **Validates: Requirements 12.5**
+
+- [x] 13. Backend — audit logging
+  - [x] 13.1 Implement `AuditLogRepository`
+    - Write `append(actor_id, actor_role, action_type, entity_type, entity_id, outcome, source_ip, metadata)` — INSERT only
+    - Write `query(filters, pagination)` for Admin queries
+    - Wrap all writes in try/except; log failure to app error log without blocking caller
+    - _Requirements: 19.1–19.5_
+  - [x] 13.2 Wire audit logging into all audited actions
+    - Add `AuditLogRepository.append` calls for: `USER_LOGIN_SUCCESS`, `USER_LOGIN_FAILURE`, `REPORT_UPLOADED`, `TEST_CREATED/UPDATED/DELETED`, `PAYMENT_STATUS_UPDATED`, `REFUND_INITIATED`, `FEATURE_FLAG_UPDATED`, `REPORT_DOWNLOAD_URL_GENERATED`, `PATIENT_DATA_ACCESSED`, `SESSION_REVOKED`, `RECORD_ARCHIVED`
+    - _Requirements: 19.1, 19.2, 20.3, 20.4_
+  - [x] 13.3 Implement audit logs admin endpoint
+    - Implement `GET /admin/audit-logs?actor_id=&action_type=&entity_type=&from=&to=&outcome=&limit=&offset=`
+    - Return paginated envelope with `total`, `limit`, `offset`, `items`
+    - _Requirements: 19.4_
+  - [ ]* 13.4 Write property test for audit log append-only (Property 33)
+    - **Property 33: Audit Log Append-Only**
+    - **Validates: Requirements 19.3**
+
+- [x] 14. Backend — feature flags
+  - [x] 14.1 Implement `FeatureFlagRepository`
+    - Write `get_by_key`, `list_all`, `upsert`, `seed_defaults` (INSERT ... ON CONFLICT DO NOTHING for `home_collection`, `online_payment`, `notify_me`)
+    - _Requirements: 28.1–28.6_
+  - [x] 14.2 Implement `FeatureFlagService` with TTL cache
+    - Write in-process `_cache: dict[str, tuple[bool, datetime]]` with 60-second TTL
+    - Implement `is_enabled(key)`: return cached value if fresh, else fetch from DB and cache
+    - Invalidate local cache entry on Admin write
+    - Call `seed_defaults()` on application startup
+    - _Requirements: 28.2, 28.3_
+  - [x] 14.3 Implement feature flag middleware and router
+    - Add feature flag check in `POST /bookings` for `home_collection` and `online_payment` flags; return 403 `FEATURE_DISABLED` when off
+    - Implement `GET /feature-flags`, `POST /feature-flags`, `PUT /feature-flags/{id}`, `DELETE /feature-flags/{id}` (Admin only)
+    - Log `FEATURE_FLAG_UPDATED` to audit_logs on every write
+    - _Requirements: 28.1–28.6_
+  - [ ]* 14.4 Write property test for feature flag gating (Property 32)
+    - **Property 32: Feature Flag Gating**
+    - **Validates: Requirements 28.4, 28.3**
+
+- [x] 15. Backend — admin analytics & dashboard
+  - [x] 15.1 Implement `AnalyticsService`
+    - Write `get_dashboard_summary()`: total users, bookings today/month, revenue today/month, pending bookings count
+    - Write `get_analytics(date_from, date_to, service_area_id, category)`: bookings by status, revenue by payment method
+    - Write `export_csv(filters)`: stream CSV of filtered booking + payment records
+    - _Requirements: 13.1–13.5_
+  - [x] 15.2 Implement admin analytics router
+    - Implement `GET /admin/dashboard`, `GET /admin/analytics`, `GET /admin/analytics/export` (CSV download)
+    - All endpoints Admin-only
+    - _Requirements: 13.1–13.5_
+  - [ ]* 15.3 Write property test for analytics accuracy (Property 35)
+    - **Property 35: Analytics Accuracy**
+    - **Validates: Requirements 13.1, 13.2, 13.3, 13.4**
+
+
+- [x] 16. Backend — data retention & archival
+  - [x] 16.1 Implement `ArchivalService`
+    - Write `run_archival_job()`: query bookings where `booking_date < NOW() - INTERVAL '3 years'`, batch-insert into `bookings_archive` + `payments_archive`, delete from primary tables, log each operation to audit_logs
+    - On per-record failure: log error with entity type/ID, continue to next record (retry on next run)
+    - _Requirements: 27.2–27.4_
+  - [x] 16.2 Implement user anonymisation task
+    - Write `anonymise_user(user_id)`: set `name='[DELETED]'`, `phone=NULL`, `email=NULL`, `date_of_birth=NULL`, `deleted_at=NOW()` on user and family members
+    - Implement `DELETE /users/me` endpoint: enqueue anonymisation task (runs within 30 days)
+    - _Requirements: 27.5_
+  - [x] 16.3 Schedule archival and anonymisation jobs via APScheduler
+    - Register archival job: nightly at 02:00 UTC
+    - Register anonymisation job: daily, processes users with deletion requests older than 30 days
+    - _Requirements: 27.2_
+  - [ ]* 16.4 Write property test for data retention enforcement (Property 34)
+    - **Property 34: Data Retention Enforcement**
+    - **Validates: Requirements 27.1, 27.2, 27.6**
+
+- [x] 17. Backend — monitoring & health
+  - [x] 17.1 Implement structured request logging middleware
+    - Write `RequestLoggingMiddleware` emitting JSON log per request: method, path, status code, response time ms, UTC timestamp
+    - Emit ERROR-level JSON log with exception type, message, stack trace for unhandled exceptions
+    - Support `LOG_LEVEL` env var to configure minimum log level
+    - _Requirements: 24.1, 24.2, 24.6_
+  - [x] 17.2 Implement security headers middleware
+    - Write `SecurityHeadersMiddleware` adding `Content-Security-Policy`, `X-Content-Type-Options`, `X-Frame-Options` to all responses
+    - Set `Secure`, `HttpOnly`, `SameSite=Strict` on auth cookies
+    - _Requirements: 20.5, 20.6_
+  - [x] 17.3 Implement `/health` endpoint
+    - Implement `GET /health`: check DB connection (test query) and file storage (`health_check()`); return 200 with JSON status when healthy, 503 with CRITICAL log when DB unavailable
+    - _Requirements: 16.5, 24.3, 24.5_
+  - [x] 17.4 Implement `/metrics` endpoint
+    - Implement `GET /metrics` in Prometheus text format: request count, error rate, average response time
+    - _Requirements: 24.4_
+  - [x] 17.5 Implement backup APScheduler job
+    - Write daily 02:00 UTC job: `pg_dump | gzip`, upload to configured backup destination, delete backups older than 7 days, log outcome + file size
+    - On failure: emit ERROR log + enqueue admin email notification
+    - _Requirements: 25.1–25.4_
+
+- [x] 18. Checkpoint — full backend
+  - Ensure all backend tests pass and `/health` returns 200 against a running Docker Compose stack. Ask the user if questions arise.
+
+
+- [x] 19. Property-based test infrastructure & cross-cutting properties
+  - [x] 19.1 Set up Hypothesis test infrastructure
+    - Create `backend/tests/properties/` directory with `conftest.py` providing async DB session fixtures and test client factory
+    - Configure `@settings(max_examples=100)` as default; use 200 for concurrency properties (P13)
+    - Tag each test with `# Feature: sri-diagnostic-lab, Property N: Title` comment
+    - _Requirements: 15.3_
+  - [ ]* 19.2 Write property test for API serialization round trip (Property 26)
+    - **Property 26: API Serialization Round Trip**
+    - **Validates: Requirements 15.2, 15.3**
+  - [ ]* 19.3 Write property test for error response format consistency (Property 27)
+    - **Property 27: Error Response Format Consistency**
+    - **Validates: Requirements 15.5, 23.1, 23.5**
+  - [ ]* 19.4 Write property test for pagination envelope consistency (Property 28)
+    - **Property 28: Pagination Envelope Consistency**
+    - **Validates: Requirements 15.7**
+
+- [x] 20. Frontend — core setup
+  - [x] 20.1 Implement core auth services and interceptors
+    - Write `AuthStateService`: store access token in memory, refresh token in HttpOnly cookie
+    - Write `JwtInterceptor`: attach `Authorization: Bearer` header to all API requests
+    - Write `AuthGuard` and `RoleGuard` for route protection
+    - _Requirements: 2.1–2.6_
+  - [x] 20.2 Implement token refresh and session expiry handling
+    - Write interceptor logic to call `POST /auth/refresh` on 401 responses and retry the original request
+    - On refresh failure: redirect to `/login` with "Session expired, please log in again" message
+    - _Requirements: 2.2, 26.6_
+  - [x] 20.3 Implement signal store pattern for shared state
+    - Create `AuthStore` using `@ngrx/signals` `signalStore`: holds `currentUser`, `isAuthenticated`, `role`
+    - Create `BookingWizardStore`: holds multi-step wizard state (patient, tests, slot, collectionType, payment)
+    - _Requirements: 26.1_
+  - [x] 20.4 Implement shared UX components
+    - Create `LoadingSpinnerComponent`, `EmptyStateComponent` (accepts message + CTA), `ErrorBannerComponent` (accepts message + retry callback), `PaginationComponent`
+    - All components are standalone; implement loading/empty/error states per Req 26.1–26.3
+    - _Requirements: 26.1–26.3_
+  - [x] 20.5 Implement API client services
+    - Write typed Angular services for each backend router: `AuthApiService`, `UserApiService`, `TestApiService`, `PackageApiService`, `BookingApiService`, `ReportApiService`, `PaymentApiService`, `ServiceAreaApiService`, `TechnicianApiService`, `TimeSlotApiService`, `LabBranchApiService`, `AdminApiService`, `FeatureFlagApiService`
+    - Each method returns typed Observables using Pydantic-matching TypeScript interfaces
+    - _Requirements: 15.2_
+
+- [x] 21. Frontend — auth pages
+  - [x] 21.1 Implement register page
+    - Create `RegisterComponent` (standalone): phone number input, submit triggers `POST /auth/register`
+    - Show loading state during request; show error banner on failure
+    - On success navigate to OTP verification page
+    - _Requirements: 1.1, 26.1–26.3_
+  - [x] 21.2 Implement OTP verification page
+    - Create `OtpVerifyComponent`: 6-digit OTP input, submit triggers `POST /auth/verify-otp`
+    - Show countdown timer (10 min); show error on invalid/expired OTP; on success store token and navigate to dashboard
+    - _Requirements: 1.3, 1.4_
+  - [x] 21.3 Implement login page
+    - Create `LoginComponent`: phone/email + password inputs, submit triggers `POST /auth/login`
+    - Show identical error message for wrong password and unknown user (no field disclosure)
+    - Navigate to dashboard on success
+    - _Requirements: 2.1, 2.4_
+
+- [x] 22. Frontend — user dashboard & profile
+  - [x] 22.1 Implement user profile page
+    - Create `ProfileComponent`: display and edit name, DOB, gender, contact details via `PUT /users/me`
+    - Show loading/empty/error states
+    - _Requirements: 3.1, 26.1–26.3_
+  - [x] 22.2 Implement family members management
+    - Create `FamilyMembersComponent`: list, add, edit, delete family members
+    - Disable "Add" button and show validation message when count reaches 10
+    - _Requirements: 3.2–3.5_
+  - [x] 22.3 Implement booking history list
+    - Create `BookingHistoryComponent`: paginated list of user bookings with status badges
+    - Show empty state when no bookings; show status history on booking detail expand
+    - _Requirements: 7.1, 8.5_
+
+- [x] 23. Frontend — test catalog & packages
+  - [x] 23.1 Implement test catalog page
+    - Create `TestCatalogComponent`: search input (debounced 300ms), category filter chips, paginated results grid
+    - Show loading spinner during search; show empty state on no results; show discounted price when discount > 0
+    - _Requirements: 4.5, 4.6, 26.1–26.3_
+  - [x] 23.2 Implement test detail page
+    - Create `TestDetailComponent`: display all test fields, turnaround time, price, add-to-booking CTA
+    - _Requirements: 4.1_
+  - [x] 23.3 Implement packages listing page
+    - Create `PackagesComponent`: grid of active packages with included tests list and discounted price
+    - Show only active tests within each package display
+    - _Requirements: 5.3, 5.6_
+
+
+- [x] 24. Frontend — booking wizard
+  - [x] 24.1 Implement booking wizard shell and step routing
+    - Create `BookingWizardComponent` with step indicator: Patient → Tests → Slot → Collection → Payment
+    - Wire to `BookingWizardStore` signals; each step validates before advancing
+    - _Requirements: 7.1_
+  - [x] 24.2 Implement patient selection step
+    - Create `PatientStepComponent`: radio for self or family member; list family members from store
+    - _Requirements: 7.1_
+  - [x] 24.3 Implement test/package selection step
+    - Create `TestSelectionStepComponent`: search and add tests/packages to booking; show running total
+    - _Requirements: 7.1_
+  - [x] 24.4 Implement slot selection step
+    - Create `SlotSelectionStepComponent`: date picker + collection type toggle; fetch available slots via `GET /time-slots/available`
+    - Show unavailable slots as disabled; show "Not available in your area" + Notify Me CTA when pincode not covered
+    - _Requirements: 7.4, 26.4, 26.5_
+  - [x] 24.5 Implement collection type step
+    - Create `CollectionTypeStepComponent`: home collection (pincode input, validate service area) or lab visit (branch selector showing address)
+    - Disable home collection option when `home_collection` feature flag is off
+    - _Requirements: 7.2, 7.3, 26.4_
+  - [x] 24.6 Implement payment step
+    - Create `PaymentStepComponent`: payment method selector (UPI/card/cash); initiate payment via `POST /payments/initiate`; redirect to gateway URL for online methods; show invoice download link after payment confirmed
+    - _Requirements: 11.1–11.7_
+
+- [x] 25. Frontend — reports page
+  - [x] 25.1 Implement reports list page
+    - Create `ReportsComponent`: paginated list of reports per booking with upload timestamp and uploader role
+    - Show empty state when no reports; show loading/error states
+    - _Requirements: 10.3, 10.4, 26.1–26.3_
+  - [x] 25.2 Implement report download
+    - Implement download button calling `GET /reports/{id}/download-url` and opening signed URL in new tab
+    - _Requirements: 10.2, 10.3_
+
+- [x] 26. Frontend — admin dashboard & management pages
+  - [x] 26.1 Implement admin dashboard page
+    - Create `AdminDashboardComponent`: display summary cards (total users, bookings today/month, revenue today/month, pending count) from `GET /admin/dashboard`
+    - Show loading/error states; auto-refresh every 60 seconds
+    - _Requirements: 13.1_
+  - [x] 26.2 Implement admin analytics page
+    - Create `AdminAnalyticsComponent`: date range picker, service area and category filters, bookings-by-status chart, revenue-by-method chart
+    - Add "Export CSV" button triggering `GET /admin/analytics/export` download
+    - _Requirements: 13.2–13.5_
+  - [x] 26.3 Implement test management admin page
+    - Create `AdminTestsComponent`: data table with create/edit/delete actions; soft-delete confirmation dialog
+    - Inline form for create/edit with all test fields
+    - _Requirements: 4.1–4.4_
+  - [x] 26.4 Implement package management admin page
+    - Create `AdminPackagesComponent`: data table with create/edit/enable/disable actions; test multi-select for package composition
+    - _Requirements: 5.1–5.5_
+  - [x] 26.5 Implement technician management admin page
+    - Create `AdminTechniciansComponent`: data table with create/edit/deactivate actions; service area assignment multi-select; workload summary view
+    - _Requirements: 9.1–9.9_
+  - [x] 26.6 Implement service area management admin page
+    - Create `AdminServiceAreasComponent`: data table with create/enable/disable actions; pending Notify Me requests grouped by pincode
+    - _Requirements: 6.1–6.7_
+  - [x] 26.7 Implement feature flags admin page
+    - Create `AdminFeatureFlagsComponent`: list all flags with toggle switches; update via `PUT /feature-flags/{id}`
+    - _Requirements: 28.1–28.6_
+  - [x] 26.8 Implement booking management admin page
+    - Create `AdminBookingsComponent`: paginated booking list with status filter; assign technician action; status update action
+    - _Requirements: 7.10, 9.3_
+
+- [x] 27. Checkpoint — full frontend
+  - Ensure all Angular component tests pass for loading, empty, and error states. Ask the user if questions arise.
+
+
+- [x] 28. Integration testing
+  - [x] 28.1 Write end-to-end booking flow integration test
+    - Test: register → verify OTP → login → create booking (home collection) → verify slot count decremented → update status through all states → upload report → verify booking status Completed
+    - Use `pytest` + `httpx.AsyncClient` against a test DB
+    - _Requirements: 7.1–7.14, 8.1–8.6, 10.1_
+  - [x] 28.2 Write payment webhook flow integration test
+    - Test: create booking → initiate payment → simulate webhook (valid HMAC) → verify payment Paid + invoice generated → simulate duplicate webhook → verify idempotency (single payment record)
+    - _Requirements: 11.2, 11.3, 11.8, 11.9_
+  - [x] 28.3 Write notification retry flow integration test
+    - Test: trigger booking_confirmed event → simulate 3 delivery failures → verify notification status=failed, attempt_count=3, no further retries
+    - _Requirements: 12.5, 12.6_
+  - [x] 28.4 Write concurrent booking integration test
+    - Test: N concurrent `POST /bookings` requests for a slot with capacity K (K < N) → verify exactly K succeed and N-K return `SLOT_CAPACITY_EXCEEDED`
+    - _Requirements: 7.12, 7.13_
+
+- [x] 29. Backup & restore validation setup
+  - [x] 29.1 Implement restore validation job
+    - Write APScheduler monthly job: restore most recent backup to a temporary isolated DB, run schema sanity check (verify key tables exist) and row-count comparison against production, log result (pass/fail, row counts, duration), notify admin, drop temporary DB
+    - _Requirements: 25.5_
+  - [x] 29.2 Document recovery procedure in README
+    - Add `## Database Recovery` section to `README.md` with step-by-step restore instructions and 4-hour RTO statement
+    - _Requirements: 25.5_
+
+- [x] 30. Final Docker Compose production config & deployment
+  - [x] 30.1 Write production Docker Compose override
+    - Create `docker-compose.prod.yml` with resource limits, restart policies, and production env file references
+    - Ensure `alembic upgrade head` runs before `uvicorn` starts in the backend entrypoint
+    - _Requirements: 16.4, 16.8_
+  - [x] 30.2 Write production Nginx config with TLS
+    - Update `nginx/nginx.conf` for production: add TLS certificate paths (Let's Encrypt / custom cert), enforce HTTPS redirect, add HSTS header
+    - _Requirements: 20.1_
+  - [x] 30.3 Wire APScheduler jobs into application startup
+    - Register all APScheduler jobs (notification retry, archival, backup, restore validation, anonymisation) in `app/main.py` lifespan handler
+    - _Requirements: 12.5, 16.3, 25.1, 27.2_
+  - [x] 30.4 Final checkpoint — full stack
+    - Ensure `docker compose up` starts all services, backend is reachable within 60 seconds, `/health` returns 200, and all migrations have been applied
+    - _Requirements: 16.4, 16.5_
+
+## Notes
+
+- Tasks marked with `*` are optional and can be skipped for a faster MVP
+- Each task references specific requirements for traceability
+- Checkpoints ensure incremental validation at key milestones
+- Property tests (Properties 1–35) validate universal correctness using Hypothesis with `@settings(max_examples=100)` minimum
+- Unit tests validate specific examples, edge cases, and integration points
+- All 35 correctness properties from the design document are covered across tasks 3–19
